@@ -1,7 +1,7 @@
 import sys
 from PyQt5.QtWidgets import *
 from PyQt5.QtCore import Qt
-from PyQt5.QtCore import pyqtSignal, QObject
+from PyQt5.QtCore import pyqtSignal
 
 class ClickableLabel(QLabel):
     # 클릭 가능한 레이블 클래스 정의
