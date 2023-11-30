@@ -36,8 +36,8 @@ class ListItem(QWidget):
         """)
         self.heartButton.setFixedSize(QSize(50, 50))
 
-        self.false_icon = qta.icon('ph.paperclip-thin', color='grey', options=[{'font-size': '40pt'}])
-        self.true_icon  = qta.icon('ph.paperclip-thin', color='white', options=[{'font-size': '40pt'}])
+        self.false_icon = qta.icon('ph.paperclip-horizontal-thin', color='grey', options=[{'font-size': '40pt'}])
+        self.true_icon  = qta.icon('ph.paperclip-horizontal-thin', color='white', options=[{'font-size': '40pt'}])
 
         self.heartButton.setIcon(self.false_icon)
         self.heartButton.setIconSize(self.false_icon.actualSize(self.heartButton.size()))
