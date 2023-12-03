@@ -105,7 +105,7 @@ if __name__ == '__main__':
 
     HOST    = "localhost"
     USER    = "root"
-    PASSWD  = "0715Phj!"
+    PASSWD  = "hjp"
     DB_USE  = "relation_db_project"
 
     query_handler = QueryHandler(
