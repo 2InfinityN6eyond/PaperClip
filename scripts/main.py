@@ -17,6 +17,8 @@ from paper_gui import PaperGUI
 from center_section import CenterSection
 from popular_papers_window import PopularPapersWindow
 
+import platform
+
 '''
 def connect_to_database(db_use):
     mydb = mysql.connector.connect(
@@ -104,6 +106,8 @@ if __name__ == '__main__':
     expertise_dict = {}
     whole_author_list = []
     whole_paper_dict = {}
+
+    os_name = platform.system()
 
     INSTITUTION_FILE_PATH = "./data/institution_dict.json"
     if os.path.exists(INSTITUTION_FILE_PATH) :

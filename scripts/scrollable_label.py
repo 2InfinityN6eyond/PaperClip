@@ -2,6 +2,8 @@ import sys
 from PyQt5.QtWidgets import QApplication, QLabel, QScrollArea, QVBoxLayout, QWidget
 from PyQt5 import QtWidgets, QtCore, QtGui
 
+
+
 class ScrollableLabel(QtWidgets.QWidget):
     def __init__(self, text=None, style_sheet = None):
         super().__init__()

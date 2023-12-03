@@ -1,15 +1,11 @@
 from PyQt5.QtWidgets import *
-from PyQt5.QtCore import Qt, pyqtSignal
-from PyQt5.QtGui import QFont
 
-from clickable_label import ClickableLabel
 from scrollables import ScrollableList
 from paper_meta_viewer import PaperMetaViewer
 from related_paper_gui import RelatedPaperGUI
  
 
 from paper_item import PaperItem
-
 
 class PaperGUI(QWidget):
     def __init__(
