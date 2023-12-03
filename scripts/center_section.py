@@ -79,7 +79,6 @@ class PaperClipSearchResultItem(QtWidgets.QWidget) :
 
         self.ref_count_label = QtWidgets.QLabel()
         self.ref_count_label.setStyleSheet("color: white; font-size: 10px; border: none; margin: 0; padding: 0;")
-
         conf_ref_count_layout = QtWidgets.QHBoxLayout()
         conf_ref_count_layout.addWidget(self.conf_label)
         conf_ref_count_layout.addWidget(self.ref_count_label, alignment=QtCore.Qt.AlignRight)
@@ -95,55 +94,7 @@ class PaperClipSearchResultItem(QtWidgets.QWidget) :
         paper_layout.addWidget(self.keyword_label)
         paper_layout.addLayout(conf_ref_count_layout)
         paper_layout.addWidget(paper_separator)
-        # paper_layout.SetMaximumSize(300)
-        """        #self.title_label = QtWidgets.QLabel()
-        self.title_label = QtWidgets.QTextBrowser()
-        self.title_label.setStyleSheet("color: white; font-size: 16px; border: none; margin: 0; padding: 0;")
-        self.title_label.setFixedHeight(28)
 
-        self.scrap_button = QtWidgets.QPushButton(
-            self.true_icon_str if self.paper.is_in_favorite else self.false_icon_str,
-        ) #folder
-        self.scrap_button.clicked.connect(self.favorite_list_changed)
-        self.scrap_button.setStyleSheet("border: none; color: white;")
-
-        title_button_layout = QtWidgets.QHBoxLayout()
-        title_button_layout.addWidget(self.title_label)
-        title_button_layout.addWidget(self.scrap_button, alignment=QtCore.Qt.AlignRight)
-        # self.title_button_layout.anchorClicked.connect(self.itemClicked)
-
-        #self.author_label = QtWidgetsQDialogButtonBox
-        self.author_label = QtWidgets.QTextBrowser()
-        self.author_label.setStyleSheet("color: white; font-size: 12px; border: none; margin: 0; padding: 0;")
-        self.author_label.setFixedHeight(25)
-        self.author_label.anchorClicked.connect(self.itemClicked)
-
-        #self.keyword_label = QtWidgets.QLabel()
-        self.keyword_label = QtWidgets.QTextBrowser()
-        self.keyword_label.setStyleSheet("color: white; font-size: 10px; border: none; margin: 0; padding: 0;")
-        self.keyword_label.setFixedHeight(25)
-
-        #self.conf_label = QtWidgets.QLabel()
-        self.conf_label = QtWidgets.QTextBrowser()
-        self.conf_label.setStyleSheet("color: white; font-size: 10px; border: none; margin: 0; padding: 0;")
-        self.conf_label.setFixedHeight(25)
-
-        self.ref_count_label = QtWidgets.QLabel()
-        conf_ref_count_layout = QtWidgets.QHBoxLayout()
-        conf_ref_count_layout.addWidget(self.conf_label)
-        conf_ref_count_layout.addWidget(self.ref_count_label, alignment=QtCore.Qt.AlignRight)
-        
-        paper_separator = QtWidgets.QFrame()
-        paper_separator.setFrameShape(QtWidgets.QFrame.HLine)
-        paper_separator.setFrameShadow(QtWidgets.QFrame.Sunken)
-        paper_separator.setLineWidth(2)
-
-        paper_layout = QtWidgets.QVBoxLayout(self)
-        paper_layout.addLayout(title_button_layout)
-        paper_layout.addWidget(self.author_label)
-        paper_layout.addWidget(self.keyword_label)
-        paper_layout.addLayout(conf_ref_count_layout)
-        paper_layout.addWidget(paper_separator)"""
 
     def update(self) :
         if self.paper is None :
@@ -255,6 +206,7 @@ class CenterSection(QtWidgets.QWidget) :
         for paper in search_result :
             item = PaperClipSearchResultItem(self, paper)
             item_list.append(item)
+
         self.scrollable.update(item_list)
 
     def itemClicked(self, paper) :
