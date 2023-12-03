@@ -123,8 +123,8 @@ class PaperClipSearchResultItem(QtWidgets.QWidget) :
         else :
             self.conf_label.setText("NULL")
 
-        if self.paper.reference_count is not None :
-            self.ref_count_label.setText(str(self.paper.reference_count))
+        if self.paper.referenced_num is not None :
+            self.ref_count_label.setText(str(self.paper.referenced_num))
         else :
             self.ref_count_label.setText("NULL")
 
