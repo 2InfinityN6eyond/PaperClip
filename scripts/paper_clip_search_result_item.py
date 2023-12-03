@@ -68,7 +68,8 @@ class PaperClipSearchResultItem(QtWidgets.QWidget) :
         #self.keyword_label = QtWidgets.QLabel()
         self.keyword_label = QLabel()
         self.keyword_label.setStyleSheet("color: white; font-size: 10px; border: none; margin: 0; padding: 0;")
-        self.keyword_label.setFixedHeight(25)
+        #self.keyword_label.setFixedHeight(25)
+        self.keyword_label.setWordWrap(True)
         
         
 
@@ -123,8 +124,8 @@ class PaperClipSearchResultItem(QtWidgets.QWidget) :
         else :
             self.conf_label.setText("NULL")
 
-        if self.paper.reference_count is not None :
-            self.ref_count_label.setText(str(self.paper.reference_count))
+        if self.paper.referenced_num is not None :
+            self.ref_count_label.setText(str(self.paper.referenced_num))
         else :
             self.ref_count_label.setText("NULL")
 
