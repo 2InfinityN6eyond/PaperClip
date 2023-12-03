@@ -138,10 +138,10 @@ class PaperClipSearchResultItem(QtWidgets.QWidget) :
         )
 
     def favorite_list_changed(self) :
-        print("favorite list changed inside paper_clip_search_result_item.py")
         if self.paper.authors is None :
-            return
+            return    
         self.paper.toggleFavorite()
-        self.toggleHeart()
+        self.toggleHeart()    
+
         self.parent.favorite_list_changed(self.paper)
 

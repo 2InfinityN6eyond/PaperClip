@@ -105,3 +105,6 @@ class RelatedPaperGUI(QtWidgets.QDialog):
 
     def favorite_list_changed(self, item):
         self.parent.favorite_list_changed(item)
+
+    def sayhi(self):
+        print("hi")

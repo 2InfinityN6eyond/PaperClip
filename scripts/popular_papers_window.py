@@ -30,7 +30,7 @@ class PaperWithCountItem(QWidget) :
         self.keyword = keyword
         self.count = count
 
-        self.keyword_label = ClickableLabel(f"{self.keyword}")
+        self.keyword_label = QLabel(f"{self.idx+1}. {self.keyword}")
         self.keyword_label.setStyleSheet("color: white;font-size: 16px;")
         self.keyword_label.linkActivated.connect(lambda _, keyword=self.keyword: self.update_right_side(keyword))
 
@@ -55,6 +55,7 @@ class PopularPapersWindow(QDialog):
     ):
         super().__init__(parent)
         self.query_handler = query_handler
+        self.parent = parent
 
         # Set tthe background color
         self.setStyleSheet("background-color: #303030;")
@@ -136,5 +137,4 @@ class PopularPapersWindow(QDialog):
         print("item clicked")
 
     def favorite_list_changed(self, item):
-        print("favorite list changed")
         self.parent.favorite_list_changed(item)

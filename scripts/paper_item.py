@@ -106,6 +106,9 @@ class PaperItem(QtWidgets.QWidget):
     def favorite_list_changed(self):
         if self.paper.authors is None:
             return
+        
+        #return
         self.paper.toggleFavorite()
         self.toggleHeart()
-        self.parent.favorite_list_changed(self.paper)
+
+        print(type(self.parent))

@@ -26,6 +26,8 @@ class CenterSection(QtWidgets.QWidget) :
         # Variable to store the selected item
         self.order_by = None
         
+        self.popular_papers_window = None
+
         most_popular_button = QtWidgets.QPushButton('View Popular Papers', self)
         most_popular_button.setStyleSheet("color: white; font-size: 18px; background-color: #505050;")
         most_popular_button.clicked.connect(self.view_most_popular_keywords)
@@ -97,18 +99,22 @@ class CenterSection(QtWidgets.QWidget) :
 
         self.scrollable.update(item_list)
 
-
     def view_most_popular_keywords(self):
-        popular_papers_window = PopularPapersWindow(
-            parent=self,
+        self.popular_papers_window = PopularPapersWindow(
+            self,
             query_handler=self.query_handler
         )
-        popular_papers_window.exec_()
+        self.popular_papers_window.exec_()
 
     def itemClicked(self, paper) :
         self.parent.paperItemClicked(paper)
 
     def favorite_list_changed(self, item) :
+
+        print("------------------------")
+        print("at center section")
+        print("------------------------")
+
         self.parent.favorite_list_changed(item)
 
     def favorite_list_changed_from_outside(self, item) :
