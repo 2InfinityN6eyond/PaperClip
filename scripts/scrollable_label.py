@@ -25,6 +25,8 @@ class ScrollableLabel(QtWidgets.QWidget):
         self.scrollArea.setWidgetResizable(True)
         self.scrollArea.setWidget(self.label)
         #self.scrollArea.setFixedHeight(50)
+        self.scrollArea.setAlignment(QtCore.Qt.AlignTop)
+
 
         layout = QtWidgets.QHBoxLayout(self)
         layout.setContentsMargins(0, 0, 0, 0)

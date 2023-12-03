@@ -6,6 +6,7 @@ import json
 from PyQt5.QtWidgets import *
 from PyQt5.QtCore import QRect, Qt, pyqtSignal
 from PyQt5.QtGui import QFont
+from PyQt5.QtGui import *
 #import mysql.connector
 
 from containers import Paper, Author, Institution, Expertise, QueryHandler
@@ -106,21 +107,21 @@ if __name__ == '__main__':
 
     INSTITUTION_FILE_PATH = "./data/institution_dict.json"
     if os.path.exists(INSTITUTION_FILE_PATH) :
-        with open(INSTITUTION_FILE_PATH, "r") as f :
+        with open(INSTITUTION_FILE_PATH, "r", encoding='utf8') as f :
             institution_dict_raw = json.load(f)
         for k, v in institution_dict_raw.items() :
             institution_dict[k] = Institution(**v)
 
     EXPERTISE_FILE_PATH = "./data/expertise_dict.json"
     if os.path.exists(EXPERTISE_FILE_PATH) :
-        with open(EXPERTISE_FILE_PATH, "r") as f :
+        with open(EXPERTISE_FILE_PATH, "r", encoding='utf8') as f :
             expertise_dict_raw = json.load(f)
         for k, v in expertise_dict_raw.items() :
             expertise_dict[k] = Expertise(**v)
 
     AUTHOR_FILE_PATH = "./data/author_list.json"
     if os.path.exists(AUTHOR_FILE_PATH) :
-        with open(AUTHOR_FILE_PATH, "r") as f :
+        with open(AUTHOR_FILE_PATH, "r", encoding='utf8') as f :
             author_list_raw = json.load(f)
         for author in author_list_raw :
             whole_author_list.append(Author(**author))
@@ -128,7 +129,7 @@ if __name__ == '__main__':
     WHOLE_PAPER_FILE_PATH = "./data/processed_paper_dict.json"
     WHOLE_PAPER_FILE_PATH = "./data/final_paper_dict.json"
     if os.path.exists(WHOLE_PAPER_FILE_PATH) :
-        with open(WHOLE_PAPER_FILE_PATH, "r") as f :
+        with open(WHOLE_PAPER_FILE_PATH, "r", encoding='utf8') as f :
             whole_paper_dict = json.load(f)
         for k, v in whole_paper_dict.items() :
             whole_paper_dict[k] = Paper(**v)
@@ -164,7 +165,7 @@ if __name__ == '__main__':
     for k, v in whole_paper_dict.items() :
         v.query_handler = None
         whole_paper_dict_dict[k] = v.toDict()
-    with open(WHOLE_PAPER_FILE_PATH, "w") as f :
+    with open(WHOLE_PAPER_FILE_PATH, "w", encoding='utf8') as f :
         json.dump(whole_paper_dict_dict, f, indent=4, ensure_ascii=False)
 
     sys.exit()

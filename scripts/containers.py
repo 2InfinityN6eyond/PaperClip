@@ -1,15 +1,15 @@
 import json
 from dataclasses import dataclass
 import Levenshtein
-#import mysql.connector
+import mysql.connector
 
 class QueryHandle_ :
     def __init__(
         self,
-        host                    = None,
-        user                    = None,
-        passwd                  = None,
-        db_use                  = None
+        host                    = 'localhost',
+        user                    = 'root',
+        passwd                  = 'wodud8115%',
+        db_use                  = 'relation_db_project'
     ) :
         self.mydb = mysql.connector.connect(
             host    = host,

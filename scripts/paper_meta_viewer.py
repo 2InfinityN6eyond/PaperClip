@@ -19,23 +19,23 @@ class PaperMetaViewer(QtWidgets.QLabel):
 
         # Paper Name 레이블
         #self.paper_name_label = QtWidgets.QLabel()
-        self.paper_name_label = ScrollableLabel()
-        self.paper_name_label.setStyleSheet("color: white; font-size: 18px; border-bottom: 1px solid white; font-weight: bold;")
+        self.paper_name_label = QTextBrowser()
+        self.paper_name_label.setStyleSheet("color: white; font-size: 18px; border-bottom: 1px solid white; font-weight: bold;background-color: #303030;")
 
         # Author와 Keyword 레이블
         #self.author_label = QtWidgets.QLabel() #(", ".join(author_name_list))
-        self.author_label = ScrollableLabel()
-        self.author_label.setStyleSheet("color: white; font-size: 12px;")
+        self.author_label = QTextBrowser()
+        self.author_label.setStyleSheet("color: white; font-size: 12px;background-color: #303030;")
         #keyword_label = QtWidgets.QLabel(f"Keywords: {self.paper_info['Keywords']}")
         #keyword_label.setStyleSheet("color: white; font-size: 12px;")
         self.conf_label = QtWidgets.QLabel() #(f"Published from: {self.paper.conference}")
-        self.conf_label.setStyleSheet("color: white; font-size: 12px;")
+        self.conf_label.setStyleSheet("color: white; font-size: 12px;background-color: #303030;")
 
         # Abstract 텍스트 에디터
         self.abstract_text = QTextEdit()
         self.abstract_text.setPlainText("--------------") #(self.paper.abstract)
         self.abstract_text.setReadOnly(True)
-        self.abstract_text.setStyleSheet("color: white;")
+        self.abstract_text.setStyleSheet("color: white;background-color: #303030;")
         self.abstract_text.setFixedHeight(self.abstract_text.sizeHint().height())
 
         #self.setText(self.paper.title)
@@ -44,6 +44,7 @@ class PaperMetaViewer(QtWidgets.QLabel):
         #self.setFixedHeight(self.sizeHint().height())
 
         main_layout = QVBoxLayout(self)
+        # main_layout.setStyleSheet("background-color: #303030;")
         main_layout.addWidget(self.paper_name_label)
         main_layout.addWidget(self.author_label)
         #main_layout.addWidget(keyword_label)

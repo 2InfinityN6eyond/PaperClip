@@ -6,6 +6,7 @@ import qtawesome as qta
 
 from containers import Paper, Author
 from scrollable_label import ScrollableLabel
+from PyQt5.QtWidgets import *
 
 class PaperItem(QtWidgets.QWidget):
     def __init__(
@@ -35,21 +36,15 @@ class PaperItem(QtWidgets.QWidget):
                 title = "Null"
 
         #self.title_label = QtWidgets.QLabel(title)
-        self.title_label = ScrollableLabel(
-            title,
-            style_sheet = """
-            QLabel {
-                background-color: #303030;
-                border-style: none;
-            }
-            """
-        )
+        self.title_label = QLabel(title)
         self.title_label.setStyleSheet("""
             QLabel {
+                color: white;
                 background-color: #303030;
                 border-style: none;
             }
         """)
+        self.title_label.setWordWrap(True)
         
         '''
         author_name_list = []

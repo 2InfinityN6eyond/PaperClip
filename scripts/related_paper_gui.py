@@ -24,11 +24,13 @@ class RelatedPaperGUI(QtWidgets.QDialog):
         self.parent = parent
         self.paper = paper
         self.init_ui()
+        self.setStyleSheet("background-color: #303030;")
 
     def init_ui(self):
 
         self.paper_meta_viewer = PaperMetaViewer(self.paper)
         self.paper_meta_viewer.show()
+        self.paper_meta_viewer.setStyleSheet("background-color: #303030;")
 
         # Related Work 레이블
         related_work_label = QtWidgets.QLabel("Related Work")
@@ -37,9 +39,11 @@ class RelatedPaperGUI(QtWidgets.QDialog):
         self.related_works_scrollable = ScrollableList(self)
 
         v_layout = QVBoxLayout(self)
+        related_work_label.setStyleSheet("color: white; background-color: #303030;")
         v_layout.addWidget(self.paper_meta_viewer)
         v_layout.addWidget(related_work_label)
         v_layout.addWidget(self.related_works_scrollable)
+        # v_layout.setStyleSheet("color: white; background-color: #303030;")
 
         self.update(self.paper)
 
@@ -64,7 +68,7 @@ class RelatedPaperGUI(QtWidgets.QDialog):
     def itemClicked(self, item) :
         print("item clicked")
 
-        related_paper_gui = RelatedPaperGUI(item)
+        related_paper_gui = RelatedPaperGUI(self, item)
         related_paper_gui.exec_()
 
         
