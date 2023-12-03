@@ -40,13 +40,18 @@ class ScrollableList(QtWidgets.QWidget):
         self.setSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
 
     def update(self, item_list) :
-        if item_list is None:
-            return
         # empty the scrollarealayout
         for i in reversed(range(self.scrollAreaLayout.count())):
             if isinstance(self.scrollAreaLayout.itemAt(i), QtWidgets.QWidgetItem):
                 self.scrollAreaLayout.itemAt(i).widget().setParent(None)
             #self.scrollAreaLayout.itemAt(i).setParent(None)
+
+        if len(item_list) == 0:
+            none_label = QtWidgets.QLabel()
+            none_label.setText('Paper does not exist')
+            none_label.setStyleSheet("color: white; font-size: 12px; border: none; margin: 0; padding: 0;")
+            self.scrollAreaLayout.addWidget(none_label, alignment=QtCore.Qt.AlignCenter)
+                    
         for item in item_list :
             self.scrollAreaLayout.addWidget(item)
 
