@@ -115,7 +115,10 @@ class PaperClipSearchResultItem(QtWidgets.QWidget) :
         else :
             self.author_label.setText("NULL")
         
-        #if self.paper.keyword_list is not None :
+        if self.paper.keywords is not None :
+            keyword_text = ", ".join(self.paper.keywords)
+            self.keyword_label.setText(keyword_text)
+            
             
         if self.paper.conference_acronym is not None :
             self.conf_label.setText(self.paper.conference_acronym)
