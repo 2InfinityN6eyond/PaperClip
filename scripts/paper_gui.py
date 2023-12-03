@@ -40,7 +40,7 @@ class PaperGUI(QWidget):
         self.paper_meta_viewer.update(self.paper)
 
         paper_item_list = []
-        if self.paper.reference_list is None:
+        if paper is None or self.paper.reference_list is None:
             return
         for ref in self.paper.reference_paper_list:
             paper_item = PaperItem(self.scrollable, ref)

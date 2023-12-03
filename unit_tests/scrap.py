@@ -131,6 +131,19 @@ class ScrapViewer(QFrame):
         self.setLayout(layout)
 
 
+class ScrapButton(QWidget) :
+    def __init__(self, title) :
+        super().__init__()
+        self.setStyleSheet("border: none; color: white;")
+        title_label = QLabel(title)
+        
+        self.is_in_favorite = False
+
+        layout = QHBoxLayout()
+        
+        self.setLayout(layout)        
+
+
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     window = SearchApp()

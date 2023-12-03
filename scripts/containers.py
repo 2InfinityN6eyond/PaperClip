@@ -1,6 +1,6 @@
 import json
 from dataclasses import dataclass
-
+import Levenshtein
 
 class QueryHandler :
     def __init__(
@@ -15,8 +15,7 @@ class QueryHandler :
         self.whole_institution_dict = whole_institution_dict
         self.whole_expertise_dict = whole_expertise_dict
 
-    def paperByDOI(self, doi) :
-
+    def paperByDOI(self, doi, exact=True) :
         for paper in self.whole_paper_dict.values() :
             if paper.DOI == doi :
                 print("paperByDOI", paper.DOI)
@@ -24,26 +23,57 @@ class QueryHandler :
         paper = Paper(DOI=doi, title=doi, query_handler=self)
         return False, paper
     
- 
-        return
-
-        if doi not in list(map(lambda x: x.DOI, self.whole_paper_dict.values())) :
-            return False, Paper(DOI=doi, title=doi, query_handler=self)
-        
-        paper = self.whole_paper_dict[doi]
-        if paper.abstract is None :
-            if paper.google_schorlar_metadata is not None and "설명" in paper.google_schorlar_metadata :
-                paper.abstract = paper.google_schorlar_metadata["설명"]
-        
-        return True, self.whole_paper_dict[doi]
+    def paperByTitle(self, title, exact=False, similarity_threshold=0.4) :
+        result_list = []
+        for paper in self.whole_paper_dict.values() :
+            similarity = self.calculate_similarity(paper.title, title)
+            if similarity >= similarity_threshold :
+                result_list.append((similarity, paper))
+        result_list.sort(key=lambda x: x[0], reverse=True)
+        return list(map(lambda x: x[1], result_list))
     
+    def paperByAuthor(self, author, similarity_threshold=0.4) :
+        result_list = []
+        for paper in self.whole_paper_dict.values() :
+            for author_name in paper.authors :
+                similarity = self.calculate_similarity(author_name, author)
+                if similarity >= similarity_threshold :
+                    result_list.append((similarity, paper))
+                    break
+        result_list.sort(key=lambda x: x[0], reverse=True)
+        return list(map(lambda x: x[1], result_list))
 
-    
+    def paperByKeywards(self, keywords, similarity_threshold=0.4) :
+        result_list = []
+        for paper in self.whole_paper_dict.values() :
+            if paper.keywords is None :
+                continue
+            for keyword in paper.keywords :
+                similarity = self.calculate_similarity(keyword, keywords)
+                if similarity >= similarity_threshold :
+                    result_list.append((similarity, paper))
+                    break
+        result_list.sort(key=lambda x: x[0], reverse=True)
+        return list(map(lambda x: x[1], result_list))
+
+    def paperByConference(self, conference, similarity_threshold=0.4) :
+        result_list = []
+        for paper in self.whole_paper_dict.values() :
+            similarity = self.calculate_similarity(paper.conference_acronym, conference)
+            if similarity >= similarity_threshold :
+                result_list.append((similarity, paper))
+        result_list.sort(key=lambda x: x[0], reverse=True)
+        return list(map(lambda x: x[1], result_list))
+
     def authorByName(self, name) :
         if name not in self.whole_author_dict :
             return Author(name=name, query_handler=self)
         return self.whole_author_dict[name]
-    
+
+    def calculate_similarity(self, name1, name2):
+        return Levenshtein.ratio(name1, name2)
+
+
 
 @dataclass
 class JournalConference :
@@ -55,14 +85,14 @@ class JournalConference :
     URL : str = None
     Country : str = None
     Status : str = None
-    
-    query_handler : QueryHandler = None
+    url_list : list = None
 
     def toJSON(self) :
         return json.dumps(self, default=lambda o: o.__dict__, 
             sort_keys=True, indent=4)
     def toDict(self) :
         return json.loads(self.toJSON())
+
 
 
 @dataclass
@@ -151,6 +181,7 @@ class Paper :
     issn_type : dict = None
     url : str = None
     is_in_favorite : bool = False
+    keywords : list[str] = None
 
     conference_acronym : str = None
     publisher : str = None
@@ -159,6 +190,10 @@ class Paper :
 
     def toggleFavorite(self) :
         self.is_in_favorite = not self.is_in_favorite
+
+    @property
+    def reference_count(self) :
+        return len(self.reference_list) if self.reference_list is not None else 0
 
     @property
     def reference_paper_list(self) :
@@ -171,23 +206,11 @@ class Paper :
                 pre_existed_paper_list.append(paper)
             else :
                 new_paper_list.append(paper)
-        print(self.title, len(pre_existed_paper_list), len(new_paper_list))
-        print(
-            list(map(lambda x: x.title, pre_existed_paper_list)) + \
-            list(map(lambda x: x.title, new_paper_list))
-        )
-
-
         return pre_existed_paper_list + new_paper_list
 
-        return list(map(lambda x: self.query_handler.paperByDOI(x), self.reference_list))
-    
     @property
     def author_list(self) :
         author_name_list = [] if self.authors is None else self.authors
-        if self.google_schorlar_metadata is not None and  "저자" in self.google_schorlar_metadata :
-            author_name_list = self.google_schorlar_metadata["저자"].split(", ")
-
         return list(map(lambda x: self.query_handler.authorByName(x), author_name_list))
 
     @property
