@@ -55,7 +55,8 @@ class ListItem(QWidget):
         else:
             self.heartButton.setIcon(self.false_icon)
 
-class MainWindow(QWidget):
+
+class SrollableList(QWidget):
     def __init__(self):
         super().__init__()
         self.setStyleSheet("background-color: #303030;")
@@ -65,36 +66,25 @@ class MainWindow(QWidget):
         self.scrollAreaWidgetContents = QWidget()
         self.scrollAreaLayout = QVBoxLayout(self.scrollAreaWidgetContents)
 
-        # Example: Add 10 items to the scroll area
-        for i in range(10):
-            item = ListItem(
-                f"Song {i+1}",
-                '''
-                false_icon = makeIcon(
-                    qta_str='fa5s.paperclip',
-                    #qta_str='fa5s.heart',
-                    color='grey',
-                    width=100,
-                    height=100
-                ),
-                true_icon = makeIcon(
-                    qta_str='fa5s.paperclip',
-                    color='white',
-                    width=100,
-                    height=100
-                ),
-                '''
-            )
-            self.scrollAreaLayout.addWidget(item)
-
         self.scrollArea.setWidgetResizable(True)
         self.scrollArea.setWidget(self.scrollAreaWidgetContents)
 
         self.layout.addWidget(self.scrollArea)
         self.setLayout(self.layout)
 
+    def update(self, item_list) :
+        for item in item_list :
+            self.scrollAreaLayout.addWidget(item)
+
+
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    mainWindow = MainWindow()
+    #mainWindow = MainWindow()
+    mainWindow = SrollableList()
+
+    item_list = []
+    for i in range(10):
+        item_list.append(ListItem(f"제목 {i+1}"))
+    mainWindow.update(item_list)
     mainWindow.show()
     sys.exit(app.exec_())
