@@ -27,6 +27,8 @@ class PaperGUI(QWidget):
         related_work_label.setStyleSheet("color: white;font-size: 18px; border-bottom: 1px solid white; font-weight: bold;")
 
         self.scrollable = ScrollableList(self)
+        # self.scrollable = QScrollBar(self)
+        # self.scrollable.setOrientation(Qt.Vertical)
 
         v_layout = QVBoxLayout(self)
         v_layout.addWidget(self.paper_meta_viewer)
@@ -45,7 +47,8 @@ class PaperGUI(QWidget):
         for ref in self.paper.reference_paper_list :
             paper_item = PaperItem(self.scrollable, ref)
             paper_item_list.append(paper_item)
-
+            print(paper_item_list, paper_item)
+        print(self.scrollable)
         self.scrollable.update(paper_item_list)
 
 

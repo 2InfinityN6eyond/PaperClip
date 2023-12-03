@@ -6,6 +6,7 @@ import json
 from PyQt5.QtWidgets import *
 from PyQt5.QtCore import QRect, Qt, pyqtSignal
 from PyQt5.QtGui import QFont
+from PyQt5.QtGui import *
 #import mysql.connector
 
 from containers import Paper, Author, Institution, Expertise, QueryHandler

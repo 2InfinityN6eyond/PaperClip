@@ -23,13 +23,15 @@ class ScrollableList(QtWidgets.QWidget):
 
         self.scrollAreaWidgetContents = QtWidgets.QWidget()
         self.scrollAreaLayout = QtWidgets.QVBoxLayout(self.scrollAreaWidgetContents)
-        if expand:
-            self.scrollAreaLayout.addStretch()
-            
+        """if expand:
+            self.scrollAreaLayout.addStretch()"""
+        self.scrollAreaLayout.setAlignment(QtCore.Qt.AlignTop)
 
         self.scrollArea.setWidget(self.scrollAreaWidgetContents)
 
         self.layout = QtWidgets.QVBoxLayout()
+        self.scrollArea.verticalScrollBar().setValue(0)
+        self.layout.insertLayout(0, self.scrollAreaLayout)
         self.layout.addWidget(self.scrollArea)
         self.setLayout(self.layout)
 
@@ -83,6 +85,7 @@ if __name__ == '__main__':
             self.layout = QtWidgets.QHBoxLayout()
 
             self.label = QtWidgets.QLabel(text)
+            self.label.setWordWrap(True)
             self.label.setStyleSheet("""
                 QLabel {
                     background-color: #303030;
