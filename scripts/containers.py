@@ -7,10 +7,10 @@ import mysql.connector
 class QueryHandler :
     def __init__(
         self,
-        host    = None,
-        user    = None,
-        passwd  = None,
-        db_use  = None
+        host    = 'localhost',
+        user    = 'root',
+        passwd  = 'wonhs120415',
+        db_use  = 'relation_db_project'
     ) :
         self.mydb = mysql.connector.connect(
             host    = host,
@@ -112,7 +112,7 @@ class QueryHandler :
                     abstract=abstract,
                     is_in_favorite  = True if is_in_favorite else False,
                     query_handler=self
-                )            
+                )
             else :
                 paper_dict[doi].reference_list.append(reference)
         return list(paper_dict.values())

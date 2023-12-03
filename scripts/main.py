@@ -110,10 +110,10 @@ if __name__ == '__main__':
     args = args.parse_args()
 
     query_handler = QueryHandler(
-        host    = args.host,
-        user    = args.user,
-        passwd  = args.passwd,
-        db_use  = args.db_use
+        host    = 'localhost',
+        user    = 'root',
+        passwd  = 'wonhs120415',
+        db_use  = 'relation_db_project'
     )
 
     app = QApplication(sys.argv)

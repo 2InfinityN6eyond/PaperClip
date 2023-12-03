@@ -59,8 +59,9 @@ class RelatedPaperGUI(QtWidgets.QDialog):
             return
         
         for ref in self.paper.reference_paper_list:
-            paper_item = PaperItem(self.related_works_scrollable, ref)
-            paper_item_list.append(paper_item)
+            if ref.title.startswith('1') == False:
+                paper_item = PaperItem(self.related_works_scrollable, ref)
+                paper_item_list.append(paper_item)
 
         self.related_works_scrollable.update(paper_item_list)
 
