@@ -17,7 +17,7 @@ class QueryHandler :
 
     def paperByDOI(self, doi) :
         if doi not in self.whole_paper_dict :
-            return Paper(DOI=doi, query_handler=self)
+            return Paper(DOI=doi, title=doi, query_handler=self)
         
         paper = self.whole_paper_dict[doi]
         if paper.abstract is None :
@@ -161,6 +161,14 @@ class Paper :
             author_name_list = self.google_schorlar_metadata["저자"].split(", ")
 
         return list(map(lambda x: self.query_handler.authorByName(x), author_name_list))
+
+    @property
+    def abstract_text(self) :
+        if self.abstract is None :
+            if self.google_schorlar_metadata is not None and "설명" in self.google_schorlar_metadata :
+                self.abstract = self.google_schorlar_metadata["설명"]
+        return self.abstract
+        
 
     def toJSON(self):
         '''convert to JSON recursively'''

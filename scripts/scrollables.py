@@ -10,11 +10,14 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class ScrollableList(QtWidgets.QWidget):
     def __init__(
             self,
+            parent=None,
             resizable=True,
             expand=True,
         ):
-        super().__init__()
+        super().__init__(parent=parent)
         self.setStyleSheet("background-color: #303030;")
+
+        self.parent = parent
 
         self.scrollArea = QtWidgets.QScrollArea()
         self.scrollArea.setWidgetResizable(resizable)
@@ -36,8 +39,14 @@ class ScrollableList(QtWidgets.QWidget):
         self.setSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
 
     def update(self, item_list) :
+        if item_list is None:
+            return
         for item in item_list :
             self.scrollAreaLayout.addWidget(item)
+
+    def itemClicked(self, item):
+        print("item clicked")
+        self.parent.itemClicked(item)
 
 
 if __name__ == '__main__':

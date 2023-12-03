@@ -60,8 +60,6 @@ class ScrapItem(QtWidgets.QWidget):
         print("item clicked")
         self.parent.itemClicked(self)
 
-
-
     def authorClicked(self, event):
         print("author clicked")
 

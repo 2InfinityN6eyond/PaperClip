@@ -11,7 +11,7 @@ from PyQt5.QtGui import QFont
 from containers import Paper, Author, Institution, Expertise, QueryHandler
 from clickable_label import ClickableLabel
 from scrap_viewer import ScrapViewer
-from related_works_gui import RelatedPaperGUI
+from related_paper_gui import RelatedPaperGUI
 from paper_gui import PaperGUI
 
 
@@ -53,22 +53,19 @@ class SearchApp(QWidget):
         scraps_section = QWidget(splitter)
         scraps_section_layout = QVBoxLayout()
 
-        scrap_viewer = ScrapViewer()
-        scraps_section_layout.addWidget(scrap_viewer)
+        self.scrap_viewer = ScrapViewer(parent=self)
+        self.scrap_viewer.update(
+            list(self.query_handler.whole_paper_dict.values())[:200]
+        )
+        scraps_section_layout.addWidget(self.scrap_viewer)
 
         scraps_section.setLayout(scraps_section_layout)
 
         # Set size policy for scraps_section to be resizable
         scraps_section.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
 
-        paper = self.query_handler.whole_paper_dict[
-            list(self.query_handler.whole_paper_dict.keys())[0]
-        ]
-        paper = self.query_handler.paperByDOI(
-            list(self.query_handler.whole_paper_dict.keys())[0]
-        )
 
-        paper_section = PaperGUI(paper)
+        self.paper_section = PaperGUI(paper)
 
         center_section = QWidget(splitter)
         center_layout = QVBoxLayout()
@@ -102,7 +99,6 @@ class SearchApp(QWidget):
         search_layout.addWidget(self.search_button)
 
 
-#####
         # Related Papers 프레임
         paper_info = {
         'Paper Name': 'Sample Paper',
@@ -175,7 +171,7 @@ class SearchApp(QWidget):
         ##### 합치기
         splitter.addWidget(scraps_section)
         splitter.addWidget(center_section)
-        splitter.addWidget(paper_section)
+        splitter.addWidget(self.paper_section)
 
         splitter.setHandleWidth(1)
         splitter.setStyleSheet("QSplitter::handle{background: white;}")
@@ -218,6 +214,8 @@ class SearchApp(QWidget):
     def print_author(self, author):
         print(f"Clicked Author: {author}")
 
+    def paperItemClicked(self, item) :
+        self.paper_section.update(item)
 
 
 class PopularPapersWindow(QDialog):

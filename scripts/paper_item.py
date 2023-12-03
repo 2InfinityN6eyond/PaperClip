@@ -19,7 +19,7 @@ class PaperItem(QtWidgets.QWidget):
         self.parent = parent
 
         self.paper = paper
-        pprint(paper)
+        #pprint(paper)
         title = paper.title
         if not title:
             if paper.DOI is not None:
@@ -73,8 +73,7 @@ class PaperItem(QtWidgets.QWidget):
         self.setLayout(v_layout)
 
     def itemClicked(self, event):
-        print("item clicked")
-        self.parent.itemClicked(self)
+        self.parent.itemClicked(self.paper)
 
     def authorClicked(self, event):
         print("author clicked")
