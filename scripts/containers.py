@@ -17,8 +17,22 @@ class QueryHandler :
 
     def paperByDOI(self, doi) :
         if doi not in self.whole_paper_dict :
-            return False, None
-        return True, self.whole_paper_dict[doi]
+            return Paper(DOI=doi, query_handler=self)
+        
+        paper = self.whole_paper_dict[doi]
+        if paper.abstract is None :
+            if paper.google_schorlar_metadata is not None and "설명" in paper.google_schorlar_metadata :
+                paper.abstract = paper.google_schorlar_metadata["설명"]
+        
+        
+        return self.whole_paper_dict[doi]
+    
+
+    
+    def authorByName(self, name) :
+        if name not in self.whole_author_dict :
+            return Author(name=name, query_handler=self)
+        return self.whole_author_dict[name]
     
 
 @dataclass
@@ -79,14 +93,12 @@ class Expertise :
 @dataclass
 class Author :
     name : str
-    google_schorlar_profile_url : str
+    google_schorlar_profile_url : str = None 
     affiliation : str = None
     expertise_list : list[str] = None
     homepage_url : str = None
     paper_list : list = None
     paper_title_list : list = None
-
-
 
     query_handler : QueryHandler = None 
 
@@ -99,6 +111,7 @@ class Author :
             sort_keys=True, indent=4)
     def toDict(self):
         return json.loads(self.toJSON())
+    
     def fromDict(self, dic):
         self.name = dic['name']
         self.google_schorlar_profile_url = dic['google_schorlar_profile_url']
@@ -135,7 +148,15 @@ class Paper :
 
     @property
     def reference_paper_list(self) :
-        return list(map(lambda x: self.query_handler.paperByDOI(x)[1], self._reference_list))
+        return list(map(lambda x: self.query_handler.paperByDOI(x), self._reference_list))
+    
+    @property
+    def author_list(self) :
+        author_name_list = [] if self.authors is None else self.authors
+        if self.google_schorlar_metadata is not None and  "저자" in self.google_schorlar_metadata :
+            author_name_list = self.google_schorlar_metadata["저자"].split(", ")
+
+        return list(map(lambda x: self.query_handler.authorByName(x), author_name_list))
 
     def toJSON(self):
         '''convert to JSON recursively'''

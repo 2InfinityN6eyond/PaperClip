@@ -1,3 +1,5 @@
+from pprint import pprint
+
 import os
 import sys
 import json
@@ -59,24 +61,14 @@ class SearchApp(QWidget):
         # Set size policy for scraps_section to be resizable
         scraps_section.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
 
-        
-        paper_section = PaperGUI({
-            'Paper Name': 'Sample Paper',
-            'Author': 'John Doe',
-            'Keywords': 'Sample, Keywords',
-            'conf': 'IEEE',
-            'Abstract': 'This is a sample abstract for the paper. ' * 10,
-            'Related Papers': [
-                {'Title': 'Related Paper 1', 'Author': 'Jane Doe', 'conf': 'IEEE'},
-                {'Title': 'Related Paper 2', 'Author': 'Bob Smith', 'conf': 'IEEE'},
-            ]
-        })
         paper = self.query_handler.whole_paper_dict[
             list(self.query_handler.whole_paper_dict.keys())[0]
         ]
-                
-        
+        paper = self.query_handler.paperByDOI(
+            list(self.query_handler.whole_paper_dict.keys())[0]
+        )
 
+        paper_section = PaperGUI(paper)
 
         center_section = QWidget(splitter)
         center_layout = QVBoxLayout()
@@ -429,14 +421,14 @@ if __name__ == '__main__':
         for k, v in expertise_dict_raw.items() :
             expertise_dict[k] = Expertise(**v)
 
-    AUTHOR_FILE_PATH = "./data/uthor_list.json"
+    AUTHOR_FILE_PATH = "./data/author_list.json"
     if os.path.exists(AUTHOR_FILE_PATH) :
         with open(AUTHOR_FILE_PATH, "r") as f :
             author_list_raw = json.load(f)
         for author in author_list_raw :
             whole_author_list.append(Author(**author))
 
-    WHOLE_PAPER_FILE_PATH = "./data/whole_paper_dict.json"
+    WHOLE_PAPER_FILE_PATH = "./data/processed_paper_dict.json"
     if os.path.exists(WHOLE_PAPER_FILE_PATH) :
         with open(WHOLE_PAPER_FILE_PATH, "r") as f :
             whole_paper_dict = json.load(f)

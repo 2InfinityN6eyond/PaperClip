@@ -3,91 +3,40 @@ from PyQt5.QtCore import Qt, pyqtSignal
 from PyQt5.QtGui import QFont
 
 from clickable_label import ClickableLabel
+from scrollables import ScrollableList
+from paper_meta_viewer import PaperMetaViewer
+from related_works_gui import RelatedPaperGUI
 
 class PaperGUI(QWidget):
-    def __init__(self, paper_info):
+    def __init__(self, paper):
         super().__init__()
 
-        self.paper_info = paper_info
+        self.paper = paper
         self.init_ui()
 
     def init_ui(self):
-        # Paper Name 레이블
-        paper_name_label = QLabel(self.paper_info['Paper Name'])
-        paper_name_label.setStyleSheet("color: white; font-size: 18px; border-bottom: 1px solid white; font-weight: bold;")
 
-        # Author와 Keyword 레이블
-        author_label = QLabel(f"Author: {self.paper_info['Author']}")
-        author_label.setStyleSheet("color: white; font-size: 12px;")
-        keyword_label = QLabel(f"Keywords: {self.paper_info['Keywords']}")
-        keyword_label.setStyleSheet("color: white; font-size: 12px;")
-        conf_label = QLabel(f"Published from: {self.paper_info['conf']}")
-        conf_label.setStyleSheet("color: white; font-size: 12px;")
-
-
-        # Abstract 텍스트 에디터
-        abstract_text = QTextEdit()
-        abstract_text.setPlainText(self.paper_info['Abstract'])
-        abstract_text.setReadOnly(True)
-        abstract_text.setStyleSheet("color: white;")
-        abstract_text.setFixedHeight(abstract_text.sizeHint().height())
+        self.paper_meta_viewer = PaperMetaViewer(self.paper)
 
         # Related Work 레이블
         related_work_label = QLabel("Related Work")
         related_work_label.setStyleSheet("color: white;font-size: 18px; border-bottom: 1px solid white; font-weight: bold;")
 
-        # Related Papers 프레임
-        related_papers_frame = QFrame()
-        related_papers_layout = QVBoxLayout(related_papers_frame)
-        related_papers_layout.setAlignment(Qt.AlignTop)
+        self.scrollable = ScrollableList()
 
-        for related_paper in self.paper_info['Related Papers']:
-            paper_layout = QHBoxLayout()
-
-            paper_title_label = ClickableLabel(f"{related_paper['Title']}")
-            paper_title_label.setStyleSheet("color: white; font-size: 16px;")
-            paper_author_label = ClickableLabel(f"Author: {related_paper['Author']}")
-            paper_author_label.setStyleSheet("color: white; font-size: 12px;")
-            scrap_button = QPushButton("♥")
-            scrap_button.setStyleSheet("border: none; color: white;")
+        v_layout = QVBoxLayout(self)
+        v_layout.addWidget(self.paper_meta_viewer)
+        v_layout.addWidget(related_work_label)
+        v_layout.addWidget(self.scrollable)
 
 
-            paper_layout.addWidget(paper_title_label)
-            paper_layout.addWidget(scrap_button, alignment=Qt.AlignRight)
-
-            paper_separator = QFrame()
-            paper_separator.setFrameShape(QFrame.HLine)
-            paper_separator.setFrameShadow(QFrame.Sunken)
-            paper_separator.setStyleSheet("background: gray;")
-
-            scrap_button.clicked.connect(lambda _, title=related_paper['Title'], author=related_paper['Author']: self.scrap_paper(title, author))
-
-            paper_title_label.linkActivated.connect(lambda _, title=related_paper['Title'], author=related_paper['Author']: self.open_related_paper_gui(title, author))
-            paper_author_label.linkActivated.connect(self.print_author)
-
-            related_papers_layout.addLayout(paper_layout)
-            related_papers_layout.addWidget(paper_author_label)
-            related_papers_layout.addWidget(paper_separator)
-
-        # Related Papers 스크롤 영역
-        scroll_area = QScrollArea()
-        scroll_area.setWidgetResizable(True)
-        scroll_area.setWidget(related_papers_frame)
-
-        # 전체 레이아웃 구성
-        main_layout = QVBoxLayout(self)
-        main_layout.addWidget(paper_name_label)
-        main_layout.addWidget(author_label)
-        main_layout.addWidget(keyword_label)
-        main_layout.addWidget(conf_label)
-        main_layout.addWidget(abstract_text)
-        main_layout.addWidget(related_work_label)
-        main_layout.addWidget(scroll_area)
+    def update(self, paper):
+        self.paper = paper
+        self.paper_meta_viewer.update(self.paper)
+        self.scrollable.update(self.paper.reference_list)
 
 
-        self.setWindowTitle('Paper GUI')
-        self.show()
-        
+
     def open_related_paper_gui(self, title, author):
         related_paper_info = self.get_related_paper_info(title, author)  # title을 통해 관련 논문 정보 가져오기
 

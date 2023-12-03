@@ -9,50 +9,7 @@ from PyQt5.QtGui import QFont
 from containers import Paper
 from scrollables import ScrollableList
 from clickable_label import ClickableLabel
-
-
-class PaperMetaViewer(QtWidgets.QLabel):
-    def __init__(self, paper):
-        super().__init__()
-        self.paper = paper
-        self.initUI()
-
-    def initUI(self):
-
-        # Paper Name 레이블
-        paper_name_label = QtWidgets.QLabel(self.paper.title)
-        paper_name_label.setStyleSheet("color: white; font-size: 18px; border-bottom: 1px solid white; font-weight: bold;")
-
-        # Author와 Keyword 레이블
-        author_label = QtWidgets.QLabel(f"Author: {str(self.paper.author_list)}")
-        author_label.setStyleSheet("color: white; font-size: 12px;")
-        #keyword_label = QtWidgets.QLabel(f"Keywords: {self.paper_info['Keywords']}")
-        #keyword_label.setStyleSheet("color: white; font-size: 12px;")
-        conf_label = QtWidgets.QLabel(f"Published from: {self.paper.conference}")
-        conf_label.setStyleSheet("color: white; font-size: 12px;")
-
-        # Abstract 텍스트 에디터
-        abstract_text = QTextEdit()
-        abstract_text.setPlainText(self.paper.abstract)
-        abstract_text.setReadOnly(True)
-        abstract_text.setStyleSheet("color: white;")
-        abstract_text.setFixedHeight(abstract_text.sizeHint().height())
-
-        #self.setText(self.paper.title)
-        #self.setStyleSheet("color: white; font-size: 18px; border-bottom: 1px solid white; font-weight: bold;")
-        #self.setWordWrap(True)
-        #self.setFixedHeight(self.sizeHint().height())
-
-        main_layout = QVBoxLayout(self)
-        main_layout.addWidget(paper_name_label)
-        main_layout.addWidget(author_label)
-        #main_layout.addWidget(keyword_label)
-        main_layout.addWidget(conf_label)
-        main_layout.addWidget(abstract_text)
-
-    def mousePressEvent(self, event):
-        if event.button() == QtCore.Qt.LeftButton:
-            self.linkActivated.emit(self.text())
+from paper_meta_viewer import PaperMetaViewer
 
 
 class RelatedPaperGUI(QtWidgets.QDialog):
