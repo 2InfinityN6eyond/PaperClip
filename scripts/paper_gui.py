@@ -64,20 +64,6 @@ class PaperGUI(QWidget):
         # 새로운 GUI를 띄우기 위한 RelatedPaperGUI 인스턴스 생성
         related_paper_gui = RelatedPaperGUI(related_paper_info)
         related_paper_gui.exec_()
-    
-    def get_related_paper_info(self, title, author):
-        # title을 이용하여 관련 논문의 정보를 가져오는 함수 (실제로는 데이터베이스 조회 등이 필요)
-        # 여기서는 간단한 예시로 더미 데이터를 반환
-        return {
-            'Paper Name': f'{title}',
-            'Author': f'{author}',
-            'Keywords': 'Related, Keywords',
-            'conf': 'IEEE',
-            'Abstract': 'This is the abstract for the related paper.',
-            'Related Papers': [{'Title': 'Related Paper 1', 'Author': 'Jane Doe', 'ref': 100, 'keywords': 'NLP, ML', 'conf': 'IEEE',},
-            {'Title': 'Related Paper 2', 'Author': 'Bob Smith', 'ref': 10, 'keywords': 'NLP, ML', 'conf': 'IEEE',},]
-        
-        }
         
     def scrap_paper(self, title, author):
         print(f"Scrapped Paper - Title: {title}, Author: {author}")

@@ -128,6 +128,37 @@ class QueryHandler :
         self.mydb.commit()
 
 
+    def fetchTopKeywords(self, n = 50) :
+        self.cursor.execute("DROP TEMPORARY TABLE IF EXISTS keyword_table;")
+        self.cursor.execute("""
+            CREATE TEMPORARY TABLE keyword_table AS
+            SELECT TRIM(SUBSTRING_INDEX(SUBSTRING_INDEX(keywords, ', ', n.digit + 1), ',', -1)) AS keyword
+            FROM paper,
+                (SELECT 0 AS digit UNION ALL SELECT 1 UNION ALL SELECT 2 UNION ALL SELECT 3) AS n
+            WHERE LENGTH(keywords) - LENGTH(REPLACE(keywords, ',', '')) >= n.digit;
+        """)
+        self.cursor.execute("DROP TEMPORARY TABLE IF EXISTS keyword_table;")
+        self.cursor.execute("""
+            CREATE TEMPORARY TABLE keyword_table AS
+            SELECT TRIM(SUBSTRING_INDEX(SUBSTRING_INDEX(keywords, ', ', n.digit + 1), ',', -1)) AS keyword
+            FROM paper,
+                (SELECT 0 AS digit UNION ALL SELECT 1 UNION ALL SELECT 2 UNION ALL SELECT 3) AS n
+            WHERE LENGTH(keywords) - LENGTH(REPLACE(keywords, ',', '')) >= n.digit;
+        """)
+        self.cursor.execute("""SET SQL_SAFE_UPDATES = 0;""")
+        self.cursor.execute("""DELETE FROM keyword_table WHERE keyword = '';""")
+        self.cursor.execute(f"""
+            SELECT keyword, COUNT(*) AS keyword_count
+            FROM keyword_table
+            GROUP BY keyword
+            ORDER BY keyword_count DESC
+            LIMIT {n};
+        """)
+        keyword_count_list = []
+        for row in self.cursor :
+            keyword_count_list.append(row)
+        return keyword_count_list
+
 @dataclass
 class JournalConference :
     type : str = None

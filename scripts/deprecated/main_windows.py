@@ -14,7 +14,7 @@ from scrap_viewer import ScrapViewer
 from related_paper_gui import RelatedPaperGUI
 from paper_gui import PaperGUI
 from center_section import CenterSection
-from popular_papers_window import PopularPapersWindow
+from scripts.deprecated.popular_papers_window import PopularPapersWindow
 
 '''
 def connect_to_database(db_use):
