@@ -21,7 +21,6 @@ class ScrapViewer(QtWidgets.QFrame):
         layout.addWidget(self.scrollable)
         self.setLayout(layout)
         
-
         self.updateSample()
 
 

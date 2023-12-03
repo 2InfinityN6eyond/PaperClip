@@ -140,15 +140,19 @@ class Paper :
     cite_bibtex : str = None
     issn_type : dict = None
     url : str = None
+    is_in_favorite : bool = False
 
     conference_acronym : str = None
     publisher : str = None
 
     query_handler : QueryHandler = None
 
+    def toggleFavorite(self) :
+        self.is_in_favorite = not self.is_in_favorite
+
     @property
     def reference_paper_list(self) :
-        return list(map(lambda x: self.query_handler.paperByDOI(x), self._reference_list))
+        return list(map(lambda x: self.query_handler.paperByDOI(x), self.reference_list))
     
     @property
     def author_list(self) :
@@ -165,18 +169,3 @@ class Paper :
     def toDict(self):
         '''convert to dict recursively'''
         return json.loads(self.toJSON())
-    def fromDict(self, dic) :
-        '''convert from dict recursively'''
-        self.DOI = dic['DOI']
-        self.crossref_json = dic['crossref_json']
-        self.google_schorlar_metadata = dic['google_schorlar_metadata']
-        self.title = dic['title']
-        self.authors = dic['authors']
-        self.abstract = dic['abstract']
-        self.conference = dic['conference']
-        self.journal = dic['journal']
-        self.year = dic['year']
-        self.reference_list = dic['reference_list']
-        self.referenced_list = dic['referenced_list']
-        self.cite_bibtex = dic['cite_bibtex']
-

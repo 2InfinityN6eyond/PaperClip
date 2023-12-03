@@ -6,6 +6,9 @@ from clickable_label import ClickableLabel
 from scrollables import ScrollableList
 from paper_meta_viewer import PaperMetaViewer
 from related_works_gui import RelatedPaperGUI
+ 
+from paper_item import PaperItem
+
 
 class PaperGUI(QWidget):
     def __init__(self, paper):
@@ -29,11 +32,19 @@ class PaperGUI(QWidget):
         v_layout.addWidget(related_work_label)
         v_layout.addWidget(self.scrollable)
 
+        self.update(self.paper)
 
     def update(self, paper):
         self.paper = paper
         self.paper_meta_viewer.update(self.paper)
-        self.scrollable.update(self.paper.reference_list)
+
+        paper_item_list = []
+        for ref in self.paper.reference_paper_list:
+            print(type(ref))
+            paper_item = PaperItem(self.scrollable, ref)
+            paper_item_list.append(paper_item)
+
+        self.scrollable.update(paper_item_list)
 
 
 
