@@ -1,15 +1,16 @@
 import json
 from dataclasses import dataclass
 import Levenshtein
-#import mysql.connector
+import mysql.connector
 
-class QueryHandle_ :
+
+class QueryHandler :
     def __init__(
         self,
-        host                    = None,
-        user                    = None,
-        passwd                  = None,
-        db_use                  = None
+        host    = None,
+        user    = None,
+        passwd  = None,
+        db_use  = None
     ) :
         self.mydb = mysql.connector.connect(
             host    = host,
@@ -19,153 +20,110 @@ class QueryHandle_ :
         )
         self.cursor = self.mydb.cursor(prepared=True)
 
-    def paperByDOI(self, doi, exact=True) :
+    def paperByDOI(self, doi) :
+        paper_list = self.queryPaperBy("p.DOI", doi)
+        if len(paper_list) == 0 :
+            paper = Paper(DOI=doi, title=doi)
+            return False, paper
+        else :
+            return True, paper_list[0]
 
-        self.cursor.execute()
+    def queryPaperBy(self, by, value) :
+        self.cursor.execute(f"""
+            select p.DOI, p.title,  p.referenced_num, GROUP_CONCAT(' ', apr.author_name) as author_name, p.keywords, c.`name` as conference_name, p.clip
+            from paper p
+            Left join author_paper_relationship apr on p.DOI = apr.DOI
+            left join conference c on p.issn = c.issn
+            where {by} like '%{value}%'
+            GROUP BY p.DOI, p.title,  p.referenced_num, p.keywords, c.`name`
+            order by p.referenced_num desc
+            limit 100;
+        """)
+        paper_dict = {}
+        for row in self.cursor :
+            doi, title, refernced_num, author_name, keywords, conference_name, is_in_favorite = row
+            if doi not in paper_dict :
+                paper_dict[doi] = Paper(
+                    DOI             = doi,
+                    title           = title,
+                    authors         = list(map(
+                        lambda x : x.strip(),
+                        author_name.split(', ')
+                    )) if author_name is not None else None, #[''],
+                    keywords        = list(map(
+                        lambda x : x.strip(),
+                        keywords.split(', ')
+                    )) if keywords is not None else None, # [''],
+                    conference_acronym = conference_name,
+                    referenced_num  = refernced_num,
+                    reference_list = [],
+                    is_in_favorite  = is_in_favorite,
+                    query_handler=self
+                )
+        return list(paper_dict.values())
 
+    def fillReferenceList(self, paper) :
+        self.cursor.execute(f"""
+            select ref_doi
+            from referenced_paper
+            where DOI like '%{paper.DOI}%'
+            ;
+        """)
+        for row in self.cursor :
+            paper.reference_list.append(row[0])
 
-        for paper in self.whole_paper_dict.values() :
-            if paper.DOI == doi :
-                print("paperByDOI", paper.DOI)
-                return True, paper
-        paper = Paper(DOI=doi, title=doi, query_handler=self)
-        return False, paper
-    
-    def paperByTitle(self, title, exact=False, similarity_threshold=0.4) :
-        result_list = []
-        for paper in self.whole_paper_dict.values() :
-            similarity = self.calculate_similarity(paper.title, title)
-            if similarity >= similarity_threshold :
-                result_list.append((similarity, paper))
-        result_list.sort(key=lambda x: x[0], reverse=True)
-        return list(map(lambda x: x[1], result_list))
-    
-    def paperByAuthor(self, author, similarity_threshold=0.4) :
-        result_list = []
-        for paper in self.whole_paper_dict.values() :
-            for author_name in paper.authors :
-                similarity = self.calculate_similarity(author_name, author)
-                if similarity >= similarity_threshold :
-                    result_list.append((similarity, paper))
-                    break
-        result_list.sort(key=lambda x: x[0], reverse=True)
-        return list(map(lambda x: x[1], result_list))
+    def getRelatedPaperList(self, paper) :
 
-    def paperByKeywords(self, keywords, similarity_threshold=0.6) :
-        result_list = []
-        for paper in self.whole_paper_dict.values() :
-            if paper.keywords is None :
-                continue
-            for keyword in paper.keywords :
-                similarity = self.calculate_similarity(keyword, keywords)
-                if similarity >= similarity_threshold :
-                    result_list.append((similarity, paper))
-                    break
-        result_list.sort(key=lambda x: x[0], reverse=True)
-        return list(map(lambda x: x[1], result_list))
+        self.fillReferenceList(paper)
 
-    def paperByConference(self, conference, similarity_threshold=0.4) :
-        result_list = []
-        for paper in self.whole_paper_dict.values() :
-            similarity = self.calculate_similarity(paper.conference_acronym, conference)
-            if similarity >= similarity_threshold :
-                result_list.append((similarity, paper))
-        result_list.sort(key=lambda x: x[0], reverse=True)
-        return list(map(lambda x: x[1], result_list))
+        # paper table has doi, title, referenced_num, keywords, journal, clip
+        # author_paper_relationship has doi, author_name, DOI is foreign key of paper table
+        # referenced_paper table has DOI, ref_doi, DOI is foreign key of paper table
+        self.cursor.execute(f"""
+            select p.DOI, p.title,  p.referenced_num, GROUP_CONCAT(' ', apr.author_name) as author_name, p.keywords, c.`name` as conference_name, p.clip, rp.ref_doi
+            from paper p
+            Left join author_paper_relationship apr on p.DOI = apr.DOI
+            left join referenced_paper rp on p.DOI = rp.DOI
+            left join conference c on p.issn = c.issn
+            where rp.ref_doi in ({','.join(map(lambda x: f"'{x}'", paper.reference_list))})
+            GROUP BY p.DOI, p.title,  p.referenced_num, p.keywords,  c.`name`, rp.ref_doi
+            order by p.referenced_num desc
+            ;
+        """)
+        paper_dict = {}
+        for row in self.cursor :
+            doi, title, refernced_num, author_name, keywords, conference_name, is_in_favorite, reference = row
+            if doi not in paper_dict :
+                paper_dict[doi] = Paper(
+                    DOI             = doi,
+                    title           = title,
+                    authors         = list(map(
+                        lambda x : x.strip(),
+                        author_name.split(', ')
+                    )) if author_name is not None else None, #[''],
+                    keywords        = list(map(
+                        lambda x : x.strip(),
+                        keywords.split(', ')
+                    )) if keywords is not None else None, # [''],
+                    conference_acronym = conference_name,
+                    referenced_num  = refernced_num,
+                    reference_list = [reference],
+                    is_in_favorite  = True if is_in_favorite else False,
+                    query_handler=self
+                )            
+            else :
+                paper_dict[doi].reference_list.append(reference)
+        return list(paper_dict.values())
 
-    def authorByName(self, name) :
-        if name not in self.whole_author_dict :
-            return Author(name=name, query_handler=self)
-        return self.whole_author_dict[name]
-
-    def calculate_similarity(self, name1, name2):
-        return Levenshtein.ratio(name1, name2)
-
-
-class QueryHandler :
-    def __init__(
-        self,
-        whole_paper_dict        = None,
-        whole_author_dict       = None,
-        whole_institution_dict  = None,
-        whole_expertise_dict    = None,
-        host                    = None,
-        user                    = None,
-        passwd                  = None,
-        db_use                  = None
-    ) :
-        self.whole_paper_dict = whole_paper_dict
-        self.whole_author_dict = whole_author_dict
-        self.whole_institution_dict = whole_institution_dict
-        self.whole_expertise_dict = whole_expertise_dict
-
-        if db_use :
-            self.mydb = mysql.connector.connect(
-                host    = host,
-                user    = user,
-                passwd  = passwd,
-                database= db_use
-            )
-            self.mycursor = self.mydb.cursor(prepared=True)
-
-    def paperByDOI(self, doi, exact=True) :
-        for paper in self.whole_paper_dict.values() :
-            if paper.DOI == doi :
-                print("paperByDOI", paper.DOI)
-                return True, paper
-        paper = Paper(DOI=doi, title=doi, query_handler=self)
-        return False, paper
-    
-    def paperByTitle(self, title, exact=False, similarity_threshold=0.4) :
-        result_list = []
-        for paper in self.whole_paper_dict.values() :
-            similarity = self.calculate_similarity(paper.title, title)
-            if similarity >= similarity_threshold :
-                result_list.append((similarity, paper))
-        result_list.sort(key=lambda x: x[0], reverse=True)
-        return list(map(lambda x: x[1], result_list))
-    
-    def paperByAuthor(self, author, similarity_threshold=0.4) :
-        result_list = []
-        for paper in self.whole_paper_dict.values() :
-            for author_name in paper.authors :
-                similarity = self.calculate_similarity(author_name, author)
-                if similarity >= similarity_threshold :
-                    result_list.append((similarity, paper))
-                    break
-        result_list.sort(key=lambda x: x[0], reverse=True)
-        return list(map(lambda x: x[1], result_list))
-
-    def paperByKeywords(self, keywords, similarity_threshold=0.6) :
-        result_list = []
-        for paper in self.whole_paper_dict.values() :
-            if paper.keywords is None :
-                continue
-            for keyword in paper.keywords :
-                similarity = self.calculate_similarity(keyword, keywords)
-                if similarity >= similarity_threshold :
-                    result_list.append((similarity, paper))
-                    break
-        result_list.sort(key=lambda x: x[0], reverse=True)
-        return list(map(lambda x: x[1], result_list))
-
-    def paperByConference(self, conference, similarity_threshold=0.4) :
-        result_list = []
-        for paper in self.whole_paper_dict.values() :
-            similarity = self.calculate_similarity(paper.conference_acronym, conference)
-            if similarity >= similarity_threshold :
-                result_list.append((similarity, paper))
-        result_list.sort(key=lambda x: x[0], reverse=True)
-        return list(map(lambda x: x[1], result_list))
-
-    def authorByName(self, name) :
-        if name not in self.whole_author_dict :
-            return Author(name=name, query_handler=self)
-        return self.whole_author_dict[name]
-
-    def calculate_similarity(self, name1, name2):
-        return Levenshtein.ratio(name1, name2)
-
+    def updatePaper(self, paper) :
+        # set clip column of paper table to paper.is_in_favorite
+        self.cursor.execute(f"""
+            UPDATE paper
+            SET clip = {paper.is_in_favorite}
+            WHERE DOI LIKE "%{paper.DOI}%"
+            ;
+        """)
+        self.mydb.commit()
 
 
 @dataclass
@@ -237,7 +195,10 @@ class Author :
 
     @property
     def paper_item_list(self) :
-        return list(map(lambda x: self.query_handler.paperByDOI(x)[1], self._paper_list))
+        return list(map(
+            lambda x: self.query_handler.paperByDOI(x)[1],
+            self._paper_list
+        ))
 
     def toJSON(self):
         return json.dumps(self, default=lambda o: o.__dict__, 
@@ -270,6 +231,7 @@ class Paper :
     year : int = None
     reference_list : list[str] = None
     referenced_list : list[str] = None
+    referenced_num : int = None
     cite_bibtex : str = None
     issn_type : dict = None
     url : str = None
@@ -283,6 +245,7 @@ class Paper :
 
     def toggleFavorite(self) :
         self.is_in_favorite = not self.is_in_favorite
+        self.query_handler.updatePaper(self)
 
     @property
     def reference_count(self) :
@@ -290,6 +253,9 @@ class Paper :
 
     @property
     def reference_paper_list(self) :
+        
+        self.query_handler.fillReferenceList(self)
+
         pre_existed_paper_list = []
         new_paper_list = []
 
@@ -304,7 +270,13 @@ class Paper :
     @property
     def author_list(self) :
         author_name_list = [] if self.authors is None else self.authors
-        return list(map(lambda x: self.query_handler.authorByName(x), author_name_list))
+        return list(map(
+            #lambda x: self.query_handler.authorByName(x),
+            lambda x : self.query_handler.queryPaperBy(
+                by = "apr.author_name", value = x
+            ),
+            author_name_list
+        ))
 
     @property
     def abstract_text(self) :
@@ -313,7 +285,6 @@ class Paper :
                 self.abstract = self.google_schorlar_metadata["설명"]
         return self.abstract
         
-
     def toJSON(self):
         '''convert to JSON recursively'''
         return json.dumps(self, default=lambda o: o.__dict__, 

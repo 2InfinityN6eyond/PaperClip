@@ -1,7 +1,6 @@
 from pprint import pprint
 
 from PyQt5 import QtCore, QtGui, QtWidgets
-import qtawesome as qta
 
 from scrollables import ScrollableList
 from paper_item import PaperItem

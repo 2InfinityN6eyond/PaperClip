@@ -2,7 +2,6 @@ from pprint import pprint
 
 
 from PyQt5 import QtWidgets, QtCore, QtGui
-import qtawesome as qta
 
 from containers import Paper, Author
 from scrollable_label import ScrollableLabel

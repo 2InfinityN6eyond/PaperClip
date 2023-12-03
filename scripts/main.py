@@ -55,10 +55,10 @@ class SearchApp(QWidget):
         
         self.scraps_section = ScrapViewer(parent=self)
         self.scraps_section.update(
-            list(filter(
-                lambda paper: paper.is_in_favorite,
-                self.query_handler.whole_paper_dict.values())
-            ))
+            self.query_handler.queryPaperBy(
+                by="p.clip", value="1"
+            )
+        )
 
         self.center_section = CenterSection(
             parent          = self,
@@ -101,10 +101,14 @@ class SearchApp(QWidget):
         self.center_section.favorite_list_changed_from_outside(item)
 
 if __name__ == '__main__':
+
+
+    '''
     institution_dict = {}
     expertise_dict = {}
     whole_author_list = []
     whole_paper_dict = {}
+
 
     os_name = platform.system()
 
@@ -172,12 +176,26 @@ if __name__ == '__main__':
         institution.query_handler = query_handler
     for expertise in expertise_dict.values() :
         expertise.query_handler = query_handler
+    '''
+
+    HOST    = "localhost"
+    USER    = "root"
+    PASSWD  = "0715Phj!"
+    DB_USE  = "relation_db_project"
+
+    query_handler = QueryHandler(
+        host    = HOST,
+        user    = USER,
+        passwd  = PASSWD,
+        db_use  = DB_USE
+    )
 
     app = QApplication(sys.argv)
     window = SearchApp(query_handler)
     window.show()
     app.exec_()
 
+    '''
     print("writing..")
     # save final_paper_dict
     whole_paper_dict_dict = {}
@@ -190,5 +208,6 @@ if __name__ == '__main__':
     else :
         with open(WHOLE_PAPER_FILE_PATH, "w") as f :
             json.dump(whole_paper_dict_dict, f, indent=4, ensure_ascii=False)
+    '''
 
     sys.exit()

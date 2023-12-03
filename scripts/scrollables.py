@@ -3,7 +3,6 @@ import sys
 #from PyQt5.QtCore import QSize, Qt
 #from PyQt5.QtGui import QIcon, QPixmap
 
-import qtawesome as qta
 from PyQt5 import QtCore, QtGui, QtWidgets
 
 
@@ -98,9 +97,6 @@ if __name__ == '__main__':
                 }
             """)
             self.heartButton.setFixedSize(QtCore.QSize(50, 50))
-
-            self.false_icon = qta.icon('ph.paperclip-horizontal-thin', color='grey', options=[{'font-size': '40pt'}])
-            self.true_icon  = qta.icon('ph.paperclip-horizontal-thin', color='white', options=[{'font-size': '40pt'}])
 
             self.heartButton.setIcon(self.false_icon)
             self.heartButton.setIconSize(self.false_icon.actualSize(self.heartButton.size()))

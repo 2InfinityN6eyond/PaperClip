@@ -58,8 +58,7 @@ class PaperMetaViewer(QtWidgets.QLabel):
             return
 
         title = self.paper.title
-        author_list : list[Author] = self.paper.author_list
-        author_name_list = list(map(lambda author: author.name, author_list))
+        author_name_list = self.paper.authors
         conference = self.paper.conference_acronym
         abstract = self.paper.abstract_text
 

@@ -1,3 +1,5 @@
+from pprint import pprint
+
 from PyQt5 import QtWidgets, QtCore, QtGui
 
 from containers import Paper
@@ -81,9 +83,11 @@ class PaperClipSearchResultItem(QtWidgets.QWidget) :
         else :
             self.title_label.setText("NULL")
         
-        if self.paper.author_list is not None :
-            author_name_lsit = list(map(lambda author: author.name, self.paper.author_list))
-            self.author_label.setText(", ".join(author_name_lsit))
+        if self.paper.authors is not None :
+            author_text = ", ".join(self.paper.authors)
+
+
+            self.author_label.setText(author_text)
         else :
             self.author_label.setText("NULL")
         
@@ -132,12 +136,31 @@ class CenterSection(QtWidgets.QWidget) :
         most_popular_button.setStyleSheet("color: white; font-size: 18px; background-color: #505050;")
         most_popular_button.clicked.connect(self.view_most_popular_keywords)
 
+        '''
         self.menu_function_map = {
             "Title" : self.query_handler.paperByTitle,
             #"DOI"   : lambda doi : self.query_handler.paperByDOI(doi, exact=True),
             "Author" : self.query_handler.paperByAuthor,
             "Keywords" : self.query_handler.paperByKeywords,
             "Conference" : self.query_handler.paperByConference,
+        }
+        '''
+        self.menu_function_map = {
+            "Title" : lambda title : self.query_handler.queryPaperBy(
+                by = "p.title", value = title
+            ),
+            #"DOI" : lambda doi : self.query_handler.queryPaperBy(
+            #    by = "p.DOI", value = doi
+            #),
+            "Author" : lambda author : self.query_handler.queryPaperBy(
+                by = "apr.author_name", value = author
+            ),
+            "Conference" : lambda conference : self.query_handler.queryPaperBy(
+                by = "p.journal", value = conference
+            ),
+            "Keywords" : lambda keywords : self.query_handler.queryPaperBy(
+                by = "p.keywords", value = keywords
+            ),
         }
 
         # Dropdown menu with five options
@@ -177,7 +200,6 @@ class CenterSection(QtWidgets.QWidget) :
         search_result = self.menu_function_map[dropdown_menu](serach_input)
 
         print(len(search_result), "results found")
-
         item_list = []
         for paper in search_result :
             item = PaperClipSearchResultItem(self, paper)
