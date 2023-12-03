@@ -78,6 +78,8 @@ class PaperClipSearchResultItem(QtWidgets.QWidget) :
         self.conf_label.setFixedHeight(25)
 
         self.ref_count_label = QtWidgets.QLabel()
+        self.ref_count_label.setStyleSheet("color: white; font-size: 10px; border: none; margin: 0; padding: 0;")
+
         conf_ref_count_layout = QtWidgets.QHBoxLayout()
         conf_ref_count_layout.addWidget(self.conf_label)
         conf_ref_count_layout.addWidget(self.ref_count_label, alignment=QtCore.Qt.AlignRight)
