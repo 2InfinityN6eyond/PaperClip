@@ -35,7 +35,6 @@ class ScrollableList(QtWidgets.QWidget):
         self.layout.addWidget(self.scrollArea)
         self.setLayout(self.layout)
 
-
         #self.addStretch()
         self.setSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
 
@@ -66,9 +65,12 @@ class ScrollableList(QtWidgets.QWidget):
         for i in reversed(range(self.scrollAreaLayout.count())) :
             widget = self.scrollAreaLayout.itemAt(i).widget()
             if widget is not None :
-                if widget.paper.DOI == item.DOI :
-                    widget.toggleHeart()
-                    break
+                try :
+                    if widget.paper.DOI == item.DOI :
+                        widget.toggleHeart()
+                        break
+                except Exception as e :
+                    print(e)
         
 
 if __name__ == '__main__':

@@ -36,13 +36,18 @@ class ScrapViewer(QtWidgets.QFrame):
 
     def remove(self, item) :
         for i in reversed(range(self.scrollable.scrollAreaLayout.count())) :
-            if self.scrollable.scrollAreaLayout.itemAt(i).widget().paper.DOI == item.DOI :
-                self.scrollable.scrollAreaLayout.itemAt(i).widget().setParent(None)
-                break
+            try :
+                if self.scrollable.scrollAreaLayout.itemAt(i).widget().paper.DOI == item.DOI :
+                    self.scrollable.scrollAreaLayout.itemAt(i).widget().setParent(None)
+                    break
+            except Exception as e :
+                print(e)
+
 
     def itemClicked(self, item):
         self.parent.paperItemClicked(item)
 
-
     def favorite_list_changed(self, item):
+        print("removing")
+        self.remove(item)
         self.parent.favorite_list_changed(item)

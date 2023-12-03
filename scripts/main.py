@@ -81,11 +81,6 @@ class SearchApp(QWidget):
         self.setLayout(layout)
 
 
-    def view_most_popular_keywords(self):
-        print('clicked')
-        popular_papers_window = PopularPapersWindow()
-        popular_papers_window.exec_()
-
     def paperItemClicked(self, item) :
         self.paper_section.update(item)
 
@@ -110,10 +105,10 @@ if __name__ == '__main__':
     args = args.parse_args()
 
     query_handler = QueryHandler(
-        host    = 'localhost',
-        user    = 'root',
-        passwd  = 'wonhs120415',
-        db_use  = 'relation_db_project'
+        host    = args.host,
+        user    = args.user,
+        passwd  = args.passwd,
+        db_use  = args.db_use
     )
 
     app = QApplication(sys.argv)
