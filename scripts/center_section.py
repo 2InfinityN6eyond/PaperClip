@@ -71,6 +71,7 @@ class PaperClipSearchResultItem(QtWidgets.QWidget) :
         self.keyword_label = QLabel()
         self.keyword_label.setStyleSheet("color: white; font-size: 10px; border: none; margin: 0; padding: 0;")
         self.keyword_label.setFixedHeight(25)
+        self.keyword_label.setWordWrap(True)
         
         
 

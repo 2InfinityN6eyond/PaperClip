@@ -44,9 +44,9 @@ class PaperGUI(QWidget):
         paper_item_list = []
         if paper is None or self.paper.reference_list is None:
             return
-        for ref in self.paper.reference_paper_list :
+        
+        for ref in self.paper.reference_paper_list:
             if ref.title.startswith('1') == False:
-                print('ref', ref.title)
                 paper_item = PaperItem(self.scrollable, ref)
                 paper_item_list.append(paper_item)
                 print(paper_item_list, paper_item)

@@ -112,7 +112,7 @@ class QueryHandler :
                     abstract=abstract,
                     is_in_favorite  = True if is_in_favorite else False,
                     query_handler=self
-                )            
+                )
             else :
                 paper_dict[doi].reference_list.append(reference)
         return list(paper_dict.values())
