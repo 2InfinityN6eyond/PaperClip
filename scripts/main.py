@@ -102,82 +102,6 @@ class SearchApp(QWidget):
 
 if __name__ == '__main__':
 
-
-    '''
-    institution_dict = {}
-    expertise_dict = {}
-    whole_author_list = []
-    whole_paper_dict = {}
-
-
-    os_name = platform.system()
-
-    INSTITUTION_FILE_PATH = "./data/institution_dict.json"
-    if os.path.exists(INSTITUTION_FILE_PATH) :
-        if os_name == "Windows" :
-            with open(INSTITUTION_FILE_PATH, "r", encoding="utf-8") as f :
-                institution_dict_raw = json.load(f)
-        else :
-            with open(INSTITUTION_FILE_PATH, "r") as f :
-                institution_dict_raw = json.load(f)
-        for k, v in institution_dict_raw.items() :
-            institution_dict[k] = Institution(**v)
-
-    EXPERTISE_FILE_PATH = "./data/expertise_dict.json"
-    if os.path.exists(EXPERTISE_FILE_PATH) :
-        if os_name == "Windows" :
-            with open(EXPERTISE_FILE_PATH, "r", encoding="utf-8") as f :
-                expertise_dict_raw = json.load(f)
-        else :
-            with open(EXPERTISE_FILE_PATH, "r") as f :
-                expertise_dict_raw = json.load(f)
-        for k, v in expertise_dict_raw.items() :
-            expertise_dict[k] = Expertise(**v)
-
-    AUTHOR_FILE_PATH = "./data/author_list.json"
-    if os.path.exists(AUTHOR_FILE_PATH) :
-        if os_name == "Windows" :
-            with open(AUTHOR_FILE_PATH, "r", encoding="utf-8") as f :
-                author_list_raw = json.load(f)
-        else :
-            with open(AUTHOR_FILE_PATH, "r") as f :
-                author_list_raw = json.load(f)
-        for author in author_list_raw :
-            whole_author_list.append(Author(**author))
-
-    WHOLE_PAPER_FILE_PATH = "./data/processed_paper_dict.json"
-    WHOLE_PAPER_FILE_PATH = "./data/final_paper_dict.json"
-    if os.path.exists(WHOLE_PAPER_FILE_PATH) :
-        if os_name == "Windows" :
-            with open(WHOLE_PAPER_FILE_PATH, "r", encoding="utf-8") as f :
-                whole_paper_dict = json.load(f)
-        else :
-            with open(WHOLE_PAPER_FILE_PATH, "r") as f :
-                whole_paper_dict = json.load(f)
-        for k, v in whole_paper_dict.items() :
-            whole_paper_dict[k] = Paper(**v)
-
-    print(f"number of institution : {len(institution_dict)}")
-    print(f"number of expertise : {len(expertise_dict)}")
-    print(f"number of author : {len(whole_author_list)}")
-    print(f"number of paper : {len(whole_paper_dict)}")
-
-    query_handler = QueryHandler(
-        whole_paper_dict = whole_paper_dict,
-        whole_author_dict = whole_author_list,
-        whole_institution_dict = institution_dict,
-        whole_expertise_dict = expertise_dict,
-    )
-    for author in whole_author_list :
-        author.query_handler = query_handler
-    for paper in whole_paper_dict.values() :
-        paper.query_handler = query_handler
-    for institution in institution_dict.values() :
-        institution.query_handler = query_handler
-    for expertise in expertise_dict.values() :
-        expertise.query_handler = query_handler
-    '''
-
     HOST    = "localhost"
     USER    = "root"
     PASSWD  = "0715Phj!"
@@ -194,20 +118,5 @@ if __name__ == '__main__':
     window = SearchApp(query_handler)
     window.show()
     app.exec_()
-
-    '''
-    print("writing..")
-    # save final_paper_dict
-    whole_paper_dict_dict = {}
-    for k, v in whole_paper_dict.items() :
-        v.query_handler = None
-        whole_paper_dict_dict[k] = v.toDict()
-    if os_name == "Windows" :
-        with open(WHOLE_PAPER_FILE_PATH, "w", encoding="utf-8") as f :
-            json.dump(whole_paper_dict_dict, f, indent=4, ensure_ascii=False)
-    else :
-        with open(WHOLE_PAPER_FILE_PATH, "w") as f :
-            json.dump(whole_paper_dict_dict, f, indent=4, ensure_ascii=False)
-    '''
 
     sys.exit()
