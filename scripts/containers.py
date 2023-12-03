@@ -30,7 +30,7 @@ class QueryHandler :
 
     def queryPaperBy(self, by, value) :
         self.cursor.execute(f"""
-            select p.DOI, p.title,  p.referenced_num, GROUP_CONCAT(' ', apr.author_name) as author_name, p.keywords, c.`name` as conference_name, p.clip
+            select p.DOI, p.title,  p.referenced_num, GROUP_CONCAT(' ', apr.author_name) as author_name, p.keywords, c.`name` as conference_name, p.clip, p.abstract
             from paper p
             Left join author_paper_relationship apr on p.DOI = apr.DOI
             left join conference c on p.issn = c.issn
@@ -41,7 +41,7 @@ class QueryHandler :
         """)
         paper_dict = {}
         for row in self.cursor :
-            doi, title, refernced_num, author_name, keywords, conference_name, is_in_favorite = row
+            doi, title, refernced_num, author_name, keywords, conference_name, is_in_favorite, abstract = row
             if doi not in paper_dict :
                 paper_dict[doi] = Paper(
                     DOI             = doi,
@@ -57,6 +57,7 @@ class QueryHandler :
                     conference_acronym = conference_name,
                     referenced_num  = refernced_num,
                     reference_list = [],
+                    abstract=abstract,
                     is_in_favorite  = is_in_favorite,
                     query_handler=self
                 )
@@ -80,7 +81,7 @@ class QueryHandler :
         # author_paper_relationship has doi, author_name, DOI is foreign key of paper table
         # referenced_paper table has DOI, ref_doi, DOI is foreign key of paper table
         self.cursor.execute(f"""
-            select p.DOI, p.title,  p.referenced_num, GROUP_CONCAT(' ', apr.author_name) as author_name, p.keywords, c.`name` as conference_name, p.clip, rp.ref_doi
+            select p.DOI, p.title,  p.referenced_num, GROUP_CONCAT(' ', apr.author_name) as author_name, p.keywords, c.`name` as conference_name, p.clip, rp.ref_doi, p.abstract
             from paper p
             Left join author_paper_relationship apr on p.DOI = apr.DOI
             left join referenced_paper rp on p.DOI = rp.DOI
@@ -92,7 +93,7 @@ class QueryHandler :
         """)
         paper_dict = {}
         for row in self.cursor :
-            doi, title, refernced_num, author_name, keywords, conference_name, is_in_favorite, reference = row
+            doi, title, refernced_num, author_name, keywords, conference_name, is_in_favorite, reference, abstract = row
             if doi not in paper_dict :
                 paper_dict[doi] = Paper(
                     DOI             = doi,
@@ -108,6 +109,7 @@ class QueryHandler :
                     conference_acronym = conference_name,
                     referenced_num  = refernced_num,
                     reference_list = [reference],
+                    abstract=abstract,
                     is_in_favorite  = True if is_in_favorite else False,
                     query_handler=self
                 )            

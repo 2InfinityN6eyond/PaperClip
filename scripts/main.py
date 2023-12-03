@@ -16,7 +16,7 @@ from related_paper_gui import RelatedPaperGUI
 from paper_gui import PaperGUI
 from center_section import CenterSection
 from popular_papers_window import PopularPapersWindow
-
+from argparse import ArgumentParser
 import platform
 
 '''
@@ -103,16 +103,18 @@ class SearchApp(QWidget):
 
 if __name__ == '__main__':
 
-    HOST    = "localhost"
-    USER    = "root"
-    PASSWD  = "hjp"
-    DB_USE  = "relation_db_project"
+    args = ArgumentParser()
+    args.add_argument('--host', type=str, default='localhost')
+    args.add_argument('--user', type=str, default='root')
+    args.add_argument('--passwd', type=str, default='1398')
+    args.add_argument('--db_use', type=str, default='relation_db_project')
+    args = args.parse_args()
 
     query_handler = QueryHandler(
-        host    = HOST,
-        user    = USER,
-        passwd  = PASSWD,
-        db_use  = DB_USE
+        host    = args.host,
+        user    = args.user,
+        passwd  = args.passwd,
+        db_use  = args.db_use
     )
 
     app = QApplication(sys.argv)
