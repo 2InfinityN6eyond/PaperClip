@@ -16,6 +16,8 @@ from paper_gui import PaperGUI
 from center_section import CenterSection
 from popular_papers_window import PopularPapersWindow
 
+import platform
+
 '''
 def connect_to_database(db_use):
     mydb = mysql.connector.connect(
@@ -104,32 +106,50 @@ if __name__ == '__main__':
     whole_author_list = []
     whole_paper_dict = {}
 
+    os_name = platform.system()
+
     INSTITUTION_FILE_PATH = "./data/institution_dict.json"
     if os.path.exists(INSTITUTION_FILE_PATH) :
-        with open(INSTITUTION_FILE_PATH, "r") as f :
-            institution_dict_raw = json.load(f)
+        if os_name == "Windows" :
+            with open(INSTITUTION_FILE_PATH, "r", encoding="utf-8") as f :
+                institution_dict_raw = json.load(f)
+        else :
+            with open(INSTITUTION_FILE_PATH, "r") as f :
+                institution_dict_raw = json.load(f)
         for k, v in institution_dict_raw.items() :
             institution_dict[k] = Institution(**v)
 
     EXPERTISE_FILE_PATH = "./data/expertise_dict.json"
     if os.path.exists(EXPERTISE_FILE_PATH) :
-        with open(EXPERTISE_FILE_PATH, "r") as f :
-            expertise_dict_raw = json.load(f)
+        if os_name == "Windows" :
+            with open(EXPERTISE_FILE_PATH, "r", encoding="utf-8") as f :
+                expertise_dict_raw = json.load(f)
+        else :
+            with open(EXPERTISE_FILE_PATH, "r") as f :
+                expertise_dict_raw = json.load(f)
         for k, v in expertise_dict_raw.items() :
             expertise_dict[k] = Expertise(**v)
 
     AUTHOR_FILE_PATH = "./data/author_list.json"
     if os.path.exists(AUTHOR_FILE_PATH) :
-        with open(AUTHOR_FILE_PATH, "r") as f :
-            author_list_raw = json.load(f)
+        if os_name == "Windows" :
+            with open(AUTHOR_FILE_PATH, "r", encoding="utf-8") as f :
+                author_list_raw = json.load(f)
+        else :
+            with open(AUTHOR_FILE_PATH, "r") as f :
+                author_list_raw = json.load(f)
         for author in author_list_raw :
             whole_author_list.append(Author(**author))
 
     WHOLE_PAPER_FILE_PATH = "./data/processed_paper_dict.json"
     WHOLE_PAPER_FILE_PATH = "./data/final_paper_dict.json"
     if os.path.exists(WHOLE_PAPER_FILE_PATH) :
-        with open(WHOLE_PAPER_FILE_PATH, "r") as f :
-            whole_paper_dict = json.load(f)
+        if os_name == "Windows" :
+            with open(WHOLE_PAPER_FILE_PATH, "r", encoding="utf-8") as f :
+                whole_paper_dict = json.load(f)
+        else :
+            with open(WHOLE_PAPER_FILE_PATH, "r") as f :
+                whole_paper_dict = json.load(f)
         for k, v in whole_paper_dict.items() :
             whole_paper_dict[k] = Paper(**v)
 
@@ -164,7 +184,11 @@ if __name__ == '__main__':
     for k, v in whole_paper_dict.items() :
         v.query_handler = None
         whole_paper_dict_dict[k] = v.toDict()
-    with open(WHOLE_PAPER_FILE_PATH, "w") as f :
-        json.dump(whole_paper_dict_dict, f, indent=4, ensure_ascii=False)
+    if os_name == "Windows" :
+        with open(WHOLE_PAPER_FILE_PATH, "w", encoding="utf-8") as f :
+            json.dump(whole_paper_dict_dict, f, indent=4, ensure_ascii=False)
+    else :
+        with open(WHOLE_PAPER_FILE_PATH, "w") as f :
+            json.dump(whole_paper_dict_dict, f, indent=4, ensure_ascii=False)
 
     sys.exit()
