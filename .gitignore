@@ -2,3 +2,6 @@
 *.pyc
 *.sql
 ._*
+scripts/data/failed_paper_dict.json
+scripts/data/processed_paper_dict.json
+scripts/data/processed_paper_dict.json
