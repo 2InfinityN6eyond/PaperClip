@@ -41,6 +41,11 @@ class ScrollableList(QtWidgets.QWidget):
     def update(self, item_list) :
         if item_list is None:
             return
+        # empty the scrollarealayout
+        for i in reversed(range(self.scrollAreaLayout.count())):
+            if isinstance(self.scrollAreaLayout.itemAt(i), QtWidgets.QWidgetItem):
+                self.scrollAreaLayout.itemAt(i).widget().setParent(None)
+            #self.scrollAreaLayout.itemAt(i).setParent(None)
         for item in item_list :
             self.scrollAreaLayout.addWidget(item)
 

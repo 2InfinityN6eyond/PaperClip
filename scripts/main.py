@@ -38,11 +38,11 @@ class SearchApp(QWidget):
             query_handler
         ) :
         super().__init__()
+        self.setStyleSheet("background-color: #303030;")
 
         self.query_handler = query_handler
 
         self.popular_papers_window = None
-        self.setStyleSheet("background-color: #303030;")
 
         layout = QVBoxLayout()
         layout.setContentsMargins(0, 0, 0, 0)

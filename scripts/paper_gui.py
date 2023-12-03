@@ -43,7 +43,6 @@ class PaperGUI(QWidget):
         if self.paper.reference_list is None:
             return
         for ref in self.paper.reference_paper_list:
-
             paper_item = PaperItem(self.scrollable, ref)
             paper_item_list.append(paper_item)
 
@@ -52,7 +51,6 @@ class PaperGUI(QWidget):
 
     def itemClicked(self, item) :
         print("item clicked")
-
         related_paper_gui = RelatedPaperGUI(item)
         related_paper_gui.exec_()
 

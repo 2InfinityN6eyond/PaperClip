@@ -16,16 +16,26 @@ class QueryHandler :
         self.whole_expertise_dict = whole_expertise_dict
 
     def paperByDOI(self, doi) :
-        if doi not in self.whole_paper_dict :
-            return Paper(DOI=doi, title=doi, query_handler=self)
+
+        for paper in self.whole_paper_dict.values() :
+            if paper.DOI == doi :
+                print("paperByDOI", paper.DOI)
+                return True, paper
+        paper = Paper(DOI=doi, title=doi, query_handler=self)
+        return False, paper
+    
+ 
+        return
+
+        if doi not in list(map(lambda x: x.DOI, self.whole_paper_dict.values())) :
+            return False, Paper(DOI=doi, title=doi, query_handler=self)
         
         paper = self.whole_paper_dict[doi]
         if paper.abstract is None :
             if paper.google_schorlar_metadata is not None and "설명" in paper.google_schorlar_metadata :
                 paper.abstract = paper.google_schorlar_metadata["설명"]
         
-        
-        return self.whole_paper_dict[doi]
+        return True, self.whole_paper_dict[doi]
     
 
     
@@ -152,6 +162,24 @@ class Paper :
 
     @property
     def reference_paper_list(self) :
+        pre_existed_paper_list = []
+        new_paper_list = []
+
+        for doi in self.reference_list :
+            is_existed, paper = self.query_handler.paperByDOI(doi)
+            if is_existed :
+                pre_existed_paper_list.append(paper)
+            else :
+                new_paper_list.append(paper)
+        print(self.title, len(pre_existed_paper_list), len(new_paper_list))
+        print(
+            list(map(lambda x: x.title, pre_existed_paper_list)) + \
+            list(map(lambda x: x.title, new_paper_list))
+        )
+
+
+        return pre_existed_paper_list + new_paper_list
+
         return list(map(lambda x: self.query_handler.paperByDOI(x), self.reference_list))
     
     @property

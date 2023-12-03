@@ -25,11 +25,9 @@ class RelatedPaperGUI(QtWidgets.QDialog):
         self.init_ui()
 
     def init_ui(self):
-       
-        pprint(self.paper)
-
 
         self.paper_meta_viewer = PaperMetaViewer(self.paper)
+        self.paper_meta_viewer.show()
 
         # Related Work 레이블
         related_work_label = QtWidgets.QLabel("Related Work")
@@ -44,6 +42,9 @@ class RelatedPaperGUI(QtWidgets.QDialog):
 
         self.update(self.paper)
 
+
+
+
     def update(self, paper):
         self.paper = paper
         self.paper_meta_viewer.update(self.paper)
@@ -51,12 +52,12 @@ class RelatedPaperGUI(QtWidgets.QDialog):
         paper_item_list = []
         if self.paper.reference_list is None:
             return
+        
         for ref in self.paper.reference_paper_list:
-
-            paper_item = PaperItem(self.scrollable, ref)
+            paper_item = PaperItem(self.related_works_scrollable, ref)
             paper_item_list.append(paper_item)
 
-        self.related_works_scrollable.update(self.paper.reference_list)
+        self.related_works_scrollable.update(paper_item_list)
 
 
     def itemClicked(self, item) :
