@@ -12,9 +12,13 @@ from paper_item import PaperItem
 
 
 class PaperGUI(QWidget):
-    def __init__(self, paper):
+    def __init__(
+        self,
+        parent,
+        paper
+    ):
         super().__init__()
-
+        self.parent = parent
         self.paper = paper
         self.init_ui()
 
@@ -51,7 +55,7 @@ class PaperGUI(QWidget):
 
     def itemClicked(self, item) :
         print("item clicked")
-        related_paper_gui = RelatedPaperGUI(item)
+        related_paper_gui = RelatedPaperGUI(self, item)
         related_paper_gui.exec_()
 
 
@@ -84,3 +88,9 @@ class PaperGUI(QWidget):
 
     def print_author(self, author):
         print(f"Clicked Author: {author}")
+
+    def favorite_list_changed(self, item):
+        self.parent.favorite_list_changed(item)
+
+    def favorite_list_changed_from_outside(self, item):
+        self.scrollable.favorite_list_changed_from_outside(item)

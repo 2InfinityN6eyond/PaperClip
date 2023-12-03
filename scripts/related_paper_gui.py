@@ -16,11 +16,12 @@ from paper_item import PaperItem
 
 class RelatedPaperGUI(QtWidgets.QDialog):
     def __init__(
-        self,        
+        self,
+        parent,
         paper
     ):
         super().__init__()
-
+        self.parent = parent
         self.paper = paper
         self.init_ui()
 
@@ -96,3 +97,6 @@ class RelatedPaperGUI(QtWidgets.QDialog):
 
     def print_author(self, author):
         print(f"Clicked Author: {author}")
+
+    def favorite_list_changed(self, item):
+        self.parent.favorite_list_changed(item)

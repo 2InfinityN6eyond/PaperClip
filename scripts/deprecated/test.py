@@ -55,7 +55,6 @@ class ListItem(QWidget):
         else:
             self.heartButton.setIcon(self.false_icon)
 
-
 class SrollableList(QWidget):
     def __init__(self):
         super().__init__()
@@ -75,7 +74,6 @@ class SrollableList(QWidget):
     def update(self, item_list) :
         for item in item_list :
             self.scrollAreaLayout.addWidget(item)
-
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)

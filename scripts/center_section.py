@@ -3,17 +3,19 @@ from PyQt5 import QtWidgets, QtCore, QtGui
 from containers import Paper
 from scrollables import ScrollableList
 from paper_item import PaperItem
+from scrollable_label import ScrollableLabel
 
 class PaperClipSearchResultItem(QtWidgets.QWidget) :
     def __init__(
         self,
         parent,
-        paper: Paper
+        paper: Paper,
+        true_icon = "\U0001F4CE",
+        false_icon = "\U0001F4C1"
     ) :
 
         super().__init__(parent=parent)
         self.mousePressEvent = self.itemClicked
-
 
         self.parent = parent
         self.paper = paper
@@ -27,30 +29,37 @@ class PaperClipSearchResultItem(QtWidgets.QWidget) :
         ) :
             self.paper.title = self.paper.DOI
 
-        self.true_icon_str = "\U00002713"
-        self.false_icon_str = "\U0000274C"
+        self.true_icon_str  = true_icon
+        self.false_icon_str = false_icon
 
         self.initUI()
         self.update()
 
     def initUI(self) :
-        self.title_label = QtWidgets.QLabel()
+        #self.title_label = QtWidgets.QLabel()
+        self.title_label = ScrollableLabel()
         self.title_label.setStyleSheet("color: white; font-size: 16px;")
 
-        self.scrap_button = QtWidgets.QPushButton(self.true_icon_str) #folder
+        self.scrap_button = QtWidgets.QPushButton(
+            self.true_icon_str if self.paper.is_in_favorite else self.false_icon_str,
+        ) #folder
+        self.scrap_button.clicked.connect(self.favorite_list_changed)
         self.scrap_button.setStyleSheet("border: none; color: white;")
 
         title_button_layout = QtWidgets.QHBoxLayout()
         title_button_layout.addWidget(self.title_label)
         title_button_layout.addWidget(self.scrap_button, alignment=QtCore.Qt.AlignRight)
 
-        self.author_label = QtWidgets.QLabel()
+        #self.author_label = QtWidgets.QLabel()
+        self.author_label = ScrollableLabel()
         self.author_label.setStyleSheet("color: white; font-size: 12px;")
         
-        self.keyward_label = QtWidgets.QLabel()
-        self.keyward_label.setStyleSheet("color: white; font-size: 10px;")
+        #self.keyward_label = QtWidgets.QLabel()
+        self.keyword_label = ScrollableLabel()
+        self.keyword_label.setStyleSheet("color: white; font-size: 10px;")
 
-        self.conf_label = QtWidgets.QLabel()
+        #self.conf_label = QtWidgets.QLabel()
+        self.conf_label = ScrollableLabel()
         self.ref_count_label = QtWidgets.QLabel()
 
         conf_ref_count_layout = QtWidgets.QHBoxLayout()
@@ -60,13 +69,13 @@ class PaperClipSearchResultItem(QtWidgets.QWidget) :
         paper_layout = QtWidgets.QVBoxLayout(self)
         paper_layout.addLayout(title_button_layout)
         paper_layout.addWidget(self.author_label)
-        paper_layout.addWidget(self.keyward_label)
+        paper_layout.addWidget(self.keyword_label)
         paper_layout.addLayout(conf_ref_count_layout)
 
     def update(self) :
         if self.paper is None :
             return
-        
+
         if self.paper.title is not None :
             self.title_label.setText(self.paper.title)
         else :
@@ -94,8 +103,20 @@ class PaperClipSearchResultItem(QtWidgets.QWidget) :
         print("item clicked")
         self.parent.itemClicked(self.paper)
 
-class CenterSection(QtWidgets.QWidget) :
+    def toggleHeart(self) :
+        self.scrap_button.setText(
+            self.true_icon_str if self.paper.is_in_favorite else self.false_icon_str
+        )
 
+    def favorite_list_changed(self) :
+        if self.paper.authors is None :
+            return
+        self.paper.toggleFavorite()
+        self.toggleHeart()
+        self.parent.favorite_list_changed(self.paper)
+
+
+class CenterSection(QtWidgets.QWidget) :
     def __init__(
         self,
         parent,
@@ -115,7 +136,7 @@ class CenterSection(QtWidgets.QWidget) :
             "Title" : self.query_handler.paperByTitle,
             #"DOI"   : lambda doi : self.query_handler.paperByDOI(doi, exact=True),
             "Author" : self.query_handler.paperByAuthor,
-            "Keywords" : self.query_handler.paperByKeywards,
+            "Keywords" : self.query_handler.paperByKeywords,
             "Conference" : self.query_handler.paperByConference,
         }
 
@@ -159,12 +180,15 @@ class CenterSection(QtWidgets.QWidget) :
 
         item_list = []
         for paper in search_result :
-            print(type(paper))
             item = PaperClipSearchResultItem(self, paper)
-            #item = PaperItem(self, paper)
             item_list.append(item)
         self.scrollable.update(item_list)
 
-
     def itemClicked(self, paper) :
         self.parent.paperItemClicked(paper)
+
+    def favorite_list_changed(self, item) :
+        self.parent.favorite_list_changed(item)
+
+    def favorite_list_changed_from_outside(self, item) :
+        self.scrollable.favorite_list_changed_from_outside(item)

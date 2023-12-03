@@ -50,9 +50,20 @@ class ScrollableList(QtWidgets.QWidget):
             self.scrollAreaLayout.addWidget(item)
 
     def itemClicked(self, item):
-        print("item clicked")
         self.parent.itemClicked(item)
 
+    def favorite_list_changed(self, item):
+        self.parent.favorite_list_changed(item)
+
+    def favorite_list_changed_from_outside(self, item) :
+
+        for i in reversed(range(self.scrollAreaLayout.count())) :
+            widget = self.scrollAreaLayout.itemAt(i).widget()
+            if widget is not None :
+                if widget.paper.DOI == item.DOI :
+                    widget.toggleHeart()
+                    break
+        
 
 if __name__ == '__main__':
     app = QtWidgets.QApplication(sys.argv)
@@ -102,7 +113,6 @@ if __name__ == '__main__':
         def toggleHeart(self):
             self.is_in_favorite = not self.is_in_favorite
             if self.is_in_favorite:
-                print("wtf")
                 self.heartButton.setIcon(self.true_icon)
             else:
                 self.heartButton.setIcon(self.false_icon)

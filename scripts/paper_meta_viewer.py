@@ -7,8 +7,7 @@ from PyQt5.QtGui import QFont
 #import mysql.connector
 
 from containers import Paper, Author
-from scrollables import ScrollableList
-from clickable_label import ClickableLabel
+from scrollable_label import ScrollableLabel
 
 class PaperMetaViewer(QtWidgets.QLabel):
     def __init__(self, paper: Paper):
@@ -19,11 +18,13 @@ class PaperMetaViewer(QtWidgets.QLabel):
     def initUI(self):
 
         # Paper Name 레이블
-        self.paper_name_label = QtWidgets.QLabel()
+        #self.paper_name_label = QtWidgets.QLabel()
+        self.paper_name_label = ScrollableLabel()
         self.paper_name_label.setStyleSheet("color: white; font-size: 18px; border-bottom: 1px solid white; font-weight: bold;")
 
         # Author와 Keyword 레이블
-        self.author_label = QtWidgets.QLabel() #(", ".join(author_name_list))
+        #self.author_label = QtWidgets.QLabel() #(", ".join(author_name_list))
+        self.author_label = ScrollableLabel()
         self.author_label.setStyleSheet("color: white; font-size: 12px;")
         #keyword_label = QtWidgets.QLabel(f"Keywords: {self.paper_info['Keywords']}")
         #keyword_label.setStyleSheet("color: white; font-size: 12px;")

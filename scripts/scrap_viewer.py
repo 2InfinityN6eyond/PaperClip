@@ -6,7 +6,6 @@ import qtawesome as qta
 from scrollables import ScrollableList
 from paper_item import PaperItem
 
-
 class ScrapViewer(QtWidgets.QFrame):
     def __init__(
         self,
@@ -27,11 +26,24 @@ class ScrapViewer(QtWidgets.QFrame):
         layout.addWidget(self.scrollable)
         self.setLayout(layout)
         
-
     def update(self, item_list) :
         for item in item_list :
             paper_item = PaperItem(self, item)
             self.scrollable.scrollAreaLayout.addWidget(paper_item)
 
+    def append(self, item) :
+        paper_item = PaperItem(self, item)
+        self.scrollable.scrollAreaLayout.addWidget(paper_item)
+
+    def remove(self, item) :
+        for i in reversed(range(self.scrollable.scrollAreaLayout.count())) :
+            if self.scrollable.scrollAreaLayout.itemAt(i).widget().paper.DOI == item.DOI :
+                self.scrollable.scrollAreaLayout.itemAt(i).widget().setParent(None)
+                break
+
     def itemClicked(self, item):
         self.parent.paperItemClicked(item)
+
+
+    def favorite_list_changed(self, item):
+        self.parent.favorite_list_changed(item)
