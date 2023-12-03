@@ -109,8 +109,6 @@ class PaperClipSearchResultItem(QtWidgets.QWidget) :
         
         if self.paper.authors is not None :
             author_text = ", ".join(self.paper.authors)
-
-
             self.author_label.setText(author_text)
         else :
             self.author_label.setText("NULL")
@@ -118,7 +116,6 @@ class PaperClipSearchResultItem(QtWidgets.QWidget) :
         if self.paper.keywords is not None :
             keyword_text = ", ".join(self.paper.keywords)
             self.keyword_label.setText(keyword_text)
-            
             
         if self.paper.conference_acronym is not None :
             self.conf_label.setText(self.paper.conference_acronym)
@@ -187,6 +184,9 @@ class CenterSection(QtWidgets.QWidget) :
             ),
             "Keywords" : lambda keywords : self.query_handler.queryPaperBy(
                 by = "p.keywords", value = keywords
+            ),
+            "Referenced_num" : lambda reference_count : self.query_handler.queryPaperBy(
+                by = "p.referenced_num", value = reference_count
             ),
         }
 
