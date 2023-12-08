@@ -95,7 +95,7 @@ class CenterSection(QtWidgets.QWidget) :
         )
         self.popular_papers_window.exec_()
 
-    # Update paper_section's item
+    # Update paper_section's item when item clicked
     def itemClicked(self, paper) :
         self.parent.paperItemClicked(paper)
 
