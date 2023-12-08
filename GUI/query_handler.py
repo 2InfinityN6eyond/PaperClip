@@ -116,6 +116,9 @@ class QueryHandler :
             paper.reference_list.append(row[0])
 
     def getRelatedPaperList(self, paper) :
+        '''
+        
+        '''
 
         self.fillReferenceList(paper)
 
@@ -160,7 +163,9 @@ class QueryHandler :
         return list(paper_dict.values())
 
     def updatePaper(self, paper) :
-        # set clip column of paper table to paper.is_in_favorite
+        '''
+        set clip column of paper table to paper.is_in_favorite
+        '''
         self.cursor.execute(f"""
             UPDATE paper
             SET clip = {paper.is_in_favorite}
@@ -170,6 +175,9 @@ class QueryHandler :
         self.mydb.commit()
 
     def fetchTopKeywords(self, n = 50) :
+        '''
+        get most used keyword list
+        '''
         # create a temporary table to split all the keywords by the comma and store it
         self.cursor.execute("DROP TEMPORARY TABLE IF EXISTS keyword_table;")
         self.cursor.execute("""

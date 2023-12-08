@@ -5,7 +5,7 @@
 ## Usage
 
 ```
-# configure database 
+# configure database first
 
 # set environment variable
 export DB_TO_USE="DB_NAME"
