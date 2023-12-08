@@ -1,8 +1,6 @@
-from pprint import pprint
+from PyQt5 import QtWidgets
 
-from PyQt5 import QtCore, QtGui, QtWidgets
-
-from scrollables import ScrollableList
+from scrollable_list import ScrollableList
 from paper_item import PaperItem
 
 class ScrapViewer(QtWidgets.QFrame):

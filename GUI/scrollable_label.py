@@ -1,8 +1,4 @@
-import sys
-from PyQt5.QtWidgets import QApplication, QLabel, QScrollArea, QVBoxLayout, QWidget
-from PyQt5 import QtWidgets, QtCore, QtGui
-
-
+from PyQt5 import QtWidgets, QtCore
 
 class ScrollableLabel(QtWidgets.QWidget):
     def __init__(self, text=None, style_sheet = None):
@@ -13,13 +9,13 @@ class ScrollableLabel(QtWidgets.QWidget):
     def initUI(self, text):
         
         # Create a QLabel with long text
-        self.label = QLabel(text, self)
+        self.label = QtWidgets.QLabel(text, self)
         if self.style_sheet :
             self.label.setStyleSheet(self.style_sheet)
         self.label.setWordWrap(False)  # Disable word wrap
 
         # Create a QScrollArea
-        self.scrollArea = QScrollArea(self)
+        self.scrollArea = QtWidgets.QScrollArea(self)
         self.scrollArea.setSizePolicy(
             QtWidgets.QSizePolicy.Policy.Minimum,
             QtWidgets.QSizePolicy.Policy.Minimum
@@ -42,7 +38,8 @@ class ScrollableLabel(QtWidgets.QWidget):
         self.label.setStyleSheet(style_sheet)
 
 if __name__ == '__main__':
-    app = QApplication(sys.argv)
+    import sys
+    app = QtWidgets.QApplication(sys.argv)
     long_text = "This is a very long text that will not fit in a regular label, so it needs to be scrollable."
     demo = ScrollableLabel(long_text)
     demo.show()

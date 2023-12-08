@@ -1,24 +1,9 @@
-from pprint import pprint
+from PyQt5 import QtWidgets
 
-import os
-import sys
-import json
-from PyQt5.QtWidgets import *
-from PyQt5.QtCore import QRect, Qt, pyqtSignal
-from PyQt5.QtGui import QFont
-from PyQt5.QtGui import *
-from PyQt5 import QtWidgets, QtCore, QtGui
-#import mysql.connector
-
-
-from containers import Paper, Author, Institution, Expertise, QueryHandler
-from clickable_label import ClickableLabel
+# local import 
 from scrap_viewer import ScrapViewer
-from related_paper_gui import RelatedPaperGUI
 from paper_gui import PaperGUI
 from center_section import CenterSection
-from argparse import ArgumentParser
-import platform
 
 class MainWindow(QtWidgets.QMainWindow):
     def __init__(
@@ -33,7 +18,7 @@ class MainWindow(QtWidgets.QMainWindow):
         self.query_handler = query_handler
         self.popular_papers_window = None
 
-        splitter = QSplitter(self)
+        splitter = QtWidgets.QSplitter(self)
         splitter.setStyleSheet("background-color: #303030;")
         splitter.setStyleSheet("QSplitter::handle{background: white;}")
         splitter.setHandleWidth(1)
@@ -44,12 +29,10 @@ class MainWindow(QtWidgets.QMainWindow):
                 by="p.clip", value="1"
             )
         )
-
         self.center_section = CenterSection(
             parent          = self,
             query_handler   = self.query_handler
         )
-        
         self.paper_section = PaperGUI(
             parent = self,
             paper  = None
@@ -60,10 +43,10 @@ class MainWindow(QtWidgets.QMainWindow):
         splitter.addWidget(self.center_section)
         splitter.addWidget(self.paper_section)
 
-        layout = QVBoxLayout()
+        layout = QtWidgets.QVBoxLayout()
         layout.setContentsMargins(0, 0, 0, 0)
         layout.addWidget(splitter)
-        self.central_window = QWidget()
+        self.central_window = QtWidgets.QWidget()
         self.central_window.setLayout(layout)
         self.setCentralWidget(self.central_window)
 

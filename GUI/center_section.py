@@ -1,16 +1,8 @@
-from pprint import pprint
+from PyQt5 import QtWidgets
 
-from PyQt5 import QtWidgets, QtCore, QtGui
-from PyQt5.QtWidgets import *
-from PyQt5.QtCore import Qt
-from PyQt5.QtGui import *
-
-from containers import Paper
-from scrollables import ScrollableList
-from paper_item import PaperItem
-from scrollable_label import ScrollableLabel
+# local import
+from scrollable_list import ScrollableList
 from popular_papers_window import PopularPapersWindow
-
 from paper_clip_search_result_item import PaperClipSearchResultItem
 
 
@@ -23,8 +15,6 @@ class CenterSection(QtWidgets.QWidget) :
         super().__init__()
         self.parent = parent
         self.query_handler = query_handler
-        # Variable to store the selected item
-        self.order_by = None
         
         self.popular_papers_window = None
 
@@ -32,22 +22,10 @@ class CenterSection(QtWidgets.QWidget) :
         most_popular_button.setStyleSheet("color: white; font-size: 18px; background-color: #505050;")
         most_popular_button.clicked.connect(self.view_most_popular_keywords)
 
-        '''
-        self.menu_function_map = {
-            "Title" : self.query_handler.paperByTitle,
-            #"DOI"   : lambda doi : self.query_handler.paperByDOI(doi, exact=True),
-            "Author" : self.query_handler.paperByAuthor,
-            "Keywords" : self.query_handler.paperByKeywords,
-            "Conference" : self.query_handler.paperByConference,
-        }
-        '''
         self.menu_function_map = {
             "Title" : lambda title : self.query_handler.queryPaperBy(
                 by = "p.title", value = title
             ),
-            #"DOI" : lambda doi : self.query_handler.queryPaperBy(
-            #    by = "p.DOI", value = doi
-            #),
             "Author" : lambda author : self.query_handler.queryPaperBy(
                 by = "apr.author_name", value = author
             ),
@@ -58,12 +36,9 @@ class CenterSection(QtWidgets.QWidget) :
                 by = "p.keywords", value = keywords
             ),
         }
-
-        # Dropdown menu with five options
         self.dropdown_menu = QtWidgets.QComboBox(self)
         self.dropdown_menu.addItems(list(self.menu_function_map.keys()))
         self.dropdown_menu.setStyleSheet("color: white; background-color: #303030;")
-        #self.dropdown_menu.currentIndexChanged.connect(self.update_order_by)
 
         self.search_input = QtWidgets.QLineEdit(self)
         self.search_input.setStyleSheet("color: white; background-color: #303030;")
@@ -110,11 +85,6 @@ class CenterSection(QtWidgets.QWidget) :
         self.parent.paperItemClicked(paper)
 
     def favorite_list_changed(self, item) :
-
-        print("------------------------")
-        print("at center section")
-        print("------------------------")
-
         self.parent.favorite_list_changed(item)
 
     def favorite_list_changed_from_outside(self, item) :

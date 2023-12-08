@@ -1,13 +1,15 @@
-from PyQt5.QtWidgets import *
 
-from scrollables import ScrollableList
+from PyQt5 import QtWidgets
+
+# local import
+from scrollable_list import ScrollableList
 from paper_meta_viewer import PaperMetaViewer
 from related_paper_gui import RelatedPaperGUI
  
 
 from paper_item import PaperItem
 
-class PaperGUI(QWidget):
+class PaperGUI(QtWidgets.QWidget):
     def __init__(
         self,
         parent,
@@ -23,14 +25,12 @@ class PaperGUI(QWidget):
         self.paper_meta_viewer = PaperMetaViewer(self.paper)
 
         # Related Work 레이블
-        related_work_label = QLabel("Related Work")
+        related_work_label = QtWidgets.QLabel("Related Work")
         related_work_label.setStyleSheet("color: white;font-size: 18px; border-bottom: 1px solid white; font-weight: bold;")
 
         self.scrollable = ScrollableList(self)
-        # self.scrollable = QScrollBar(self)
-        # self.scrollable.setOrientation(Qt.Vertical)
-
-        v_layout = QVBoxLayout(self)
+        
+        v_layout = QtWidgets.QVBoxLayout(self)
         v_layout.addWidget(self.paper_meta_viewer)
         v_layout.addWidget(related_work_label)
         v_layout.addWidget(self.scrollable)

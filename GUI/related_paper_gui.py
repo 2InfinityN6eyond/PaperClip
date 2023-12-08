@@ -1,16 +1,7 @@
-from pprint import pprint
+from PyQt5 import QtWidgets 
 
-from PyQt5 import QtCore, QtGui, QtWidgets 
-
-import sys
-from PyQt5.QtWidgets import *
-from PyQt5.QtCore import Qt, pyqtSignal
-from PyQt5.QtGui import QFont
-#import mysql.connector
-
-from containers import Paper
-from scrollables import ScrollableList
-from clickable_label import ClickableLabel
+# local import
+from scrollable_list import ScrollableList
 from paper_meta_viewer import PaperMetaViewer
 from paper_item import PaperItem
 
