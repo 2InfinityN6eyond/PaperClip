@@ -3,9 +3,6 @@ from pprint import pprint
 
 from PyQt5 import QtWidgets, QtCore, QtGui
 
-from containers import Paper, Author
-from scrollable_label import ScrollableLabel
-from PyQt5.QtWidgets import *
 
 class PaperItem(QtWidgets.QWidget):
     def __init__(
@@ -23,10 +20,7 @@ class PaperItem(QtWidgets.QWidget):
         self.parent = parent
         self.true_icon_str = true_icon_str
         self.false_icon_str = false_icon_str
-        #self.true_icon = QtGui.QIcon(true_icon_str)
-        #self.false_icon = QtGui.QIcon(false_icon_str)
         self.paper = paper
-        #pprint(paper)
         title = paper.title
         if not title:
             if paper.DOI is not None:
@@ -34,8 +28,7 @@ class PaperItem(QtWidgets.QWidget):
             else :
                 title = "Null"
 
-        #self.title_label = QtWidgets.QLabel(title)
-        self.title_label = QLabel(title)
+        self.title_label = QtWidgets.QLabel(title)
         self.title_label.setStyleSheet("""
             QLabel {
                 color: white;
@@ -44,19 +37,6 @@ class PaperItem(QtWidgets.QWidget):
             }
         """)
         self.title_label.setWordWrap(True)
-        
-        '''
-        author_name_list = []
-        if paper.author_list is not None:
-            author_name_list = list(map(lambda author: author.name, paper.author_list))
-
-        #self.author_label = QtWidgets.QLabel(", ".join(author_name_list))
-        author_name_list = "NULL" if not author_name_list else  ", ".join(author_name_list) 
-        self.author_label = ScrollableLabel(author_name_list)
-        self.author_label.mousePressEvent = self.authorClicked
-        '''
-
-        
 
         self.heartButton = QtWidgets.QPushButton(
             self.true_icon_str if paper.is_in_favorite else self.false_icon_str
@@ -68,17 +48,6 @@ class PaperItem(QtWidgets.QWidget):
                 border-style: none;
             }
         """) 
-        '''
-        self.false_icon = qta.icon('ph.paperclip-horizontal-thin', color='grey', options=[{'font-size': '40pt'}])
-        self.true_icon  = qta.icon('ph.paperclip-horizontal-thin', color='white', options=[{'font-size': '40pt'}])
-
-
-        if paper.is_in_favorite:
-            self.heartButton.setIcon(self.true_icon)
-        else:
-            self.heartButton.setIcon(self.false_icon)
-        self.heartButton.setIconSize(self.false_icon.actualSize(self.heartButton.size()))
-        '''
         self.heartButton.clicked.connect(self.favorite_list_changed)
 
         h_layout = QtWidgets.QHBoxLayout()
@@ -89,7 +58,6 @@ class PaperItem(QtWidgets.QWidget):
 
         v_layout = QtWidgets.QVBoxLayout()
         v_layout.addWidget(title_and_button_widget)
-        #v_layout.addWidget(self.author_label)
 
         self.setLayout(v_layout)
 
