@@ -8,7 +8,9 @@ from main_window import MainWindow
 
 BACKGROUND_COLOR = "#303030"
 
+# Code Execution
 if __name__ == '__main__':
+    # add_argument when execute main.py
     args = ArgumentParser()
     args.add_argument('--host', type=str, default='localhost', help='database host')
     args.add_argument('--user', type=str, default='root', help='database user')
