@@ -49,3 +49,6 @@
     
 - issn_crawler.ipynb
     - read processed_paper_dict.json file saved by fetch_from_crossref.ipynb, get set of issn, then crawl issn portal to get information of corresponding conference/journal
+
+- preprocessing.ipynb
+    - read the json files saved from the crawler, and preprocess the data by combining information in each website, refining the data, and dropping the null / duplicate datas.
