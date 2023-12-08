@@ -5,6 +5,12 @@
 ```
 GUI
 ├── README.md
+├── scrollable_list.py
+│       ScrollableList
+│           GUI element scrollable list.
+│           Can contains Item class objects
+│               example Item classes : PaperItem, PaperClipSearchResultItme
+│           When Item inside it 
 ├── center_section.py
 │       CenterSection
 ├── containers.py
@@ -21,16 +27,17 @@ GUI
 ├── paper_item.py
 │       PaperItem
 ├── paper_meta_viewer.py
-│       
+│       PaperMetaViewer
 ├── popular_papers_window.py
-│       
+│       PopularPapersWindow
 ├── query_handler.py
 │       
 ├── related_paper_gui.py
-│       
+│       RelatedPaperGUI
 ├── scrap_viewer.py
-│       
-└── scrollable_list.py
+│       ScrapViewer
+└── 
+        ScrollableList
 
 ```
 
