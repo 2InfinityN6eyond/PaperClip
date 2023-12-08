@@ -2,6 +2,7 @@
 
 ## General Architecture
 
+```
 ├── center_section.py
 ├── containers.py
 ├── main.py
@@ -15,6 +16,7 @@
 ├── related_paper_gui.py
 ├── scrap_viewer.py
 └── scrollable_list.py
+```
 
 
 ## Bridging the gap between database and GUI
