@@ -1,0 +1,3786 @@
+{
+    "Computer Vision": {
+        "name": "Computer Vision",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:computer_vision"
+    },
+    "computational materials science": {
+        "name": "computational materials science",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:computational_materials_science"
+    },
+    "computational nano-mechanics": {
+        "name": "computational nano-mechanics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:computational_nano_mechanics"
+    },
+    "molecular dynamics": {
+        "name": "molecular dynamics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:molecular_dynamics"
+    },
+    "density functional theory": {
+        "name": "density functional theory",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:density_functional_theory"
+    },
+    "li ion batteries": {
+        "name": "li ion batteries",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:li_ion_batteries"
+    },
+    "Machine Learning": {
+        "name": "Machine Learning",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:machine_learning"
+    },
+    "AI": {
+        "name": "AI",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:ai"
+    },
+    "machine learning": {
+        "name": "machine learning",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:machine_learning"
+    },
+    "computer vision": {
+        "name": "computer vision",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:computer_vision"
+    },
+    "robotics": {
+        "name": "robotics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:robotics"
+    },
+    "image compression": {
+        "name": "image compression",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:image_compression"
+    },
+    "Deep Learning": {
+        "name": "Deep Learning",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:deep_learning"
+    },
+    "Autonomous Driving": {
+        "name": "Autonomous Driving",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:autonomous_driving"
+    },
+    "Neural Network Architectures": {
+        "name": "Neural Network Architectures",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:neural_network_architectures"
+    },
+    "Efficient Deep Learning": {
+        "name": "Efficient Deep Learning",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:efficient_deep_learning"
+    },
+    "Biomaterials": {
+        "name": "Biomaterials",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:biomaterials"
+    },
+    "Surface modification of metals": {
+        "name": "Surface modification of metals",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:surface_modification_of_metals"
+    },
+    "Cardiovascular disease": {
+        "name": "Cardiovascular disease",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:cardiovascular_disease"
+    },
+    "Biometrics": {
+        "name": "Biometrics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:biometrics"
+    },
+    "Computer vision": {
+        "name": "Computer vision",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:computer_vision"
+    },
+    "Pattern recognition": {
+        "name": "Pattern recognition",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:pattern_recognition"
+    },
+    "Machine learning": {
+        "name": "Machine learning",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:machine_learning"
+    },
+    "Image processing": {
+        "name": "Image processing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:image_processing"
+    },
+    "Artificial Intelligence": {
+        "name": "Artificial Intelligence",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:artificial_intelligence"
+    },
+    "Neuroscience": {
+        "name": "Neuroscience",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:neuroscience"
+    },
+    "artificial intelligence": {
+        "name": "artificial intelligence",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:artificial_intelligence"
+    },
+    "computer graphics": {
+        "name": "computer graphics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:computer_graphics"
+    },
+    "autonomous cars": {
+        "name": "autonomous cars",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:autonomous_cars"
+    },
+    "cultural heritage": {
+        "name": "cultural heritage",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:cultural_heritage"
+    },
+    "deep learning": {
+        "name": "deep learning",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:deep_learning"
+    },
+    "image processing": {
+        "name": "image processing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:image_processing"
+    },
+    "medical imaging": {
+        "name": "medical imaging",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:medical_imaging"
+    },
+    "and graphics": {
+        "name": "and graphics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:and_graphics"
+    },
+    "natural language processing": {
+        "name": "natural language processing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:natural_language_processing"
+    },
+    "Image Processing": {
+        "name": "Image Processing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:image_processing"
+    },
+    "Pattern Recognition": {
+        "name": "Pattern Recognition",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:pattern_recognition"
+    },
+    "Multimedia": {
+        "name": "Multimedia",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:multimedia"
+    },
+    "Robotics": {
+        "name": "Robotics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:robotics"
+    },
+    "Speech Recognition": {
+        "name": "Speech Recognition",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:speech_recognition"
+    },
+    "Partial Differential Equations": {
+        "name": "Partial Differential Equations",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:partial_differential_equations"
+    },
+    "Medical Imaging": {
+        "name": "Medical Imaging",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:medical_imaging"
+    },
+    "geometric computing": {
+        "name": "geometric computing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:geometric_computing"
+    },
+    "computational photography": {
+        "name": "computational photography",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:computational_photography"
+    },
+    "vision": {
+        "name": "vision",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:vision"
+    },
+    "Integrated circuits": {
+        "name": "Integrated circuits",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:integrated_circuits"
+    },
+    "Analog and Mixed Signal": {
+        "name": "Analog and Mixed Signal",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:analog_and_mixed_signal"
+    },
+    "RF circuits": {
+        "name": "RF circuits",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:rf_circuits"
+    },
+    "Low power": {
+        "name": "Low power",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:low_power"
+    },
+    "Wireless Sensor Networks": {
+        "name": "Wireless Sensor Networks",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:wireless_sensor_networks"
+    },
+    "Image Analysis": {
+        "name": "Image Analysis",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:image_analysis"
+    },
+    "Biomedical Applications": {
+        "name": "Biomedical Applications",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:biomedical_applications"
+    },
+    "Particle Physics": {
+        "name": "Particle Physics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:particle_physics"
+    },
+    "graphics": {
+        "name": "graphics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:graphics"
+    },
+    "prediction": {
+        "name": "prediction",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:prediction"
+    },
+    "Computational Models of Mind and Brain": {
+        "name": "Computational Models of Mind and Brain",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:computational_models_of_mind_and_brain"
+    },
+    "Natural Language Processing": {
+        "name": "Natural Language Processing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:natural_language_processing"
+    },
+    "psychometrics": {
+        "name": "psychometrics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:psychometrics"
+    },
+    "performance appraisal": {
+        "name": "performance appraisal",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:performance_appraisal"
+    },
+    "personnel assessment": {
+        "name": "personnel assessment",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:personnel_assessment"
+    },
+    "statistics": {
+        "name": "statistics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:statistics"
+    },
+    "Deep learning": {
+        "name": "Deep learning",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:deep_learning"
+    },
+    "reinforcement learning": {
+        "name": "reinforcement learning",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:reinforcement_learning"
+    },
+    "Information Retrieval": {
+        "name": "Information Retrieval",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:information_retrieval"
+    },
+    "Type Theory": {
+        "name": "Type Theory",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:type_theory"
+    },
+    "Scene Understanding": {
+        "name": "Scene Understanding",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:scene_understanding"
+    },
+    "biometrics": {
+        "name": "biometrics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:biometrics"
+    },
+    "Biomedical Data Science": {
+        "name": "Biomedical Data Science",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:biomedical_data_science"
+    },
+    "Fuel Cell Electrocatalysis": {
+        "name": "Fuel Cell Electrocatalysis",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:fuel_cell_electrocatalysis"
+    },
+    "Supercapacitor": {
+        "name": "Supercapacitor",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:supercapacitor"
+    },
+    "CO2 reduction": {
+        "name": "CO2 reduction",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:co2_reduction"
+    },
+    "Batteries": {
+        "name": "Batteries",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:batteries"
+    },
+    "Advanced Materials": {
+        "name": "Advanced Materials",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:advanced_materials"
+    },
+    "metric learning": {
+        "name": "metric learning",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:metric_learning"
+    },
+    "pattern recognition": {
+        "name": "pattern recognition",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:pattern_recognition"
+    },
+    "affective computing": {
+        "name": "affective computing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:affective_computing"
+    },
+    "Document Image Analysis": {
+        "name": "Document Image Analysis",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:document_image_analysis"
+    },
+    "AI for Science": {
+        "name": "AI for Science",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:ai_for_science"
+    },
+    "Reliable and Trustworthy AI": {
+        "name": "Reliable and Trustworthy AI",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:reliable_and_trustworthy_ai"
+    },
+    "Digital health": {
+        "name": "Digital health",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:digital_health"
+    },
+    "Computational Advertising": {
+        "name": "Computational Advertising",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:computational_advertising"
+    },
+    "Computer Graphics": {
+        "name": "Computer Graphics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:computer_graphics"
+    },
+    "Virtual Humans": {
+        "name": "Virtual Humans",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:virtual_humans"
+    },
+    "Optical Flow": {
+        "name": "Optical Flow",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:optical_flow"
+    },
+    "cooling and drying": {
+        "name": "cooling and drying",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:cooling_and_drying"
+    },
+    "food quality and safety": {
+        "name": "food quality and safety",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:food_quality_and_safety"
+    },
+    "bioprocess simulation": {
+        "name": "bioprocess simulation",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:bioprocess_simulation"
+    },
+    "hyperspectral imaging": {
+        "name": "hyperspectral imaging",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:hyperspectral_imaging"
+    },
+    "Protein structure prediction": {
+        "name": "Protein structure prediction",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:protein_structure_prediction"
+    },
+    "Speech recognition": {
+        "name": "Speech recognition",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:speech_recognition"
+    },
+    "Augmented Reality": {
+        "name": "Augmented Reality",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:augmented_reality"
+    },
+    "Biomedical Imaging": {
+        "name": "Biomedical Imaging",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:biomedical_imaging"
+    },
+    "optimization": {
+        "name": "optimization",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:optimization"
+    },
+    "forensic imaging": {
+        "name": "forensic imaging",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:forensic_imaging"
+    },
+    "Cognitive Science": {
+        "name": "Cognitive Science",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:cognitive_science"
+    },
+    "Medical Image Analysis": {
+        "name": "Medical Image Analysis",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:medical_image_analysis"
+    },
+    "Computer-Aided Design": {
+        "name": "Computer-Aided Design",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:computer_aided_design"
+    },
+    "Signal Processing": {
+        "name": "Signal Processing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:signal_processing"
+    },
+    "Speech": {
+        "name": "Speech",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:speech"
+    },
+    "Self-Supervised Learning": {
+        "name": "Self-Supervised Learning",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:self_supervised_learning"
+    },
+    "object recognition": {
+        "name": "object recognition",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:object_recognition"
+    },
+    "continual learning": {
+        "name": "continual learning",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:continual_learning"
+    },
+    "Autonomous driving": {
+        "name": "Autonomous driving",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:autonomous_driving"
+    },
+    "Neural Coding": {
+        "name": "Neural Coding",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:neural_coding"
+    },
+    "plant biotechnology": {
+        "name": "plant biotechnology",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:plant_biotechnology"
+    },
+    "transgenic plants": {
+        "name": "transgenic plants",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:transgenic_plants"
+    },
+    "plant pathology": {
+        "name": "plant pathology",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:plant_pathology"
+    },
+    "plant nematodes": {
+        "name": "plant nematodes",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:plant_nematodes"
+    },
+    "plant viruses": {
+        "name": "plant viruses",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:plant_viruses"
+    },
+    "computational gastronomy": {
+        "name": "computational gastronomy",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:computational_gastronomy"
+    },
+    "Computational Imaging": {
+        "name": "Computational Imaging",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:computational_imaging"
+    },
+    "Computational Photography": {
+        "name": "Computational Photography",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:computational_photography"
+    },
+    "Data Mining": {
+        "name": "Data Mining",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:data_mining"
+    },
+    "Optimization": {
+        "name": "Optimization",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:optimization"
+    },
+    "Neural Networks": {
+        "name": "Neural Networks",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:neural_networks"
+    },
+    "Unsupervised Learning": {
+        "name": "Unsupervised Learning",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:unsupervised_learning"
+    },
+    "Machine Translation": {
+        "name": "Machine Translation",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:machine_translation"
+    },
+    "Machine Vision": {
+        "name": "Machine Vision",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:machine_vision"
+    },
+    "machine perception": {
+        "name": "machine perception",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:machine_perception"
+    },
+    "machine intelligence": {
+        "name": "machine intelligence",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:machine_intelligence"
+    },
+    "Algebra": {
+        "name": "Algebra",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:algebra"
+    },
+    "Machine Perception": {
+        "name": "Machine Perception",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:machine_perception"
+    },
+    "algebraic geometry": {
+        "name": "algebraic geometry",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:algebraic_geometry"
+    },
+    "multimedia": {
+        "name": "multimedia",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:multimedia"
+    },
+    "Medical Image Computing": {
+        "name": "Medical Image Computing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:medical_image_computing"
+    },
+    "Image-Guided Interventions": {
+        "name": "Image-Guided Interventions",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:image_guided_interventions"
+    },
+    "Multimedia Information Retrieval": {
+        "name": "Multimedia Information Retrieval",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:multimedia_information_retrieval"
+    },
+    "Bioimage Analysis": {
+        "name": "Bioimage Analysis",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:bioimage_analysis"
+    },
+    "Reinforcement Learning": {
+        "name": "Reinforcement Learning",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:reinforcement_learning"
+    },
+    "Biomedical Image Analysis": {
+        "name": "Biomedical Image Analysis",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:biomedical_image_analysis"
+    },
+    "Computational Biology": {
+        "name": "Computational Biology",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:computational_biology"
+    },
+    "Transcription Imaging": {
+        "name": "Transcription Imaging",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:transcription_imaging"
+    },
+    "Software Development": {
+        "name": "Software Development",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:software_development"
+    },
+    "C. elegans": {
+        "name": "C. elegans",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:c_elegans"
+    },
+    "Search": {
+        "name": "Search",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:search"
+    },
+    "Social computing": {
+        "name": "Social computing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:social_computing"
+    },
+    "Artifical Intelligence": {
+        "name": "Artifical Intelligence",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:artifical_intelligence"
+    },
+    "SLAM": {
+        "name": "SLAM",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:slam"
+    },
+    "Generative AI": {
+        "name": "Generative AI",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:generative_ai"
+    },
+    "Vision and Language": {
+        "name": "Vision and Language",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:vision_and_language"
+    },
+    "Non-invasive assessment of plant physiology: remote sensing and plant phenotying": {
+        "name": "Non-invasive assessment of plant physiology: remote sensing and plant phenotying",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:non_invasive_assessment_of_plant_physiology_remote_sensing_and_plant_phenotying"
+    },
+    "Large Multimodal Model": {
+        "name": "Large Multimodal Model",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:large_multimodal_model"
+    },
+    "Large Language Model": {
+        "name": "Large Language Model",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:large_language_model"
+    },
+    "Domain Adaptation": {
+        "name": "Domain Adaptation",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:domain_adaptation"
+    },
+    "Human Vision": {
+        "name": "Human Vision",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:human_vision"
+    },
+    "medical image analysis": {
+        "name": "medical image analysis",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:medical_image_analysis"
+    },
+    "medical image computing": {
+        "name": "medical image computing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:medical_image_computing"
+    },
+    "scene understanding": {
+        "name": "scene understanding",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:scene_understanding"
+    },
+    "Biomaterials & Nanomedicine": {
+        "name": "Biomaterials & Nanomedicine",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:biomaterials_%26_nanomedicine"
+    },
+    "Image Based Rendering": {
+        "name": "Image Based Rendering",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:image_based_rendering"
+    },
+    "face and gesture recognition": {
+        "name": "face and gesture recognition",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:face_and_gesture_recognition"
+    },
+    "Computer Architecture": {
+        "name": "Computer Architecture",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:computer_architecture"
+    },
+    "Healthcare": {
+        "name": "Healthcare",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:healthcare"
+    },
+    "Computer Science": {
+        "name": "Computer Science",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:computer_science"
+    },
+    "neural networks": {
+        "name": "neural networks",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:neural_networks"
+    },
+    "data science": {
+        "name": "data science",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:data_science"
+    },
+    "Artificial intelligence": {
+        "name": "Artificial intelligence",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:artificial_intelligence"
+    },
+    "machine learning.": {
+        "name": "machine learning.",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:machine_learning"
+    },
+    "Visual Computing": {
+        "name": "Visual Computing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:visual_computing"
+    },
+    "Social Network Analysis": {
+        "name": "Social Network Analysis",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:social_network_analysis"
+    },
+    "Programming Languages": {
+        "name": "Programming Languages",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:programming_languages"
+    },
+    "digital epidemiology": {
+        "name": "digital epidemiology",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:digital_epidemiology"
+    },
+    "information retrieval": {
+        "name": "information retrieval",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:information_retrieval"
+    },
+    "digital watermarking": {
+        "name": "digital watermarking",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:digital_watermarking"
+    },
+    "cardiology": {
+        "name": "cardiology",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:cardiology"
+    },
+    "heart failure": {
+        "name": "heart failure",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:heart_failure"
+    },
+    "stem cells": {
+        "name": "stem cells",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:stem_cells"
+    },
+    "translational": {
+        "name": "translational",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:translational"
+    },
+    "Shape Analysis": {
+        "name": "Shape Analysis",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:shape_analysis"
+    },
+    "Geometric Modeling": {
+        "name": "Geometric Modeling",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:geometric_modeling"
+    },
+    "Geometry Processing": {
+        "name": "Geometry Processing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:geometry_processing"
+    },
+    "Visual Attention": {
+        "name": "Visual Attention",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:visual_attention"
+    },
+    "Saliency": {
+        "name": "Saliency",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:saliency"
+    },
+    "Action Recognition": {
+        "name": "Action Recognition",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:action_recognition"
+    },
+    "Object Recognition": {
+        "name": "Object Recognition",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:object_recognition"
+    },
+    "multimedia analysis": {
+        "name": "multimedia analysis",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:multimedia_analysis"
+    },
+    "Video Analysis": {
+        "name": "Video Analysis",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:video_analysis"
+    },
+    "Data Analytics": {
+        "name": "Data Analytics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:data_analytics"
+    },
+    "Signal and Image Processing": {
+        "name": "Signal and Image Processing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:signal_and_image_processing"
+    },
+    "Media Security": {
+        "name": "Media Security",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:media_security"
+    },
+    "Communications": {
+        "name": "Communications",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:communications"
+    },
+    "Information Theory": {
+        "name": "Information Theory",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:information_theory"
+    },
+    "Networking": {
+        "name": "Networking",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:networking"
+    },
+    "Human-Computer Interaction": {
+        "name": "Human-Computer Interaction",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:human_computer_interaction"
+    },
+    "Mobile Computing": {
+        "name": "Mobile Computing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:mobile_computing"
+    },
+    "plant metabolism": {
+        "name": "plant metabolism",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:plant_metabolism"
+    },
+    "plant defense mechanism": {
+        "name": "plant defense mechanism",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:plant_defense_mechanism"
+    },
+    "plant-insect interaction": {
+        "name": "plant-insect interaction",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:plant_insect_interaction"
+    },
+    "shikimate pathway": {
+        "name": "shikimate pathway",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:shikimate_pathway"
+    },
+    "aromatic amino acids": {
+        "name": "aromatic amino acids",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:aromatic_amino_acids"
+    },
+    "Vision": {
+        "name": "Vision",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:vision"
+    },
+    "Representation Learning": {
+        "name": "Representation Learning",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:representation_learning"
+    },
+    "network science": {
+        "name": "network science",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:network_science"
+    },
+    "Medical image analysis": {
+        "name": "Medical image analysis",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:medical_image_analysis"
+    },
+    "biomedical image analysis": {
+        "name": "biomedical image analysis",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:biomedical_image_analysis"
+    },
+    "Iris Recognition": {
+        "name": "Iris Recognition",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:iris_recognition"
+    },
+    "image analysis": {
+        "name": "image analysis",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:image_analysis"
+    },
+    "shape analysis": {
+        "name": "shape analysis",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:shape_analysis"
+    },
+    "Text Mining": {
+        "name": "Text Mining",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:text_mining"
+    },
+    "Neural Computation": {
+        "name": "Neural Computation",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:neural_computation"
+    },
+    "Indexing": {
+        "name": "Indexing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:indexing"
+    },
+    "data mining": {
+        "name": "data mining",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:data_mining"
+    },
+    "face recognition": {
+        "name": "face recognition",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:face_recognition"
+    },
+    "Medicine": {
+        "name": "Medicine",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:medicine"
+    },
+    "HCI": {
+        "name": "HCI",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:hci"
+    },
+    "Quantitative Genetics": {
+        "name": "Quantitative Genetics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:quantitative_genetics"
+    },
+    "Statistical Genetics": {
+        "name": "Statistical Genetics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:statistical_genetics"
+    },
+    "Human Genetics": {
+        "name": "Human Genetics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:human_genetics"
+    },
+    "Formal Methods": {
+        "name": "Formal Methods",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:formal_methods"
+    },
+    "control": {
+        "name": "control",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:control"
+    },
+    "field robotics": {
+        "name": "field robotics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:field_robotics"
+    },
+    "sensor networks": {
+        "name": "sensor networks",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:sensor_networks"
+    },
+    "human computer interaction": {
+        "name": "human computer interaction",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:human_computer_interaction"
+    },
+    "Computational Physics": {
+        "name": "Computational Physics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:computational_physics"
+    },
+    "Fluid mechanics": {
+        "name": "Fluid mechanics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:fluid_mechanics"
+    },
+    "Computational fluid dynamics": {
+        "name": "Computational fluid dynamics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:computational_fluid_dynamics"
+    },
+    "Random Forests": {
+        "name": "Random Forests",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:random_forests"
+    },
+    "Learning": {
+        "name": "Learning",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:learning"
+    },
+    "Cognition": {
+        "name": "Cognition",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:cognition"
+    },
+    "Autonomy": {
+        "name": "Autonomy",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:autonomy"
+    },
+    "OCR": {
+        "name": "OCR",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:ocr"
+    },
+    "Mixed Reality": {
+        "name": "Mixed Reality",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:mixed_reality"
+    },
+    "Neural networks": {
+        "name": "Neural networks",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:neural_networks"
+    },
+    "Computer graphics": {
+        "name": "Computer graphics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:computer_graphics"
+    },
+    "human vision": {
+        "name": "human vision",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:human_vision"
+    },
+    "consciousness": {
+        "name": "consciousness",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:consciousness"
+    },
+    "experimental psychology": {
+        "name": "experimental psychology",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:experimental_psychology"
+    },
+    "differential geometry": {
+        "name": "differential geometry",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:differential_geometry"
+    },
+    "Algorithms": {
+        "name": "Algorithms",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:algorithms"
+    },
+    "autonomous systems": {
+        "name": "autonomous systems",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:autonomous_systems"
+    },
+    "digital media": {
+        "name": "digital media",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:digital_media"
+    },
+    "AI & Machine Learning": {
+        "name": "AI & Machine Learning",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:ai_%26_machine_learning"
+    },
+    "Virtual/Augmented Reality": {
+        "name": "Virtual/Augmented Reality",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:virtual_augmented_reality"
+    },
+    "Compression": {
+        "name": "Compression",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:compression"
+    },
+    "Visualization": {
+        "name": "Visualization",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:visualization"
+    },
+    "AutoML": {
+        "name": "AutoML",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:automl"
+    },
+    "signal processing": {
+        "name": "signal processing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:signal_processing"
+    },
+    "control systems": {
+        "name": "control systems",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:control_systems"
+    },
+    "Good Shit": {
+        "name": "Good Shit",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:good_shit"
+    },
+    "Systems and Control": {
+        "name": "Systems and Control",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:systems_and_control"
+    },
+    "Applied Mathematics": {
+        "name": "Applied Mathematics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:applied_mathematics"
+    },
+    "probabilistic inference": {
+        "name": "probabilistic inference",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:probabilistic_inference"
+    },
+    "bayesian nonparametrics": {
+        "name": "bayesian nonparametrics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:bayesian_nonparametrics"
+    },
+    "Multimedia Analysis": {
+        "name": "Multimedia Analysis",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:multimedia_analysis"
+    },
+    "recognition": {
+        "name": "recognition",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:recognition"
+    },
+    "augmented reality": {
+        "name": "augmented reality",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:augmented_reality"
+    },
+    "geometry": {
+        "name": "geometry",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:geometry"
+    },
+    "Face Recognition": {
+        "name": "Face Recognition",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:face_recognition"
+    },
+    "driver assistance": {
+        "name": "driver assistance",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:driver_assistance"
+    },
+    "public safety": {
+        "name": "public safety",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:public_safety"
+    },
+    "surveillance": {
+        "name": "surveillance",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:surveillance"
+    },
+    "security": {
+        "name": "security",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:security"
+    },
+    "Multimedia analysis": {
+        "name": "Multimedia analysis",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:multimedia_analysis"
+    },
+    "Data mining": {
+        "name": "Data mining",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:data_mining"
+    },
+    "Information retrieval": {
+        "name": "Information retrieval",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:information_retrieval"
+    },
+    "Manifold Learning": {
+        "name": "Manifold Learning",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:manifold_learning"
+    },
+    "Dictionary Learning": {
+        "name": "Dictionary Learning",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:dictionary_learning"
+    },
+    "human-computer interaction": {
+        "name": "human-computer interaction",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:human_computer_interaction"
+    },
+    "Video Information Analysis": {
+        "name": "Video Information Analysis",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:video_information_analysis"
+    },
+    "information theory": {
+        "name": "information theory",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:information_theory"
+    },
+    "iris recognition": {
+        "name": "iris recognition",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:iris_recognition"
+    },
+    "Multimodal Interaction": {
+        "name": "Multimodal Interaction",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:multimodal_interaction"
+    },
+    "Astrophysics": {
+        "name": "Astrophysics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:astrophysics"
+    },
+    "Digital Image Correlation": {
+        "name": "Digital Image Correlation",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:digital_image_correlation"
+    },
+    "Stereo Vision": {
+        "name": "Stereo Vision",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:stereo_vision"
+    },
+    "Fracture Mechanics": {
+        "name": "Fracture Mechanics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:fracture_mechanics"
+    },
+    "Biomechanics": {
+        "name": "Biomechanics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:biomechanics"
+    },
+    "metric geometry": {
+        "name": "metric geometry",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:metric_geometry"
+    },
+    "Structural Materials": {
+        "name": "Structural Materials",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:structural_materials"
+    },
+    "Control": {
+        "name": "Control",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:control"
+    },
+    "Multimodal learning": {
+        "name": "Multimodal learning",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:multimodal_learning"
+    },
+    "Object Re-identification": {
+        "name": "Object Re-identification",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:object_re_identification"
+    },
+    "Dataset-centered Vision": {
+        "name": "Dataset-centered Vision",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:dataset_centered_vision"
+    },
+    "NLP": {
+        "name": "NLP",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:nlp"
+    },
+    "Computing with Words": {
+        "name": "Computing with Words",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:computing_with_words"
+    },
+    "Control Theory": {
+        "name": "Control Theory",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:control_theory"
+    },
+    "Tracking": {
+        "name": "Tracking",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:tracking"
+    },
+    "Neurosurgery": {
+        "name": "Neurosurgery",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:neurosurgery"
+    },
+    "parallel and distributed": {
+        "name": "parallel and distributed",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:parallel_and_distributed"
+    },
+    "biological image analysis": {
+        "name": "biological image analysis",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:biological_image_analysis"
+    },
+    "Language Understanding": {
+        "name": "Language Understanding",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:language_understanding"
+    },
+    "Multimodal AI": {
+        "name": "Multimodal AI",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:multimodal_ai"
+    },
+    "numerical optimization": {
+        "name": "numerical optimization",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:numerical_optimization"
+    },
+    "Image Recognition and Generation": {
+        "name": "Image Recognition and Generation",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:image_recognition_and_generation"
+    },
+    "Quantum Computing": {
+        "name": "Quantum Computing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:quantum_computing"
+    },
+    "Statistical Machine Learning": {
+        "name": "Statistical Machine Learning",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:statistical_machine_learning"
+    },
+    "Visual Question Answering": {
+        "name": "Visual Question Answering",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:visual_question_answering"
+    },
+    "Molucular biology": {
+        "name": "Molucular biology",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:molucular_biology"
+    },
+    "multimedia communications": {
+        "name": "multimedia communications",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:multimedia_communications"
+    },
+    "Transfer Learning": {
+        "name": "Transfer Learning",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:transfer_learning"
+    },
+    "Computational Structural Biology": {
+        "name": "Computational Structural Biology",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:computational_structural_biology"
+    },
+    "Structural  Bioinformatics": {
+        "name": "Structural  Bioinformatics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:structural_bioinformatics"
+    },
+    "Geometric Computing": {
+        "name": "Geometric Computing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:geometric_computing"
+    },
+    "Spatial Pattern Discovery": {
+        "name": "Spatial Pattern Discovery",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:spatial_pattern_discovery"
+    },
+    "image understanding": {
+        "name": "image understanding",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:image_understanding"
+    },
+    "color": {
+        "name": "color",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:color"
+    },
+    "Pattern Recogniton": {
+        "name": "Pattern Recogniton",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:pattern_recogniton"
+    },
+    "3D Perception": {
+        "name": "3D Perception",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:3d_perception"
+    },
+    "Genomics": {
+        "name": "Genomics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:genomics"
+    },
+    "Bioinformatics": {
+        "name": "Bioinformatics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:bioinformatics"
+    },
+    "Oncology": {
+        "name": "Oncology",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:oncology"
+    },
+    "Data Science": {
+        "name": "Data Science",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:data_science"
+    },
+    "Computed Tomography": {
+        "name": "Computed Tomography",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:computed_tomography"
+    },
+    "Cardiovascular Imaging": {
+        "name": "Cardiovascular Imaging",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:cardiovascular_imaging"
+    },
+    "Convex optimization": {
+        "name": "Convex optimization",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:convex_optimization"
+    },
+    "Variational methods": {
+        "name": "Variational methods",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:variational_methods"
+    },
+    "visual effects": {
+        "name": "visual effects",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:visual_effects"
+    },
+    "virtual reality": {
+        "name": "virtual reality",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:virtual_reality"
+    },
+    "Photogrammetry": {
+        "name": "Photogrammetry",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:photogrammetry"
+    },
+    "Remote Sensing": {
+        "name": "Remote Sensing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:remote_sensing"
+    },
+    "biomedical informatics": {
+        "name": "biomedical informatics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:biomedical_informatics"
+    },
+    "art": {
+        "name": "art",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:art"
+    },
+    "Robot Vision": {
+        "name": "Robot Vision",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:robot_vision"
+    },
+    "Neuroimaging": {
+        "name": "Neuroimaging",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:neuroimaging"
+    },
+    "Mathematics": {
+        "name": "Mathematics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:mathematics"
+    },
+    "adult stem cells": {
+        "name": "adult stem cells",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:adult_stem_cells"
+    },
+    "regeneration": {
+        "name": "regeneration",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:regeneration"
+    },
+    "zebrafish": {
+        "name": "zebrafish",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:zebrafish"
+    },
+    "melanocytes": {
+        "name": "melanocytes",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:melanocytes"
+    },
+    "Big Data": {
+        "name": "Big Data",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:big_data"
+    },
+    "pattern recogntion": {
+        "name": "pattern recogntion",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:pattern_recogntion"
+    },
+    "Computational Fabrication": {
+        "name": "Computational Fabrication",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:computational_fabrication"
+    },
+    "Multimedia Analysis and Retrieval": {
+        "name": "Multimedia Analysis and Retrieval",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:multimedia_analysis_and_retrieval"
+    },
+    "Image and Video Processing": {
+        "name": "Image and Video Processing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:image_and_video_processing"
+    },
+    "Video Coding": {
+        "name": "Video Coding",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:video_coding"
+    },
+    "Design": {
+        "name": "Design",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:design"
+    },
+    "Automation": {
+        "name": "Automation",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:automation"
+    },
+    "and Test for Integrated Circuits": {
+        "name": "and Test for Integrated Circuits",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:and_test_for_integrated_circuits"
+    },
+    "AI for radiology": {
+        "name": "AI for radiology",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:ai_for_radiology"
+    },
+    "Scale Space": {
+        "name": "Scale Space",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:scale_space"
+    },
+    "Recognition": {
+        "name": "Recognition",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:recognition"
+    },
+    "Biomedical Image Understanding": {
+        "name": "Biomedical Image Understanding",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:biomedical_image_understanding"
+    },
+    "applications of probability": {
+        "name": "applications of probability",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:applications_of_probability"
+    },
+    "consumer electronics": {
+        "name": "consumer electronics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:consumer_electronics"
+    },
+    "edge computing": {
+        "name": "edge computing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:edge_computing"
+    },
+    "Affective Computing": {
+        "name": "Affective Computing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:affective_computing"
+    },
+    "Medical imaging": {
+        "name": "Medical imaging",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:medical_imaging"
+    },
+    "Transportation": {
+        "name": "Transportation",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:transportation"
+    },
+    "Intelligent Transportation Systems": {
+        "name": "Intelligent Transportation Systems",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:intelligent_transportation_systems"
+    },
+    "Video Mining": {
+        "name": "Video Mining",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:video_mining"
+    },
+    "Human-Machine Interaction": {
+        "name": "Human-Machine Interaction",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:human_machine_interaction"
+    },
+    "MultiModal Data Analysis": {
+        "name": "MultiModal Data Analysis",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:multimodal_data_analysis"
+    },
+    "Computer Aided Design": {
+        "name": "Computer Aided Design",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:computer_aided_design"
+    },
+    "Statistics": {
+        "name": "Statistics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:statistics"
+    },
+    "Probability Theory": {
+        "name": "Probability Theory",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:probability_theory"
+    },
+    "Global Development": {
+        "name": "Global Development",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:global_development"
+    },
+    "ICT and Development": {
+        "name": "ICT and Development",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:ict_and_development"
+    },
+    "Medical Imaging Analysis": {
+        "name": "Medical Imaging Analysis",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:medical_imaging_analysis"
+    },
+    "Protein Structure Prediction": {
+        "name": "Protein Structure Prediction",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:protein_structure_prediction"
+    },
+    "Generative Models": {
+        "name": "Generative Models",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:generative_models"
+    },
+    "signal transduction": {
+        "name": "signal transduction",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:signal_transduction"
+    },
+    "cell biology": {
+        "name": "cell biology",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:cell_biology"
+    },
+    "molecular biology": {
+        "name": "molecular biology",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:molecular_biology"
+    },
+    "protein engineering": {
+        "name": "protein engineering",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:protein_engineering"
+    },
+    "protein design": {
+        "name": "protein design",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:protein_design"
+    },
+    "Geometry": {
+        "name": "Geometry",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:geometry"
+    },
+    "Algebraic Geometry": {
+        "name": "Algebraic Geometry",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:algebraic_geometry"
+    },
+    "AI in Healthcare": {
+        "name": "AI in Healthcare",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:ai_in_healthcare"
+    },
+    "Graph Neural Networks": {
+        "name": "Graph Neural Networks",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:graph_neural_networks"
+    },
+    "Eye Movements": {
+        "name": "Eye Movements",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:eye_movements"
+    },
+    "Benchmarking": {
+        "name": "Benchmarking",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:benchmarking"
+    },
+    "Gait": {
+        "name": "Gait",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:gait"
+    },
+    "Ear": {
+        "name": "Ear",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:ear"
+    },
+    "Soft": {
+        "name": "Soft",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:soft"
+    },
+    "Graphical Models": {
+        "name": "Graphical Models",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:graphical_models"
+    },
+    "population genetics": {
+        "name": "population genetics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:population_genetics"
+    },
+    "bioinformatics": {
+        "name": "bioinformatics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:bioinformatics"
+    },
+    "human genomics": {
+        "name": "human genomics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:human_genomics"
+    },
+    "Video Analytics": {
+        "name": "Video Analytics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:video_analytics"
+    },
+    "Trustworthy AI": {
+        "name": "Trustworthy AI",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:trustworthy_ai"
+    },
+    "AGI": {
+        "name": "AGI",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:agi"
+    },
+    "Aritificial Intelligence": {
+        "name": "Aritificial Intelligence",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:aritificial_intelligence"
+    },
+    "digital twin": {
+        "name": "digital twin",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:digital_twin"
+    },
+    "multimedia communications/security": {
+        "name": "multimedia communications/security",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:multimedia_communications_security"
+    },
+    "grasping": {
+        "name": "grasping",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:grasping"
+    },
+    "robotic surgery": {
+        "name": "robotic surgery",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:robotic_surgery"
+    },
+    "Quantitative Finance": {
+        "name": "Quantitative Finance",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:quantitative_finance"
+    },
+    "Immunology": {
+        "name": "Immunology",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:immunology"
+    },
+    "virus": {
+        "name": "virus",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:virus"
+    },
+    "infection": {
+        "name": "infection",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:infection"
+    },
+    "Mobile robotics": {
+        "name": "Mobile robotics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:mobile_robotics"
+    },
+    "Perception": {
+        "name": "Perception",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:perception"
+    },
+    "Reinforcement Learning & AI": {
+        "name": "Reinforcement Learning & AI",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:reinforcement_learning_%26_ai"
+    },
+    "Object Detection": {
+        "name": "Object Detection",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:object_detection"
+    },
+    "Object Segmentation": {
+        "name": "Object Segmentation",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:object_segmentation"
+    },
+    "systems": {
+        "name": "systems",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:systems"
+    },
+    "Biomedical image analysis": {
+        "name": "Biomedical image analysis",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:biomedical_image_analysis"
+    },
+    "image-guided intervention": {
+        "name": "image-guided intervention",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:image_guided_intervention"
+    },
+    "Variational Methods": {
+        "name": "Variational Methods",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:variational_methods"
+    },
+    "Computational Interaction": {
+        "name": "Computational Interaction",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:computational_interaction"
+    },
+    "automated driving": {
+        "name": "automated driving",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:automated_driving"
+    },
+    "artifical intelligence": {
+        "name": "artifical intelligence",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:artifical_intelligence"
+    },
+    "communications": {
+        "name": "communications",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:communications"
+    },
+    "video coding": {
+        "name": "video coding",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:video_coding"
+    },
+    "embodied AI": {
+        "name": "embodied AI",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:embodied_ai"
+    },
+    "Systems Engineering": {
+        "name": "Systems Engineering",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:systems_engineering"
+    },
+    "solid state physics": {
+        "name": "solid state physics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:solid_state_physics"
+    },
+    "valleytronics": {
+        "name": "valleytronics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:valleytronics"
+    },
+    "2D materials": {
+        "name": "2D materials",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:2d_materials"
+    },
+    "remote sensing": {
+        "name": "remote sensing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:remote_sensing"
+    },
+    "Image Fusion": {
+        "name": "Image Fusion",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:image_fusion"
+    },
+    "cognitive science": {
+        "name": "cognitive science",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:cognitive_science"
+    },
+    "Psychology": {
+        "name": "Psychology",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:psychology"
+    },
+    "Document Analysis": {
+        "name": "Document Analysis",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:document_analysis"
+    },
+    "Media Forensics": {
+        "name": "Media Forensics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:media_forensics"
+    },
+    "Language Technologies": {
+        "name": "Language Technologies",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:language_technologies"
+    },
+    "Numerical Optimization": {
+        "name": "Numerical Optimization",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:numerical_optimization"
+    },
+    "Distributed Computing": {
+        "name": "Distributed Computing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:distributed_computing"
+    },
+    "Efficient Algorithms": {
+        "name": "Efficient Algorithms",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:efficient_algorithms"
+    },
+    "Semantic Web": {
+        "name": "Semantic Web",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:semantic_web"
+    },
+    "Semantic Provenance": {
+        "name": "Semantic Provenance",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:semantic_provenance"
+    },
+    "Digital Geometry Processing": {
+        "name": "Digital Geometry Processing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:digital_geometry_processing"
+    },
+    "3D Photography": {
+        "name": "3D Photography",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:3d_photography"
+    },
+    "Privacy": {
+        "name": "Privacy",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:privacy"
+    },
+    "Visual computing": {
+        "name": "Visual computing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:visual_computing"
+    },
+    "multimedia networking": {
+        "name": "multimedia networking",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:multimedia_networking"
+    },
+    "attention": {
+        "name": "attention",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:attention"
+    },
+    "computational neuroscience": {
+        "name": "computational neuroscience",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:computational_neuroscience"
+    },
+    "structure from motion": {
+        "name": "structure from motion",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:structure_from_motion"
+    },
+    "photo collection reconstruction": {
+        "name": "photo collection reconstruction",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:photo_collection_reconstruction"
+    },
+    "stereo": {
+        "name": "stereo",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:stereo"
+    },
+    "robust estimation": {
+        "name": "robust estimation",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:robust_estimation"
+    },
+    "Explainable AI": {
+        "name": "Explainable AI",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:explainable_ai"
+    },
+    "Education": {
+        "name": "Education",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:education"
+    },
+    "circulant matrices": {
+        "name": "circulant matrices",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:circulant_matrices"
+    },
+    "fourier analysis": {
+        "name": "fourier analysis",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:fourier_analysis"
+    },
+    "speech&language": {
+        "name": "speech&language",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:speech%26language"
+    },
+    "Video Understanding": {
+        "name": "Video Understanding",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:video_understanding"
+    },
+    "pattern recognition & machine learning": {
+        "name": "pattern recognition & machine learning",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:pattern_recognition_%26_machine_learning"
+    },
+    "computational imaging": {
+        "name": "computational imaging",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:computational_imaging"
+    },
+    "Artificial  Intelligence": {
+        "name": "Artificial  Intelligence",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:artificial_intelligence"
+    },
+    "Security": {
+        "name": "Security",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:security"
+    },
+    "Autonomous Vehicles": {
+        "name": "Autonomous Vehicles",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:autonomous_vehicles"
+    },
+    "Continual Learning": {
+        "name": "Continual Learning",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:continual_learning"
+    },
+    "Incremental Learning": {
+        "name": "Incremental Learning",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:incremental_learning"
+    },
+    "Color Imaging": {
+        "name": "Color Imaging",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:color_imaging"
+    },
+    "Structural Dynamics & Control": {
+        "name": "Structural Dynamics & Control",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:structural_dynamics_%26_control"
+    },
+    "Earthquake Engineering": {
+        "name": "Earthquake Engineering",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:earthquake_engineering"
+    },
+    "Cyberinfrastructure": {
+        "name": "Cyberinfrastructure",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:cyberinfrastructure"
+    },
+    "Structural Monitoring": {
+        "name": "Structural Monitoring",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:structural_monitoring"
+    },
+    "brain-inspired computing": {
+        "name": "brain-inspired computing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:brain_inspired_computing"
+    },
+    "Virtual Reality": {
+        "name": "Virtual Reality",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:virtual_reality"
+    },
+    "AI Generated Content": {
+        "name": "AI Generated Content",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:ai_generated_content"
+    },
+    "AI for Medicine": {
+        "name": "AI for Medicine",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:ai_for_medicine"
+    },
+    "Information Fusion": {
+        "name": "Information Fusion",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:information_fusion"
+    },
+    "Semantic Perception": {
+        "name": "Semantic Perception",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:semantic_perception"
+    },
+    "behavioral science": {
+        "name": "behavioral science",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:behavioral_science"
+    },
+    "Multimodal interaction": {
+        "name": "Multimodal interaction",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:multimodal_interaction"
+    },
+    "Accessibility": {
+        "name": "Accessibility",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:accessibility"
+    },
+    "Two-dimensional materials": {
+        "name": "Two-dimensional materials",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:two_dimensional_materials"
+    },
+    "Graphene": {
+        "name": "Graphene",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:graphene"
+    },
+    "Black phosphorus": {
+        "name": "Black phosphorus",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:black_phosphorus"
+    },
+    "Optics": {
+        "name": "Optics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:optics"
+    },
+    "Devices": {
+        "name": "Devices",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:devices"
+    },
+    "Genetics": {
+        "name": "Genetics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:genetics"
+    },
+    "Graphics": {
+        "name": "Graphics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:graphics"
+    },
+    "Image Reconstruction": {
+        "name": "Image Reconstruction",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:image_reconstruction"
+    },
+    "intelligent Systems": {
+        "name": "intelligent Systems",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:intelligent_systems"
+    },
+    "Multi Modal Learning": {
+        "name": "Multi Modal Learning",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:multi_modal_learning"
+    },
+    "Cognitive vision": {
+        "name": "Cognitive vision",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:cognitive_vision"
+    },
+    "High Energy Physics": {
+        "name": "High Energy Physics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:high_energy_physics"
+    },
+    "Experimental Particle Physics": {
+        "name": "Experimental Particle Physics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:experimental_particle_physics"
+    },
+    "Compressed Sensing": {
+        "name": "Compressed Sensing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:compressed_sensing"
+    },
+    "3D vision": {
+        "name": "3D vision",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:3d_vision"
+    },
+    "Information Hiding": {
+        "name": "Information Hiding",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:information_hiding"
+    },
+    "Cardiovascular Disease Prevention": {
+        "name": "Cardiovascular Disease Prevention",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:cardiovascular_disease_prevention"
+    },
+    "Health Equity": {
+        "name": "Health Equity",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:health_equity"
+    },
+    "Digital Health": {
+        "name": "Digital Health",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:digital_health"
+    },
+    "Implementation Science": {
+        "name": "Implementation Science",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:implementation_science"
+    },
+    "Pattern Recognition and Multimedia": {
+        "name": "Pattern Recognition and Multimedia",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:pattern_recognition_and_multimedia"
+    },
+    "particle physics": {
+        "name": "particle physics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:particle_physics"
+    },
+    "high energy phsyics": {
+        "name": "high energy phsyics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:high_energy_phsyics"
+    },
+    "3-D Reconstruction": {
+        "name": "3-D Reconstruction",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:3_d_reconstruction"
+    },
+    "decision support systems": {
+        "name": "decision support systems",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:decision_support_systems"
+    },
+    "technology assessment": {
+        "name": "technology assessment",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:technology_assessment"
+    },
+    "Intelligent Vehicles": {
+        "name": "Intelligent Vehicles",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:intelligent_vehicles"
+    },
+    "Pedestrian Detection": {
+        "name": "Pedestrian Detection",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:pedestrian_detection"
+    },
+    "internet of things": {
+        "name": "internet of things",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:internet_of_things"
+    },
+    "Biomedical engineering": {
+        "name": "Biomedical engineering",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:biomedical_engineering"
+    },
+    "Simulation": {
+        "name": "Simulation",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:simulation"
+    },
+    "Mesh Processing": {
+        "name": "Mesh Processing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:mesh_processing"
+    },
+    "Non-Photorealistic Rendering": {
+        "name": "Non-Photorealistic Rendering",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:non_photorealistic_rendering"
+    },
+    "Style Transfer": {
+        "name": "Style Transfer",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:style_transfer"
+    },
+    "computational chemistry": {
+        "name": "computational chemistry",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:computational_chemistry"
+    },
+    "Video Processing": {
+        "name": "Video Processing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:video_processing"
+    },
+    "Data Privacy": {
+        "name": "Data Privacy",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:data_privacy"
+    },
+    "Image Understanding": {
+        "name": "Image Understanding",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:image_understanding"
+    },
+    "Visual Surveillance": {
+        "name": "Visual Surveillance",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:visual_surveillance"
+    },
+    "VR/AR": {
+        "name": "VR/AR",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:vr_ar"
+    },
+    "Robot  Vision": {
+        "name": "Robot  Vision",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:robot_vision"
+    },
+    "Digital Document Processing": {
+        "name": "Digital Document Processing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:digital_document_processing"
+    },
+    "Computing": {
+        "name": "Computing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:computing"
+    },
+    "Philosophy": {
+        "name": "Philosophy",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:philosophy"
+    },
+    "Physics": {
+        "name": "Physics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:physics"
+    },
+    "3D modeling": {
+        "name": "3D modeling",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:3d_modeling"
+    },
+    "speaker recognition": {
+        "name": "speaker recognition",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:speaker_recognition"
+    },
+    "Network Security": {
+        "name": "Network Security",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:network_security"
+    },
+    "Social Network": {
+        "name": "Social Network",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:social_network"
+    },
+    "transportation systems": {
+        "name": "transportation systems",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:transportation_systems"
+    },
+    "Hypertension": {
+        "name": "Hypertension",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:hypertension"
+    },
+    "Pharmacology": {
+        "name": "Pharmacology",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:pharmacology"
+    },
+    "Adrenal": {
+        "name": "Adrenal",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:adrenal"
+    },
+    "AI for Healthcare": {
+        "name": "AI for Healthcare",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:ai_for_healthcare"
+    },
+    "Video Understanding:": {
+        "name": "Video Understanding:",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:video_understanding"
+    },
+    "multimodal learning": {
+        "name": "multimodal learning",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:multimodal_learning"
+    },
+    "wood science": {
+        "name": "wood science",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:wood_science"
+    },
+    "macromolecular structure": {
+        "name": "macromolecular structure",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:macromolecular_structure"
+    },
+    "Humanoid Robots": {
+        "name": "Humanoid Robots",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:humanoid_robots"
+    },
+    "Micro Air Vehicles": {
+        "name": "Micro Air Vehicles",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:micro_air_vehicles"
+    },
+    "Embodied AI": {
+        "name": "Embodied AI",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:embodied_ai"
+    },
+    "Medical Computer Science": {
+        "name": "Medical Computer Science",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:medical_computer_science"
+    },
+    "computational ophthalmology": {
+        "name": "computational ophthalmology",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:computational_ophthalmology"
+    },
+    "retina": {
+        "name": "retina",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:retina"
+    },
+    "Assistive Technology": {
+        "name": "Assistive Technology",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:assistive_technology"
+    },
+    "Sensors": {
+        "name": "Sensors",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:sensors"
+    },
+    "Multimedia Computing": {
+        "name": "Multimedia Computing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:multimedia_computing"
+    },
+    "generative models": {
+        "name": "generative models",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:generative_models"
+    },
+    "out-of-distribution data": {
+        "name": "out-of-distribution data",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:out_of_distribution_data"
+    },
+    "high energy physics": {
+        "name": "high energy physics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:high_energy_physics"
+    },
+    "Social Signal Processing": {
+        "name": "Social Signal Processing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:social_signal_processing"
+    },
+    "computational behavioral science": {
+        "name": "computational behavioral science",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:computational_behavioral_science"
+    },
+    "recurrent neural networks": {
+        "name": "recurrent neural networks",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:recurrent_neural_networks"
+    },
+    "autonomous robotics": {
+        "name": "autonomous robotics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:autonomous_robotics"
+    },
+    "Open-set recognition": {
+        "name": "Open-set recognition",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:open_set_recognition"
+    },
+    "Statistical Learning": {
+        "name": "Statistical Learning",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:statistical_learning"
+    },
+    "Biometric Security": {
+        "name": "Biometric Security",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:biometric_security"
+    },
+    "Physical AI": {
+        "name": "Physical AI",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:physical_ai"
+    },
+    "Protein and DNA Mechanics": {
+        "name": "Protein and DNA Mechanics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:protein_and_dna_mechanics"
+    },
+    "Applied Math": {
+        "name": "Applied Math",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:applied_math"
+    },
+    "Computational Neuroscience": {
+        "name": "Computational Neuroscience",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:computational_neuroscience"
+    },
+    "image and video processing": {
+        "name": "image and video processing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:image_and_video_processing"
+    },
+    "visual computing": {
+        "name": "visual computing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:visual_computing"
+    },
+    "Generative modeling": {
+        "name": "Generative modeling",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:generative_modeling"
+    },
+    "Unsupervised learning": {
+        "name": "Unsupervised learning",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:unsupervised_learning"
+    },
+    "Representation learning": {
+        "name": "Representation learning",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:representation_learning"
+    },
+    "Neural Rendering": {
+        "name": "Neural Rendering",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:neural_rendering"
+    },
+    "document  analysis": {
+        "name": "document  analysis",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:document_analysis"
+    },
+    "Computer Optics": {
+        "name": "Computer Optics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:computer_optics"
+    },
+    "Diffractive Nanophotonics": {
+        "name": "Diffractive Nanophotonics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:diffractive_nanophotonics"
+    },
+    "Software Engineering": {
+        "name": "Software Engineering",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:software_engineering"
+    },
+    "Humanoid Robotics": {
+        "name": "Humanoid Robotics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:humanoid_robotics"
+    },
+    "Robot Perception": {
+        "name": "Robot Perception",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:robot_perception"
+    },
+    "Cognitive Systems": {
+        "name": "Cognitive Systems",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:cognitive_systems"
+    },
+    "sensors": {
+        "name": "sensors",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:sensors"
+    },
+    "nanotechnology": {
+        "name": "nanotechnology",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:nanotechnology"
+    },
+    "battery": {
+        "name": "battery",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:battery"
+    },
+    "boron nitride": {
+        "name": "boron nitride",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:boron_nitride"
+    },
+    "nanotubes": {
+        "name": "nanotubes",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:nanotubes"
+    },
+    "nanosheets": {
+        "name": "nanosheets",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:nanosheets"
+    },
+    "psychiatry": {
+        "name": "psychiatry",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:psychiatry"
+    },
+    "Robot Learning": {
+        "name": "Robot Learning",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:robot_learning"
+    },
+    "Intelligent User Interfaces": {
+        "name": "Intelligent User Interfaces",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:intelligent_user_interfaces"
+    },
+    "Eye Tracking": {
+        "name": "Eye Tracking",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:eye_tracking"
+    },
+    "Collaborative Intelligence": {
+        "name": "Collaborative Intelligence",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:collaborative_intelligence"
+    },
+    "Astronomy": {
+        "name": "Astronomy",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:astronomy"
+    },
+    "exoplanets": {
+        "name": "exoplanets",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:exoplanets"
+    },
+    "instrumentation": {
+        "name": "instrumentation",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:instrumentation"
+    },
+    "Computational Anatomy": {
+        "name": "Computational Anatomy",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:computational_anatomy"
+    },
+    "Color Science": {
+        "name": "Color Science",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:color_science"
+    },
+    "Color Perception": {
+        "name": "Color Perception",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:color_perception"
+    },
+    "Emerging infectious diseases": {
+        "name": "Emerging infectious diseases",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:emerging_infectious_diseases"
+    },
+    "Haptics": {
+        "name": "Haptics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:haptics"
+    },
+    "multimedia processing": {
+        "name": "multimedia processing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:multimedia_processing"
+    },
+    "wireless communication": {
+        "name": "wireless communication",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:wireless_communication"
+    },
+    "optimizations and algorithms": {
+        "name": "optimizations and algorithms",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:optimizations_and_algorithms"
+    },
+    "Foundation Models": {
+        "name": "Foundation Models",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:foundation_models"
+    },
+    "robot perception": {
+        "name": "robot perception",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:robot_perception"
+    },
+    "computer engineering": {
+        "name": "computer engineering",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:computer_engineering"
+    },
+    "intelligent transportation systems": {
+        "name": "intelligent transportation systems",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:intelligent_transportation_systems"
+    },
+    "Image/Video Compression": {
+        "name": "Image/Video Compression",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:image_video_compression"
+    },
+    "Image and Video Analysis": {
+        "name": "Image and Video Analysis",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:image_and_video_analysis"
+    },
+    "Intelligent Sensors": {
+        "name": "Intelligent Sensors",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:intelligent_sensors"
+    },
+    "4D Modeling": {
+        "name": "4D Modeling",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:4d_modeling"
+    },
+    "3D Modelling": {
+        "name": "3D Modelling",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:3d_modelling"
+    },
+    "machine vision": {
+        "name": "machine vision",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:machine_vision"
+    },
+    "educational technology": {
+        "name": "educational technology",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:educational_technology"
+    },
+    "Neural-Symbolic AI": {
+        "name": "Neural-Symbolic AI",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:neural_symbolic_ai"
+    },
+    "Autonomous Cars": {
+        "name": "Autonomous Cars",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:autonomous_cars"
+    },
+    "Shape Optimization": {
+        "name": "Shape Optimization",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:shape_optimization"
+    },
+    "Geometric PDE's": {
+        "name": "Geometric PDE's",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:geometric_pde%27s"
+    },
+    "carbon sequestration": {
+        "name": "carbon sequestration",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:carbon_sequestration"
+    },
+    "oil": {
+        "name": "oil",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:oil"
+    },
+    "petroleum": {
+        "name": "petroleum",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:petroleum"
+    },
+    "fuel": {
+        "name": "fuel",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:fuel"
+    },
+    "Organic chemistry": {
+        "name": "Organic chemistry",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:organic_chemistry"
+    },
+    "precision medicine": {
+        "name": "precision medicine",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:precision_medicine"
+    },
+    "neuroimaging": {
+        "name": "neuroimaging",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:neuroimaging"
+    },
+    "wavelets": {
+        "name": "wavelets",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:wavelets"
+    },
+    "inverse problems": {
+        "name": "inverse problems",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:inverse_problems"
+    },
+    "document analysis": {
+        "name": "document analysis",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:document_analysis"
+    },
+    "Computer-Aided Diagnosis": {
+        "name": "Computer-Aided Diagnosis",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:computer_aided_diagnosis"
+    },
+    "Camera Networks": {
+        "name": "Camera Networks",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:camera_networks"
+    },
+    "Hyperspectral and Medical Imaging": {
+        "name": "Hyperspectral and Medical Imaging",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:hyperspectral_and_medical_imaging"
+    },
+    "biological imaging": {
+        "name": "biological imaging",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:biological_imaging"
+    },
+    "skin imaging": {
+        "name": "skin imaging",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:skin_imaging"
+    },
+    "learning theory and algorithms": {
+        "name": "learning theory and algorithms",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:learning_theory_and_algorithms"
+    },
+    "computational biology": {
+        "name": "computational biology",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:computational_biology"
+    },
+    "Evolutionary Computation": {
+        "name": "Evolutionary Computation",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:evolutionary_computation"
+    },
+    "Feature Selection": {
+        "name": "Feature Selection",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:feature_selection"
+    },
+    "NeuroEvolution": {
+        "name": "NeuroEvolution",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:neuroevolution"
+    },
+    "Digital Geometry": {
+        "name": "Digital Geometry",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:digital_geometry"
+    },
+    "ADAS": {
+        "name": "ADAS",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:adas"
+    },
+    "Image and video analytics": {
+        "name": "Image and video analytics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:image_and_video_analytics"
+    },
+    "Multimedia content analysis": {
+        "name": "Multimedia content analysis",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:multimedia_content_analysis"
+    },
+    "Segmentation": {
+        "name": "Segmentation",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:segmentation"
+    },
+    "Human Pose Estimation": {
+        "name": "Human Pose Estimation",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:human_pose_estimation"
+    },
+    "Human Behavior Analysis": {
+        "name": "Human Behavior Analysis",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:human_behavior_analysis"
+    },
+    "Multimodal Learning": {
+        "name": "Multimodal Learning",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:multimodal_learning"
+    },
+    "Aritficial Intelligence": {
+        "name": "Aritficial Intelligence",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:aritficial_intelligence"
+    },
+    "lidar": {
+        "name": "lidar",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:lidar"
+    },
+    "Affective computing": {
+        "name": "Affective computing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:affective_computing"
+    },
+    "image restoration": {
+        "name": "image restoration",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:image_restoration"
+    },
+    "Human Computer Interaction": {
+        "name": "Human Computer Interaction",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:human_computer_interaction"
+    },
+    "Bioimage Informatics": {
+        "name": "Bioimage Informatics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:bioimage_informatics"
+    },
+    "nanocomposite structures": {
+        "name": "nanocomposite structures",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:nanocomposite_structures"
+    },
+    "mechanics of nano-/micro-structures": {
+        "name": "mechanics of nano-/micro-structures",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:mechanics_of_nano_micro_structures"
+    },
+    "smart materials": {
+        "name": "smart materials",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:smart_materials"
+    },
+    "structural dynamics and stability": {
+        "name": "structural dynamics and stability",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:structural_dynamics_and_stability"
+    },
+    "biomechanics": {
+        "name": "biomechanics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:biomechanics"
+    },
+    "visualization": {
+        "name": "visualization",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:visualization"
+    },
+    "document image analysis": {
+        "name": "document image analysis",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:document_image_analysis"
+    },
+    "Body Sensor Networks": {
+        "name": "Body Sensor Networks",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:body_sensor_networks"
+    },
+    "Pervasive Computing": {
+        "name": "Pervasive Computing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:pervasive_computing"
+    },
+    "Machine Learning and Artificial Intelligen": {
+        "name": "Machine Learning and Artificial Intelligen",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:machine_learning_and_artificial_intelligen"
+    },
+    "photocatalysis": {
+        "name": "photocatalysis",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:photocatalysis"
+    },
+    "photoelectrochemistry and adsorption": {
+        "name": "photoelectrochemistry and adsorption",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:photoelectrochemistry_and_adsorption"
+    },
+    "Image Segmentation": {
+        "name": "Image Segmentation",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:image_segmentation"
+    },
+    "computational statistics": {
+        "name": "computational statistics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:computational_statistics"
+    },
+    "functional data analysis": {
+        "name": "functional data analysis",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:functional_data_analysis"
+    },
+    "statistics on manifolds": {
+        "name": "statistics on manifolds",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:statistics_on_manifolds"
+    },
+    "Visual SLAM": {
+        "name": "Visual SLAM",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:visual_slam"
+    },
+    "Vision-Language Models": {
+        "name": "Vision-Language Models",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:vision_language_models"
+    },
+    "Document Understanding": {
+        "name": "Document Understanding",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:document_understanding"
+    },
+    "Scene Text Detection and Recognition": {
+        "name": "Scene Text Detection and Recognition",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:scene_text_detection_and_recognition"
+    },
+    "Computational Ethology": {
+        "name": "Computational Ethology",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:computational_ethology"
+    },
+    "Biometric recognition": {
+        "name": "Biometric recognition",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:biometric_recognition"
+    },
+    "Multimedia Retrieval": {
+        "name": "Multimedia Retrieval",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:multimedia_retrieval"
+    },
+    "Deep-Learning": {
+        "name": "Deep-Learning",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:deep_learning"
+    },
+    "fungi": {
+        "name": "fungi",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:fungi"
+    },
+    "biodiversity": {
+        "name": "biodiversity",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:biodiversity"
+    },
+    "phylogeny": {
+        "name": "phylogeny",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:phylogeny"
+    },
+    "taxonomy": {
+        "name": "taxonomy",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:taxonomy"
+    },
+    "microbiome": {
+        "name": "microbiome",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:microbiome"
+    },
+    "Mechanism Design": {
+        "name": "Mechanism Design",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:mechanism_design"
+    },
+    "Markov Decision Processes": {
+        "name": "Markov Decision Processes",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:markov_decision_processes"
+    },
+    "mathematics": {
+        "name": "mathematics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:mathematics"
+    },
+    "computer science": {
+        "name": "computer science",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:computer_science"
+    },
+    "Image recognition": {
+        "name": "Image recognition",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:image_recognition"
+    },
+    "Machine learning (AI)": {
+        "name": "Machine learning (AI)",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:machine_learning_ai"
+    },
+    "diagnostics": {
+        "name": "diagnostics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:diagnostics"
+    },
+    "digital health": {
+        "name": "digital health",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:digital_health"
+    },
+    "二维材料，石墨烯，光学性质，拉曼光谱，声子": {
+        "name": "二维材料，石墨烯，光学性质，拉曼光谱，声子",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:%E4%BA%8C_%E7%BB%B4_%E6%9D%90%E6%96%99_%E7%9F%B3%E5%A2%A8_%E7%83%AF_%E5%85%89%E5%AD%A6_%E6%80%A7%E8%B4%A8_%E6%8B%89_%E6%9B%BC_%E5%85%89%E8%B0%B1_%E5%A3%B0_%E5%AD%90"
+    },
+    "Data Mining and Knowledge Discover": {
+        "name": "Data Mining and Knowledge Discover",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:data_mining_and_knowledge_discover"
+    },
+    "Multimedia Information Indexing and Retrieval": {
+        "name": "Multimedia Information Indexing and Retrieval",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:multimedia_information_indexing_and_retrieval"
+    },
+    "Pattern Re": {
+        "name": "Pattern Re",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:pattern_re"
+    },
+    "Enterprise Information Systems": {
+        "name": "Enterprise Information Systems",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:enterprise_information_systems"
+    },
+    "Industrial Information Integration": {
+        "name": "Industrial Information Integration",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:industrial_information_integration"
+    },
+    "Industrial Informatics": {
+        "name": "Industrial Informatics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:industrial_informatics"
+    },
+    "IoT": {
+        "name": "IoT",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:iot"
+    },
+    "visual document management": {
+        "name": "visual document management",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:visual_document_management"
+    },
+    "Physical models": {
+        "name": "Physical models",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:physical_models"
+    },
+    "Federated Learning": {
+        "name": "Federated Learning",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:federated_learning"
+    },
+    "Soft Computing": {
+        "name": "Soft Computing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:soft_computing"
+    },
+    "Blockchain": {
+        "name": "Blockchain",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:blockchain"
+    },
+    "Cholesterol": {
+        "name": "Cholesterol",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:cholesterol"
+    },
+    "compressed sensing.": {
+        "name": "compressed sensing.",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:compressed_sensing"
+    },
+    "Probabilistic Inference": {
+        "name": "Probabilistic Inference",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:probabilistic_inference"
+    },
+    "Multimedia Security": {
+        "name": "Multimedia Security",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:multimedia_security"
+    },
+    "numerical computing": {
+        "name": "numerical computing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:numerical_computing"
+    },
+    "Computer Game": {
+        "name": "Computer Game",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:computer_game"
+    },
+    "software engineering": {
+        "name": "software engineering",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:software_engineering"
+    },
+    "Handwritten Character Recognition": {
+        "name": "Handwritten Character Recognition",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:handwritten_character_recognition"
+    },
+    "Document Analysis and Recognition": {
+        "name": "Document Analysis and Recognition",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:document_analysis_and_recognition"
+    },
+    "Computational Geometry": {
+        "name": "Computational Geometry",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:computational_geometry"
+    },
+    "interdisciplinary computational intelligence (ICI)": {
+        "name": "interdisciplinary computational intelligence (ICI)",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:interdisciplinary_computational_intelligence_ici"
+    },
+    "Activity Recognition": {
+        "name": "Activity Recognition",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:activity_recognition"
+    },
+    "Event Detection": {
+        "name": "Event Detection",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:event_detection"
+    },
+    "Biologically-inspired Vision": {
+        "name": "Biologically-inspired Vision",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:biologically_inspired_vision"
+    },
+    "Large-scale machine learning": {
+        "name": "Large-scale machine learning",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:large_scale_machine_learning"
+    },
+    "Child and adolescent psychiatry": {
+        "name": "Child and adolescent psychiatry",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:child_and_adolescent_psychiatry"
+    },
+    "Visual signal processing": {
+        "name": "Visual signal processing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:visual_signal_processing"
+    },
+    "Food Computing": {
+        "name": "Food Computing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:food_computing"
+    },
+    "Manga": {
+        "name": "Manga",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:manga"
+    },
+    "social networks": {
+        "name": "social networks",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:social_networks"
+    },
+    "Random Fields": {
+        "name": "Random Fields",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:random_fields"
+    },
+    "cancer": {
+        "name": "cancer",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:cancer"
+    },
+    "genomics": {
+        "name": "genomics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:genomics"
+    },
+    "genetics": {
+        "name": "genetics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:genetics"
+    },
+    "systems biology": {
+        "name": "systems biology",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:systems_biology"
+    },
+    "drug discovery": {
+        "name": "drug discovery",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:drug_discovery"
+    },
+    "Biomimetic Navigation": {
+        "name": "Biomimetic Navigation",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:biomimetic_navigation"
+    },
+    "applied cryptography": {
+        "name": "applied cryptography",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:applied_cryptography"
+    },
+    "Disaster management": {
+        "name": "Disaster management",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:disaster_management"
+    },
+    "Environmental Science": {
+        "name": "Environmental Science",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:environmental_science"
+    },
+    "Urban Planning": {
+        "name": "Urban Planning",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:urban_planning"
+    },
+    "Housing.": {
+        "name": "Housing.",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:housing"
+    },
+    "plant phenotyping": {
+        "name": "plant phenotyping",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:plant_phenotyping"
+    },
+    "infrared thermography": {
+        "name": "infrared thermography",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:infrared_thermography"
+    },
+    "fundus image": {
+        "name": "fundus image",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:fundus_image"
+    },
+    "Digital Signal Processing": {
+        "name": "Digital Signal Processing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:digital_signal_processing"
+    },
+    "Machine and Deep Learning": {
+        "name": "Machine and Deep Learning",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:machine_and_deep_learning"
+    },
+    "Biomedical Signal Processing": {
+        "name": "Biomedical Signal Processing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:biomedical_signal_processing"
+    },
+    "Fibrotic lung disease": {
+        "name": "Fibrotic lung disease",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:fibrotic_lung_disease"
+    },
+    "Idiopathic Pulmonary Fibrosis": {
+        "name": "Idiopathic Pulmonary Fibrosis",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:idiopathic_pulmonary_fibrosis"
+    },
+    "Hypergraph Computation": {
+        "name": "Hypergraph Computation",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:hypergraph_computation"
+    },
+    "\\ biomedical computing": {
+        "name": "\\ biomedical computing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:biomedical_computing"
+    },
+    "action recognition": {
+        "name": "action recognition",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:action_recognition"
+    },
+    "video processing": {
+        "name": "video processing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:video_processing"
+    },
+    "perception": {
+        "name": "perception",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:perception"
+    },
+    "multiagent systems": {
+        "name": "multiagent systems",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:multiagent_systems"
+    },
+    "service-oriented computing": {
+        "name": "service-oriented computing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:service_oriented_computing"
+    },
+    "ontologies": {
+        "name": "ontologies",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:ontologies"
+    },
+    "distributed computing": {
+        "name": "distributed computing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:distributed_computing"
+    },
+    "recommender system": {
+        "name": "recommender system",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:recommender_system"
+    },
+    "shape": {
+        "name": "shape",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:shape"
+    },
+    "Surveillance": {
+        "name": "Surveillance",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:surveillance"
+    },
+    "Eye Gaze Analysis": {
+        "name": "Eye Gaze Analysis",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:eye_gaze_analysis"
+    },
+    "Computer Audition": {
+        "name": "Computer Audition",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:computer_audition"
+    },
+    "Gene Expression": {
+        "name": "Gene Expression",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:gene_expression"
+    },
+    "Platelets": {
+        "name": "Platelets",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:platelets"
+    },
+    "Neuromorphic Computing": {
+        "name": "Neuromorphic Computing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:neuromorphic_computing"
+    },
+    "Video Search": {
+        "name": "Video Search",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:video_search"
+    },
+    "Video Archives": {
+        "name": "Video Archives",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:video_archives"
+    },
+    "Computational Cognitive Science": {
+        "name": "Computational Cognitive Science",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:computational_cognitive_science"
+    },
+    "Self-supervised learning": {
+        "name": "Self-supervised learning",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:self_supervised_learning"
+    },
+    "HPC": {
+        "name": "HPC",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:hpc"
+    },
+    "Natural Intelligence": {
+        "name": "Natural Intelligence",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:natural_intelligence"
+    },
+    "Speech Precessing": {
+        "name": "Speech Precessing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:speech_precessing"
+    },
+    "Natural Language Understanding": {
+        "name": "Natural Language Understanding",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:natural_language_understanding"
+    },
+    "Random Field Models": {
+        "name": "Random Field Models",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:random_field_models"
+    },
+    "Legged Robots": {
+        "name": "Legged Robots",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:legged_robots"
+    },
+    "Autonomous Airships": {
+        "name": "Autonomous Airships",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:autonomous_airships"
+    },
+    "Audio Processing": {
+        "name": "Audio Processing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:audio_processing"
+    },
+    "Molecular biology": {
+        "name": "Molecular biology",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:molecular_biology"
+    },
+    "Proteomics": {
+        "name": "Proteomics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:proteomics"
+    },
+    "Sustainability Science": {
+        "name": "Sustainability Science",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:sustainability_science"
+    },
+    "Controls": {
+        "name": "Controls",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:controls"
+    },
+    "Exscientia": {
+        "name": "Exscientia",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:exscientia"
+    },
+    "AI and Machine Learning": {
+        "name": "AI and Machine Learning",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:ai_and_machine_learning"
+    },
+    "Conversational AI": {
+        "name": "Conversational AI",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:conversational_ai"
+    },
+    "Web search": {
+        "name": "Web search",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:web_search"
+    },
+    "Performance Evaluation": {
+        "name": "Performance Evaluation",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:performance_evaluation"
+    },
+    "Estimation and Inference": {
+        "name": "Estimation and Inference",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:estimation_and_inference"
+    },
+    "Optimization and Learning": {
+        "name": "Optimization and Learning",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:optimization_and_learning"
+    },
+    "Facial Analysis/Recognition": {
+        "name": "Facial Analysis/Recognition",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:facial_analysis_recognition"
+    },
+    "AI for Climate": {
+        "name": "AI for Climate",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:ai_for_climate"
+    },
+    "mHealth": {
+        "name": "mHealth",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:mhealth"
+    },
+    "Bio-Imaging": {
+        "name": "Bio-Imaging",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:bio_imaging"
+    },
+    "Multi-modal Perception": {
+        "name": "Multi-modal Perception",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:multi_modal_perception"
+    },
+    "Mobile Visual Computing": {
+        "name": "Mobile Visual Computing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:mobile_visual_computing"
+    },
+    "body sensor networks": {
+        "name": "body sensor networks",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:body_sensor_networks"
+    },
+    "hci": {
+        "name": "hci",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:hci"
+    },
+    "Face and gesture recognition": {
+        "name": "Face and gesture recognition",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:face_and_gesture_recognition"
+    },
+    "biological shape": {
+        "name": "biological shape",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:biological_shape"
+    },
+    "Image Enhancement": {
+        "name": "Image Enhancement",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:image_enhancement"
+    },
+    "AR/MR/VR": {
+        "name": "AR/MR/VR",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:ar_mr_vr"
+    },
+    "and machine learning.": {
+        "name": "and machine learning.",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:and_machine_learning"
+    },
+    "speech": {
+        "name": "speech",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:speech"
+    },
+    "data processing": {
+        "name": "data processing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:data_processing"
+    },
+    "Institute of Insect Sciences": {
+        "name": "Institute of Insect Sciences",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:institute_of_insect_sciences"
+    },
+    "human-computer interface": {
+        "name": "human-computer interface",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:human_computer_interface"
+    },
+    "Visual perception": {
+        "name": "Visual perception",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:visual_perception"
+    },
+    "Reality research": {
+        "name": "Reality research",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:reality_research"
+    },
+    "3D structure recovery from images": {
+        "name": "3D structure recovery from images",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:3d_structure_recovery_from_images"
+    },
+    "Augmented and Mixed Reality": {
+        "name": "Augmented and Mixed Reality",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:augmented_and_mixed_reality"
+    },
+    "Scene Labeling": {
+        "name": "Scene Labeling",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:scene_labeling"
+    },
+    "Real-Time Algorithms": {
+        "name": "Real-Time Algorithms",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:real_time_algorithms"
+    },
+    "Sensor Fusion": {
+        "name": "Sensor Fusion",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:sensor_fusion"
+    },
+    "Wireless Communication": {
+        "name": "Wireless Communication",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:wireless_communication"
+    },
+    "IoT/Cyber-Physical Systems": {
+        "name": "IoT/Cyber-Physical Systems",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:iot_cyber_physical_systems"
+    },
+    "Connected and autonomous vehicles": {
+        "name": "Connected and autonomous vehicles",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:connected_and_autonomous_vehicles"
+    },
+    "Electric vehicles": {
+        "name": "Electric vehicles",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:electric_vehicles"
+    },
+    "Cancer Biology": {
+        "name": "Cancer Biology",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:cancer_biology"
+    },
+    "clinical study": {
+        "name": "clinical study",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:clinical_study"
+    },
+    "eye diseases": {
+        "name": "eye diseases",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:eye_diseases"
+    },
+    "breast cancer": {
+        "name": "breast cancer",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:breast_cancer"
+    },
+    "Computational Intelligence": {
+        "name": "Computational Intelligence",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:computational_intelligence"
+    },
+    "drug delivery": {
+        "name": "drug delivery",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:drug_delivery"
+    },
+    "controlled release": {
+        "name": "controlled release",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:controlled_release"
+    },
+    "biomaterials": {
+        "name": "biomaterials",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:biomaterials"
+    },
+    "multifunctional nanoparticles": {
+        "name": "multifunctional nanoparticles",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:multifunctional_nanoparticles"
+    },
+    "Unmanned Aerial Vehicles": {
+        "name": "Unmanned Aerial Vehicles",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:unmanned_aerial_vehicles"
+    },
+    "Robot Operating System": {
+        "name": "Robot Operating System",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:robot_operating_system"
+    },
+    "stillbirth": {
+        "name": "stillbirth",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:stillbirth"
+    },
+    "neonatal mortality": {
+        "name": "neonatal mortality",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:neonatal_mortality"
+    },
+    "child mortality": {
+        "name": "child mortality",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:child_mortality"
+    },
+    "adolescent mortality": {
+        "name": "adolescent mortality",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:adolescent_mortality"
+    },
+    "causes of deaths": {
+        "name": "causes of deaths",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:causes_of_deaths"
+    },
+    "Optical metrology": {
+        "name": "Optical metrology",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:optical_metrology"
+    },
+    "parallel computing": {
+        "name": "parallel computing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:parallel_computing"
+    },
+    "experimental mechanics": {
+        "name": "experimental mechanics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:experimental_mechanics"
+    },
+    "Structural Biology": {
+        "name": "Structural Biology",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:structural_biology"
+    },
+    "Biophysics": {
+        "name": "Biophysics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:biophysics"
+    },
+    "Electrophysiology": {
+        "name": "Electrophysiology",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:electrophysiology"
+    },
+    "X-Ray Diffraction": {
+        "name": "X-Ray Diffraction",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:x_ray_diffraction"
+    },
+    "Nuclear Magnetic Resonance": {
+        "name": "Nuclear Magnetic Resonance",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:nuclear_magnetic_resonance"
+    },
+    "visual perception": {
+        "name": "visual perception",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:visual_perception"
+    },
+    "geoinformatics": {
+        "name": "geoinformatics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:geoinformatics"
+    },
+    "pattern analysis": {
+        "name": "pattern analysis",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:pattern_analysis"
+    },
+    "Statistical Pattern Recognition": {
+        "name": "Statistical Pattern Recognition",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:statistical_pattern_recognition"
+    },
+    "Visual Localization": {
+        "name": "Visual Localization",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:visual_localization"
+    },
+    "Applied Machine Learning": {
+        "name": "Applied Machine Learning",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:applied_machine_learning"
+    },
+    "optimization methods": {
+        "name": "optimization methods",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:optimization_methods"
+    },
+    "Knowledge Graphs": {
+        "name": "Knowledge Graphs",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:knowledge_graphs"
+    },
+    "Modeling of Human and Social Behavior": {
+        "name": "Modeling of Human and Social Behavior",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:modeling_of_human_and_social_behavior"
+    },
+    "Machine/Deep Learning": {
+        "name": "Machine/Deep Learning",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:machine_deep_learning"
+    },
+    "Lung Cancer": {
+        "name": "Lung Cancer",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:lung_cancer"
+    },
+    "Satellite Internet": {
+        "name": "Satellite Internet",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:satellite_internet"
+    },
+    "electrical engineering": {
+        "name": "electrical engineering",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:electrical_engineering"
+    },
+    "haptics": {
+        "name": "haptics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:haptics"
+    },
+    "AIGC": {
+        "name": "AIGC",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:aigc"
+    },
+    "Biology": {
+        "name": "Biology",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:biology"
+    },
+    "Remote sensing": {
+        "name": "Remote sensing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:remote_sensing"
+    },
+    "Quality": {
+        "name": "Quality",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:quality"
+    },
+    "filtering": {
+        "name": "filtering",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:filtering"
+    },
+    "speech processing": {
+        "name": "speech processing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:speech_processing"
+    },
+    "Imaging": {
+        "name": "Imaging",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:imaging"
+    },
+    "Wavelet Analysis": {
+        "name": "Wavelet Analysis",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:wavelet_analysis"
+    },
+    "hybrid systems": {
+        "name": "hybrid systems",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:hybrid_systems"
+    },
+    "cyber security": {
+        "name": "cyber security",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:cyber_security"
+    },
+    "embedded systems": {
+        "name": "embedded systems",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:embedded_systems"
+    },
+    "Gene Therapy": {
+        "name": "Gene Therapy",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:gene_therapy"
+    },
+    "Liver Surgery": {
+        "name": "Liver Surgery",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:liver_surgery"
+    },
+    "Pancreatic Surgery": {
+        "name": "Pancreatic Surgery",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:pancreatic_surgery"
+    },
+    "General Science": {
+        "name": "General Science",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:general_science"
+    },
+    "Dynamical Systems": {
+        "name": "Dynamical Systems",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:dynamical_systems"
+    },
+    "Complex Systems": {
+        "name": "Complex Systems",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:complex_systems"
+    },
+    "Wireless Networks": {
+        "name": "Wireless Networks",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:wireless_networks"
+    },
+    "geometric modeling": {
+        "name": "geometric modeling",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:geometric_modeling"
+    },
+    "motion planning": {
+        "name": "motion planning",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:motion_planning"
+    },
+    "Medical Robotics": {
+        "name": "Medical Robotics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:medical_robotics"
+    },
+    "Computer-Integrated Surgery": {
+        "name": "Computer-Integrated Surgery",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:computer_integrated_surgery"
+    },
+    "Computer-Assisted Surgery": {
+        "name": "Computer-Assisted Surgery",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:computer_assisted_surgery"
+    },
+    "Systems": {
+        "name": "Systems",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:systems"
+    },
+    "scientific discovery": {
+        "name": "scientific discovery",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:scientific_discovery"
+    },
+    "Motor Neuroscience": {
+        "name": "Motor Neuroscience",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:motor_neuroscience"
+    },
+    "Human-Robot Interaction": {
+        "name": "Human-Robot Interaction",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:human_robot_interaction"
+    },
+    "Human Motion Understanding": {
+        "name": "Human Motion Understanding",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:human_motion_understanding"
+    },
+    "Microrobotics": {
+        "name": "Microrobotics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:microrobotics"
+    },
+    "Soft Matter": {
+        "name": "Soft Matter",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:soft_matter"
+    },
+    "Materials Science": {
+        "name": "Materials Science",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:materials_science"
+    },
+    "mechatronics": {
+        "name": "mechatronics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:mechatronics"
+    },
+    "Data Fusion": {
+        "name": "Data Fusion",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:data_fusion"
+    },
+    "Estimation": {
+        "name": "Estimation",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:estimation"
+    },
+    "Multiagent Systems": {
+        "name": "Multiagent Systems",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:multiagent_systems"
+    },
+    "Additive Manufacturing": {
+        "name": "Additive Manufacturing",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:additive_manufacturing"
+    },
+    "Mechanical Engineering": {
+        "name": "Mechanical Engineering",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:mechanical_engineering"
+    },
+    "Planning": {
+        "name": "Planning",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:planning"
+    },
+    "Multirobot Systems": {
+        "name": "Multirobot Systems",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:multirobot_systems"
+    },
+    "Socially Assistive Robotics": {
+        "name": "Socially Assistive Robotics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:socially_assistive_robotics"
+    },
+    "Assistive Technologies": {
+        "name": "Assistive Technologies",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:assistive_technologies"
+    },
+    "Control theory": {
+        "name": "Control theory",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:control_theory"
+    },
+    "automatic control": {
+        "name": "automatic control",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:automatic_control"
+    },
+    "cyber-physical systems": {
+        "name": "cyber-physical systems",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:cyber_physical_systems"
+    },
+    "Nanorobotics": {
+        "name": "Nanorobotics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:nanorobotics"
+    },
+    "statistical physics": {
+        "name": "statistical physics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:statistical_physics"
+    },
+    "Heterogeneous catalysis": {
+        "name": "Heterogeneous catalysis",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:heterogeneous_catalysis"
+    },
+    "Nanomaterials": {
+        "name": "Nanomaterials",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:nanomaterials"
+    },
+    "Drug delivery": {
+        "name": "Drug delivery",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:drug_delivery"
+    },
+    "Electron microscopy": {
+        "name": "Electron microscopy",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:electron_microscopy"
+    },
+    "Tissue Engineering": {
+        "name": "Tissue Engineering",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:tissue_engineering"
+    },
+    "control theory": {
+        "name": "control theory",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:control_theory"
+    },
+    "system theory": {
+        "name": "system theory",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:system_theory"
+    },
+    "Computer Animation": {
+        "name": "Computer Animation",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:computer_animation"
+    },
+    "Parallel Robots": {
+        "name": "Parallel Robots",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:parallel_robots"
+    },
+    "Robotic Hands": {
+        "name": "Robotic Hands",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:robotic_hands"
+    },
+    "Physical Human-Robot Interaction": {
+        "name": "Physical Human-Robot Interaction",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:physical_human_robot_interaction"
+    },
+    "economics": {
+        "name": "economics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:economics"
+    },
+    "global trends": {
+        "name": "global trends",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:global_trends"
+    },
+    "future of work": {
+        "name": "future of work",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:future_of_work"
+    },
+    "sensor fusion": {
+        "name": "sensor fusion",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:sensor_fusion"
+    },
+    "Telerobotics": {
+        "name": "Telerobotics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:telerobotics"
+    },
+    "Physical Human-Robot Interactions": {
+        "name": "Physical Human-Robot Interactions",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:physical_human_robot_interactions"
+    },
+    "Robot Dynamics and Controls": {
+        "name": "Robot Dynamics and Controls",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:robot_dynamics_and_controls"
+    },
+    "Robot Networks": {
+        "name": "Robot Networks",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:robot_networks"
+    },
+    "Motion Planning": {
+        "name": "Motion Planning",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:motion_planning"
+    },
+    "Automatic Control": {
+        "name": "Automatic Control",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:automatic_control"
+    },
+    "Autonomous vehicles": {
+        "name": "Autonomous vehicles",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:autonomous_vehicles"
+    },
+    "Robotic Networks": {
+        "name": "Robotic Networks",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:robotic_networks"
+    },
+    "Intelligent Transportation systems": {
+        "name": "Intelligent Transportation systems",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:intelligent_transportation_systems"
+    },
+    "Marine Robotics": {
+        "name": "Marine Robotics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:marine_robotics"
+    },
+    "prostate cancer": {
+        "name": "prostate cancer",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:prostate_cancer"
+    },
+    "bladder cancer": {
+        "name": "bladder cancer",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:bladder_cancer"
+    },
+    "urogenital reconstruction": {
+        "name": "urogenital reconstruction",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:urogenital_reconstruction"
+    },
+    "Robots": {
+        "name": "Robots",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:robots"
+    },
+    "Collaborative Filtering": {
+        "name": "Collaborative Filtering",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:collaborative_filtering"
+    },
+    "Exoskeletons": {
+        "name": "Exoskeletons",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:exoskeletons"
+    },
+    "Teleoperation": {
+        "name": "Teleoperation",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:teleoperation"
+    },
+    "Model Predictive Control": {
+        "name": "Model Predictive Control",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:model_predictive_control"
+    },
+    "Airborne Wind Energy": {
+        "name": "Airborne Wind Energy",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:airborne_wind_energy"
+    },
+    "Decision making uncertainty": {
+        "name": "Decision making uncertainty",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:decision_making_uncertainty"
+    },
+    "Stroke": {
+        "name": "Stroke",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:stroke"
+    },
+    "Intracranial aneurysms": {
+        "name": "Intracranial aneurysms",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:intracranial_aneurysms"
+    },
+    "AVMs": {
+        "name": "AVMs",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:avms"
+    },
+    "Hemodynamics": {
+        "name": "Hemodynamics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:hemodynamics"
+    },
+    "Self-driving Vehicles": {
+        "name": "Self-driving Vehicles",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:self_driving_vehicles"
+    },
+    "Sustainable materials": {
+        "name": "Sustainable materials",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:sustainable_materials"
+    },
+    "bioinspiration": {
+        "name": "bioinspiration",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:bioinspiration"
+    },
+    "biomedicine": {
+        "name": "biomedicine",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:biomedicine"
+    },
+    "fuzzy control": {
+        "name": "fuzzy control",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:fuzzy_control"
+    },
+    "unmanned aerial vehicles": {
+        "name": "unmanned aerial vehicles",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:unmanned_aerial_vehicles"
+    },
+    "brain machine interface": {
+        "name": "brain machine interface",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:brain_machine_interface"
+    },
+    "nonlinear control": {
+        "name": "nonlinear control",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:nonlinear_control"
+    },
+    "bio-inspired design": {
+        "name": "bio-inspired design",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:bio_inspired_design"
+    },
+    "photogrammetry": {
+        "name": "photogrammetry",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:photogrammetry"
+    },
+    "autonomous driving": {
+        "name": "autonomous driving",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:autonomous_driving"
+    },
+    "Deep Reinforcement Learning": {
+        "name": "Deep Reinforcement Learning",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:deep_reinforcement_learning"
+    },
+    "MRI": {
+        "name": "MRI",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:mri"
+    },
+    "neurosurgery": {
+        "name": "neurosurgery",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:neurosurgery"
+    },
+    "Humanoid": {
+        "name": "Humanoid",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:humanoid"
+    },
+    "Bio-Medical": {
+        "name": "Bio-Medical",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:bio_medical"
+    },
+    "Neuro": {
+        "name": "Neuro",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:neuro"
+    },
+    "Cognitive": {
+        "name": "Cognitive",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:cognitive"
+    },
+    "snake robots": {
+        "name": "snake robots",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:snake_robots"
+    },
+    "medical robotics": {
+        "name": "medical robotics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:medical_robotics"
+    },
+    "locomotion": {
+        "name": "locomotion",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:locomotion"
+    },
+    "biologically inspired robots": {
+        "name": "biologically inspired robots",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:biologically_inspired_robots"
+    },
+    "Locomotion": {
+        "name": "Locomotion",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:locomotion"
+    },
+    "Biomimetics": {
+        "name": "Biomimetics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:biomimetics"
+    },
+    "bioinspired robots": {
+        "name": "bioinspired robots",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:bioinspired_robots"
+    },
+    "millirobots": {
+        "name": "millirobots",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:millirobots"
+    },
+    "gecko-inspired adhesion": {
+        "name": "gecko-inspired adhesion",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:gecko_inspired_adhesion"
+    },
+    "Optimal Control": {
+        "name": "Optimal Control",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:optimal_control"
+    },
+    "Motor Control": {
+        "name": "Motor Control",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:motor_control"
+    },
+    "Physical Simulation": {
+        "name": "Physical Simulation",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:physical_simulation"
+    },
+    "Nonlinear systems and control": {
+        "name": "Nonlinear systems and control",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:nonlinear_systems_and_control"
+    },
+    "nonlinear dynamics": {
+        "name": "nonlinear dynamics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:nonlinear_dynamics"
+    },
+    "biomedical and energy systems": {
+        "name": "biomedical and energy systems",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:biomedical_and_energy_systems"
+    },
+    "bioengineering": {
+        "name": "bioengineering",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:bioengineering"
+    },
+    "UAVs": {
+        "name": "UAVs",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:uavs"
+    },
+    "Multi Agent Systems": {
+        "name": "Multi Agent Systems",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:multi_agent_systems"
+    },
+    "biorobotics": {
+        "name": "biorobotics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:biorobotics"
+    },
+    "motor control": {
+        "name": "motor control",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:motor_control"
+    },
+    "biofilm": {
+        "name": "biofilm",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:biofilm"
+    },
+    "microbiology": {
+        "name": "microbiology",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:microbiology"
+    },
+    "oral diseases": {
+        "name": "oral diseases",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:oral_diseases"
+    },
+    "Medical robotics": {
+        "name": "Medical robotics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:medical_robotics"
+    },
+    "robot ethics": {
+        "name": "robot ethics",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:robot_ethics"
+    },
+    "autonomous agents": {
+        "name": "autonomous agents",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:autonomous_agents"
+    },
+    "neuroscience": {
+        "name": "neuroscience",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:neuroscience"
+    },
+    "Secure Systems": {
+        "name": "Secure Systems",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:secure_systems"
+    },
+    "Embedded Software": {
+        "name": "Embedded Software",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:embedded_software"
+    },
+    "Reinforcement learning": {
+        "name": "Reinforcement learning",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:reinforcement_learning"
+    },
+    "automotive systems": {
+        "name": "automotive systems",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:automotive_systems"
+    },
+    "bipedal robots": {
+        "name": "bipedal robots",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:bipedal_robots"
+    },
+    "Biomechanical Simulation": {
+        "name": "Biomechanical Simulation",
+        "url": "https://scholar.google.com/citations?view_op=search_authors&hl=ko&mauthors=label:biomechanical_simulation"
+    }
+}

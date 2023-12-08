@@ -22,7 +22,9 @@ class Author :
 @dataclass
 class Paper :
     '''
-    class for paper, viewpoint of GUI
+    Class representing paper.
+    this class serves for viewpoint of GUI.
+    
     '''
     DOI : str = None
     title : str = None

@@ -21,3 +21,4 @@ pip install -r requirements.txt
 cd GUI
 python main.py --db_use $DB_TO_USE --host HOST --user USER --passwd PASSWD
 ```
+

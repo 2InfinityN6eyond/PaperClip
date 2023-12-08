@@ -2,6 +2,24 @@ import json
 from dataclasses import dataclass
 
 @dataclass
+class JournalConference :
+    type : str = None
+    name : str = None
+    ISSN : str = None
+    eissn : str = None
+    publisher : str = None
+    URL : str = None
+    Country : str = None
+    Status : str = None
+    url_list : list = None
+
+    def toJSON(self) :
+        return json.dumps(self, default=lambda o: o.__dict__, 
+            sort_keys=True, indent=4)
+    def toDict(self) :
+        return json.loads(self.toJSON())
+
+@dataclass
 class Institution :
     name :str
     google_scholar_url : str
@@ -73,6 +91,8 @@ class Paper :
     reference_list : list[str] = None
     referenced_list : list[str] = None
     cite_bibtex : str = None
+    issn_type : dict = None
+    url : str = None
 
     conference_acronym : str = None
     publisher : str = None
@@ -98,3 +118,4 @@ class Paper :
         self.reference_list = dic['reference_list']
         self.referenced_list = dic['referenced_list']
         self.cite_bibtex = dic['cite_bibtex']
+
