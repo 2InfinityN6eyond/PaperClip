@@ -31,33 +31,37 @@ class PaperGUI(QtWidgets.QWidget):
         self.update(self.paper)
 
     def init_ui(self):
-
+        # Define PaperMetaViewer (reference PaperMetaViewer)
         self.paper_meta_viewer = PaperMetaViewer(self.paper)
         self.paper_meta_viewer.setStyleSheet("background-color: #303030;")
-        # Related Work 레이블
+        # Related Work label
         related_work_label = QtWidgets.QLabel("Related Work")
         related_work_label.setStyleSheet("color: white;font-size: 18px; border-bottom: 1px solid white; font-weight: bold;")
 
+        # Define scrollable
         self.scrollable = ScrollableList(self)
         
+        # Define v_layout and add all sub-frames above
         v_layout = QtWidgets.QVBoxLayout(self)
         v_layout.addWidget(self.paper_meta_viewer)
         v_layout.addWidget(related_work_label)
         v_layout.addWidget(self.scrollable)
 
     def update(self, paper):
+        # update paper_meta_viewer
         self.paper = paper
         self.paper_meta_viewer.update(self.paper)
 
+        # Get reference paper lists
         paper_item_list = []
-        if paper is None or self.paper.reference_list is None:
+        if paper is None or self.paper.reference_list is None: # if there is no paper, or there is no reference paper
             return
         
         for ref in self.paper.reference_paper_list:
             if ref.title.startswith('1') == False:
                 paper_item = PaperItem(self.scrollable, ref)
                 paper_item_list.append(paper_item)
-        self.scrollable.update(paper_item_list)
+        self.scrollable.update(paper_item_list) # update scrollable so that we can see in GUI
 
     def itemClicked(self, item : Paper) :
         '''
