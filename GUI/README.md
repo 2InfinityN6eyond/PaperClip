@@ -1,5 +1,22 @@
 
 
+## General Architecture
+
+├── center_section.py
+├── containers.py
+├── main.py
+├── main_window.py
+├── paper_clip_search_result_item.py
+├── paper_gui.py
+├── paper_item.py
+├── paper_meta_viewer.py
+├── popular_papers_window.py
+├── query_handler.py
+├── related_paper_gui.py
+├── scrap_viewer.py
+└── scrollable_list.py
+
+
 ## Bridging the gap between database and GUI
 When designing program architecture, we found following problems.
 - Gap between information representation of database and GUI
