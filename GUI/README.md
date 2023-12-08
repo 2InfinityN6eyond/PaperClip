@@ -1,21 +1,37 @@
 
 
-## General Architecture
+## General Structure, Architecture
 
 ```
+GUI
+├── README.md
 ├── center_section.py
+│       CenterSection
 ├── containers.py
+│       Paper
+│       Author
 ├── main.py
+│       entry point
 ├── main_window.py
+│       MainWindow
 ├── paper_clip_search_result_item.py
+│       PaperClipSearchResultItem
 ├── paper_gui.py
+│       PaperGUI
 ├── paper_item.py
+│       PaperItem
 ├── paper_meta_viewer.py
+│       
 ├── popular_papers_window.py
+│       
 ├── query_handler.py
+│       
 ├── related_paper_gui.py
+│       
 ├── scrap_viewer.py
+│       
 └── scrollable_list.py
+
 ```
 
 
