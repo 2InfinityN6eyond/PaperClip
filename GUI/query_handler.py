@@ -104,10 +104,8 @@ class QueryHandler :
         else :
             return True, paper_list[0]
 
-    def fillReferenceList(self, paper) :
-        '''
-        
-        '''
+    def fillReferenceList(self, paper):
+        # find the referenced paper and add it on a list
         self.cursor.execute(f"""
             select ref_doi
             from referenced_paper
@@ -172,6 +170,7 @@ class QueryHandler :
         self.mydb.commit()
 
     def fetchTopKeywords(self, n = 50) :
+        # create a temporary table to split all the keywords by the comma and store it
         self.cursor.execute("DROP TEMPORARY TABLE IF EXISTS keyword_table;")
         self.cursor.execute("""
             CREATE TEMPORARY TABLE keyword_table AS
@@ -180,6 +179,7 @@ class QueryHandler :
                 (SELECT 0 AS digit UNION ALL SELECT 1 UNION ALL SELECT 2 UNION ALL SELECT 3) AS n
             WHERE LENGTH(keywords) - LENGTH(REPLACE(keywords, ',', '')) >= n.digit;
         """)
+        '''        
         self.cursor.execute("DROP TEMPORARY TABLE IF EXISTS keyword_table;")
         self.cursor.execute("""
             CREATE TEMPORARY TABLE keyword_table AS
@@ -188,6 +188,8 @@ class QueryHandler :
                 (SELECT 0 AS digit UNION ALL SELECT 1 UNION ALL SELECT 2 UNION ALL SELECT 3) AS n
             WHERE LENGTH(keywords) - LENGTH(REPLACE(keywords, ',', '')) >= n.digit;
         """)
+        '''
+        # find the top keywords using aggregate function count
         self.cursor.execute("""SET SQL_SAFE_UPDATES = 0;""")
         self.cursor.execute("""DELETE FROM keyword_table WHERE keyword = '';""")
         self.cursor.execute(f"""
@@ -197,6 +199,8 @@ class QueryHandler :
             ORDER BY keyword_count DESC
             LIMIT {n};
         """)
+
+        # create a keyword count list after executing the sql query
         keyword_count_list = []
         for row in self.cursor :
             keyword_count_list.append(row)
