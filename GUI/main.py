@@ -25,12 +25,16 @@ if __name__ == '__main__':
         passwd  = args.passwd,
         db_use  = args.db_use
     )
+    
     # initialize PyQt5 application
     app = QtWidgets.QApplication(sys.argv)
+    
     # initialize main window
     window = MainWindow(query_handler)
     window.show()
+    
     # start PyQt5 event loop
     app.exec_()
+    
     # exit
     sys.exit()
