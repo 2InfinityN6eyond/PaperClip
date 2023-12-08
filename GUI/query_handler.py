@@ -5,9 +5,12 @@ from containers import Paper, Author
 
 class QueryHandler :
     '''
-    bridges between GUI and database
-    offers methods to query data from database, and convert them to GUI-friendly data structures
-    every instance of Paper class has a reference to this class
+    Connects GUI and database, and handle all queries to database,
+    so the GUI does not need to know about database. 
+    Offers methods to query data from database,
+    and convert them to GUI-friendly data structures
+    Every instance of Paper, Author class has a reference to this class,
+    and when GUI askes for data, they will ask this class.
     '''
     def __init__(
         self,
@@ -36,7 +39,8 @@ class QueryHandler :
                 ex) "p.title", "p.DOI", "p.keywords", "p.clip" where p is abbreviation of paper table
             value : str
                 value to query
-            
+        returns :
+            list of Paper object
         '''
         self.cursor.execute(f"""
             select p.DOI, p.title,  p.referenced_num, GROUP_CONCAT(' ', apr.author_name) as author_name, p.keywords, c.`name` as conference_name, p.clip, p.abstract
@@ -66,6 +70,12 @@ class QueryHandler :
                     conference_acronym = conference_name,
                     referenced_num  = refernced_num,
                     reference_list = [],
+                    # reference_list feild cannot be filled here, because the query does not join related_works table due to performance issue.
+                    # so the reference_list will be filled when paper.reference_list is called.
+                    # GUI will expect Paper instance to have reference_list feild, which the item of reference_list is Paper instance.
+                    # when GUI accesses paper.reference_list, it is actually calling paper.reference_paper_list property.
+                    # property will call this.query_handler.fillReferenceList(self) to fill reference_list. 
+                    # so the GUI does not aware of the existence of query_handler.
                     abstract=abstract,
                     is_in_favorite  = is_in_favorite,
                     query_handler=self
@@ -73,14 +83,31 @@ class QueryHandler :
         return list(paper_dict.values())
 
     def paperByDOI(self, doi) :
+        '''
+        query paper by DOI
+        args :
+            doi : str
+                DOI to query
+        returns :
+            tuple of (bool, Paper)
+            bool :
+                True if doi exists inside paper table. (which means the paper has been crawled)
+                False otherwise (which means the paper has not been crawled, thus empty paper object will be returned)
+            Paper : Paper object
+                if doi exists inside paper table, then Paper object with full information will be returned.
+                otherwise, Paper object which contains only title and doi field will returned.
+        '''
         paper_list = self.queryPaperBy("p.DOI", doi)
-        if len(paper_list) == 0 :
+        if len(paper_list) == 0 : # paper with that doi not crawled yet
             paper = Paper(DOI=doi, title=doi)
             return False, paper
         else :
             return True, paper_list[0]
 
     def fillReferenceList(self, paper) :
+        '''
+        
+        '''
         self.cursor.execute(f"""
             select ref_doi
             from referenced_paper

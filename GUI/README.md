@@ -2,13 +2,15 @@
 
 ## Bridging the gap between database and GUI
 When designing program architecture, we found following problems.
-- informtion inside database is organized as property-centered (column-centered, or tabular) form, as we use relational database.
-    - ex) 'paper' table has title, doi, author, abstract, etc  columns.
-    - we could think that information inside db is managed as column-centered way
-- however, the GUI needs object - centered form. 
-    - when plotting information about certain paper, we need every information of corresponding paper which is spreaded across records, across many tables.
-- so we have to aggregate information for each paper/author from db and serve it to GUI when needed.
-- it is tedious to manage db connection across every parts of GUI that need information.  
+- Gap between information representation of database and GUI
+    - informtion inside database is organized as property-centered (column-centered, or tabular) form, as we use relational database.
+        - ex) 'paper' table has title, doi, author, abstract, etc  columns.
+        - ex) 'related_works' table has doi, ref_doi, etc columns.
+        - we could think that db stores informations as column-centered way.
+    - the GUI needs object - centered form. 
+        - when plotting information about certain paper, we need every information of corresponding paper, which is spreaded across records and tables.
+    - so we have to aggregate information for each paper/author from database to be used in GUI.
+- It is tedious to manage db connection across every parts of GUI that need information.  
 
 We created Paper, Author, QureyHander classes to resolve previously mentioned problems, suggesting elegant archiatecture.
 - QueryHandler
