@@ -187,16 +187,6 @@ class QueryHandler :
                 (SELECT 0 AS digit UNION ALL SELECT 1 UNION ALL SELECT 2 UNION ALL SELECT 3) AS n
             WHERE LENGTH(keywords) - LENGTH(REPLACE(keywords, ',', '')) >= n.digit;
         """)
-        '''        
-        self.cursor.execute("DROP TEMPORARY TABLE IF EXISTS keyword_table;")
-        self.cursor.execute("""
-            CREATE TEMPORARY TABLE keyword_table AS
-            SELECT TRIM(SUBSTRING_INDEX(SUBSTRING_INDEX(keywords, ', ', n.digit + 1), ',', -1)) AS keyword
-            FROM paper,
-                (SELECT 0 AS digit UNION ALL SELECT 1 UNION ALL SELECT 2 UNION ALL SELECT 3) AS n
-            WHERE LENGTH(keywords) - LENGTH(REPLACE(keywords, ',', '')) >= n.digit;
-        """)
-        '''
         # find the top keywords using aggregate function count
         self.cursor.execute("""SET SQL_SAFE_UPDATES = 0;""")
         self.cursor.execute("""DELETE FROM keyword_table WHERE keyword = '';""")
